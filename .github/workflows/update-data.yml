@@ -7,12 +7,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
 
 jobs:
   update-data:
@@ -45,25 +39,19 @@ jobs:
             git push
           fi
 
-  deploy-pages:
-    needs: update-data
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: gh-pages
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Sync to gh-pages
+        run: |
+          git fetch origin gh-pages
+          git checkout gh-pages
+          git checkout main -- data/processed/ site/data/
+          mkdir -p data
+          cp -r data/processed/* data/ 2>/dev/null || true
+          cp -r site/data/* data/ 2>/dev/null || true
+          git add data/ -f
+          if git diff --staged --quiet; then
+            echo "No data changes to sync"
+          else
+            TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
+            git commit -m "data: auto-sync ($TIMESTAMP)"
+            git push origin gh-pages
+          fi
