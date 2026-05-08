@@ -88,6 +88,15 @@ def main():
         path = agg.to_geojson(f"{args.output_dir}/epidemics.geojson")
         print(f"  GeoJSON: {path}")
 
+    import shutil
+    site_data = Path(__file__).parent.parent / "site" / "data"
+    site_data.mkdir(parents=True, exist_ok=True)
+    if Path(f"{args.output_dir}/epidemics.json").exists():
+        shutil.copy2(f"{args.output_dir}/epidemics.json", site_data / "epidemics.json")
+    if Path(f"{args.output_dir}/epidemics.geojson").exists():
+        shutil.copy2(f"{args.output_dir}/epidemics.geojson", site_data / "epidemics.geojson")
+    print(f"  Dashboard data copied to {site_data}/")
+
 
 if __name__ == "__main__":
     main()

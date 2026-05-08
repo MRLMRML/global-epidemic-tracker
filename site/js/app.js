@@ -1,5 +1,5 @@
-const DATA_URL = '../data/processed/epidemics.json';
-const GEOJSON_URL = '../data/processed/epidemics.geojson';
+const DATA_URL = 'data/epidemics.json';
+const GEOJSON_URL = 'data/epidemics.geojson';
 
 const SEVERITY_COLORS = {
     very_high: '#ff4757',

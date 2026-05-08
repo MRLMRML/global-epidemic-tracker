@@ -150,9 +150,16 @@ class WHODONCollector:
         disease = self._extract_disease(title)
         if not disease:
             return None
+        if disease in ("Hurricane", "Guillain", "Mass Bromide Poisoning", "International food safety event"):
+            return None
 
         countries = self._extract_countries(f"{title} {summary}")
         cases, deaths, suspected = self._extract_counts(summary)
+
+        if deaths > 0 and cases == 0:
+            cases = deaths
+        if deaths > cases and cases > 0:
+            deaths = cases
 
         date_reported = datetime.utcnow().date()
         if pub_date:
@@ -213,34 +220,64 @@ class WHODONCollector:
     def _extract_counts(self, text: str) -> tuple[int, int, int]:
         cases, deaths, suspected = 0, 0, 0
 
-        # "X cases (Y confirmed, Z suspected)"
-        m = re.search(r"(\w+|\d+)\s+cases?\s*\(.*?(\w+|\d+)\s+(?:laboratory\s+)?confirmed.*?(\w+|\d+)\s+suspected", text, re.I)
+        sentences = re.split(r'(?<=[.!?])\s+', text)
+        first_sentence = sentences[0] if sentences else text
+
+        m = re.search(r"(\w+|\d+)\s+cases?\s*\(.*?(\w+|\d+)\s+(?:laboratory\s+)?confirmed.*?(\w+|\d+)\s+suspected", first_sentence, re.I)
         if m:
             cases = self._word_to_num(m.group(1))
             suspected = self._word_to_num(m.group(3))
 
         if cases == 0:
-            for p in [r"a\s+total\s+of\s+([\d,]+)\s+cases?", r"([\d,]+)\s*(?:confirmed\s*)?cases?"]:
-                m = re.search(p, text, re.I)
-                if m and m.group(1).strip():
-                    try:
-                        cases = int(m.group(1).replace(",", ""))
-                    except ValueError:
-                        pass
-                    if cases > 0:
-                        break
-
-        for p in [r"including\s+(\w+|\d+)\s+death", r"([\d,]+)\s*death", r"([\d,]+)\s*died"]:
-            m = re.search(p, text, re.I)
+            m = re.search(r"a\s+total\s+of\s+(\d[\d\s,]*)\s+(?:\w+\s+)*?(?:confirmed\s+|suspected\s+)?cases?", first_sentence, re.I)
             if m and m.group(1).strip():
-                deaths = self._word_to_num(m.group(1))
+                try:
+                    num_str = m.group(1).strip().replace(",", "").replace(" ", "")
+                    if num_str.isdigit():
+                        cases = int(num_str)
+                except ValueError:
+                    pass
+
+        if cases == 0:
+            m = re.search(r"(\d[\d,]*)\s+(?:suspected|confirmed)\s+(?:\w+\s+)?cases?", first_sentence, re.I)
+            if m and m.group(1).strip():
+                try:
+                    num_str = m.group(1).strip().replace(",", "")
+                    if num_str.isdigit():
+                        cases = int(num_str)
+                except ValueError:
+                    pass
+
+        if cases == 0:
+            all_case_matches = list(re.finditer(r"(\d[\d\s]*\d)\s+(?:\w+\s+){0,3}cases?", first_sentence, re.I))
+            for match in reversed(all_case_matches):
+                try:
+                    num_str = match.group(1).strip().replace(",", "").replace(" ", "")
+                    if num_str.isdigit() and len(num_str) > 0:
+                        cases = int(num_str)
+                        break
+                except ValueError:
+                    pass
+
+        for p in [r"including\s+(\w+|\d+)\s+death", r"(\d[\d\s,]*)\s+death", r"(\d[\d\s,]*)\s+died"]:
+            m = re.search(p, first_sentence, re.I)
+            if m and m.group(1).strip():
+                val = m.group(1).strip().replace(",", "").replace(" ", "")
+                if val.isdigit():
+                    v = int(val)
+                    if cases == 0 or v <= cases:
+                        deaths = v
+                else:
+                    deaths = self._word_to_num(m.group(1).strip())
                 break
 
         if suspected == 0:
-            m = re.search(r"([\d,]+)\s+suspected", text, re.I)
+            m = re.search(r"([\d\s,]+)\s+suspected", first_sentence, re.I)
             if m and m.group(1).strip():
                 try:
-                    suspected = int(m.group(1).replace(",", ""))
+                    num_str = m.group(1).strip().replace(",", "").replace(" ", "")
+                    if num_str.isdigit():
+                        suspected = int(num_str)
                 except ValueError:
                     pass
 
