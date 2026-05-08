@@ -1,0 +1,69 @@
+:root {
+    --bg: #0a0a0f;
+    --card: #12121a;
+    --border: #1e1e2e;
+    --text: #e0e0e0;
+    --muted: #888;
+    --accent: #4f8cff;
+    --danger: #ff4757;
+    --warning: #ffa502;
+    --success: #2ed573;
+    --purple: #a855f7;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); padding: 2rem; text-align: center; border-bottom: 1px solid var(--border); }
+header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+.subtitle { color: var(--muted); font-size: 0.9rem; }
+.meta { color: var(--muted); font-size: 0.8rem; margin-top: 0.5rem; }
+main { max-width: 1400px; margin: 0 auto; padding: 1.5rem; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.2rem; text-align: center; }
+.card .value { font-size: 2rem; font-weight: 700; }
+.card .label { font-size: 0.8rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+.card.danger .value { color: var(--danger); }
+.card.warning .value { color: var(--warning); }
+.card.accent .value { color: var(--accent); }
+.card.success .value { color: var(--success); }
+.card.purple .value { color: var(--purple); }
+#map { height: 500px; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 2rem; }
+h2 { font-size: 1.3rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+.filters { display: flex; gap: 0.8rem; margin-bottom: 1rem; flex-wrap: wrap; }
+.filters select { background: var(--card); color: var(--text); border: 1px solid var(--border); padding: 0.5rem 1rem; border-radius: 8px; font-size: 0.85rem; }
+.outbreak-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1rem; margin-bottom: 0.8rem; transition: border-color 0.2s; }
+.outbreak-card:hover { border-color: var(--accent); }
+.outbreak-card.very_high { border-left: 4px solid var(--danger); }
+.outbreak-card.high { border-left: 4px solid var(--warning); }
+.outbreak-card.moderate { border-left: 4px solid var(--accent); }
+.outbreak-card.low { border-left: 4px solid var(--success); }
+.outbreak-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+.outbreak-disease { font-weight: 600; font-size: 1rem; }
+.outbreak-severity { font-size: 0.75rem; padding: 2px 8px; border-radius: 4px; text-transform: uppercase; }
+.severity-very_high { background: var(--danger); color: white; }
+.severity-high { background: var(--warning); color: #000; }
+.severity-moderate { background: var(--accent); color: white; }
+.severity-low { background: var(--success); color: #000; }
+.outbreak-stats { display: flex; gap: 1.5rem; font-size: 0.85rem; color: var(--muted); margin-bottom: 0.5rem; }
+.outbreak-stats span { display: flex; align-items: center; gap: 0.3rem; }
+.outbreak-stats .num { color: var(--text); font-weight: 600; }
+.outbreak-meta { font-size: 0.8rem; color: var(--muted); }
+.badge { display: inline-block; font-size: 0.7rem; padding: 1px 6px; border-radius: 3px; margin-left: 0.5rem; }
+.badge-verified { background: var(--success); color: #000; }
+.badge-unverified { background: var(--border); color: var(--muted); }
+.badge-h2h { background: var(--danger); color: white; }
+.badge-travel { background: var(--purple); color: white; }
+.disease-table { width: 100%; border-collapse: collapse; }
+.disease-table th, .disease-table td { padding: 0.6rem 1rem; text-align: left; border-bottom: 1px solid var(--border); }
+.disease-table th { color: var(--muted); font-size: 0.8rem; text-transform: uppercase; }
+.disease-table tr:hover { background: rgba(79, 140, 255, 0.05); }
+#validation-summary { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.2rem; }
+.validation-bar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; margin: 0.8rem 0; }
+.validation-bar .verified { background: var(--success); }
+.validation-bar .unverified { background: var(--border); }
+footer { text-align: center; padding: 2rem; color: var(--muted); font-size: 0.8rem; border-top: 1px solid var(--border); margin-top: 2rem; }
+footer a { color: var(--accent); }
+@media (max-width: 768px) {
+    header h1 { font-size: 1.4rem; }
+    .cards { grid-template-columns: repeat(2, 1fr); }
+    #map { height: 350px; }
+}
