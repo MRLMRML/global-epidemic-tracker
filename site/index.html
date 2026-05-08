@@ -1,65 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Epidemic Tracker</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>全球流行病追踪作战室 | Global Epidemic War Room</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+<style>
+:root {
+    --bg: #0a0e17; --panel: #0f1923; --border: #1a2940;
+    --text: #c8d6e5; --bright: #e8f0fe;
+    --green: #00ff88; --red: #ff3b5c; --amber: #ffb300;
+    --blue: #00b4d8; --purple: #a855f7; --cyan: #00e5ff;
+    --font: 'SF Mono','Cascadia Code','JetBrains Mono','Consolas',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{font-size:14px}
+body{background:var(--bg);color:var(--text);font-family:var(--font);overflow-x:hidden}
+body::after{content:'';position:fixed;top:0;left:0;width:100%;height:100%;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.03) 2px,rgba(0,0,0,0.03) 4px);pointer-events:none;z-index:9999}
+.header{background:linear-gradient(180deg,#0d1520,var(--bg));border-bottom:1px solid var(--border);padding:0.8rem 1.5rem;display:flex;align-items:center;justify-content:space-between;position:relative}
+.header::before{content:'';position:absolute;bottom:0;left:0;width:100%;height:1px;background:linear-gradient(90deg,transparent,var(--green),transparent)}
+.header-left{display:flex;align-items:center;gap:1rem}
+.status-dot{width:8px;height:8px;border-radius:50%;background:var(--green);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1;box-shadow:0 0 4px var(--green)}50%{opacity:0.5;box-shadow:0 0 8px var(--green)}}
+.header h1{font-size:1.1rem;color:var(--bright);letter-spacing:0.05em}
+.header h1 .zh{font-size:0.95rem;color:var(--green)}
+.header-right{font-size:0.75rem;color:var(--text)}
+.header-right .time{color:var(--cyan);font-weight:600}
+.motto-bar{background:linear-gradient(90deg,var(--red),#cc2244,var(--red));text-align:center;padding:0.35rem;font-size:0.8rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:white}
+.ticker-wrap{background:var(--panel);border-bottom:1px solid var(--border);padding:0.4rem 0;overflow:hidden;white-space:nowrap;position:relative}
+.ticker-wrap::before{content:'最新疫情动态 | LATEST';position:absolute;left:0;top:0;bottom:0;background:var(--red);color:white;padding:0.4rem 0.8rem;font-size:0.7rem;font-weight:700;z-index:2;display:flex;align-items:center;letter-spacing:0.05em}
+.ticker{display:inline-block;animation:ticker 60s linear infinite;padding-left:12rem}
+@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.ticker-item{display:inline-block;margin-right:3rem;font-size:0.75rem}
+.ticker-item .dot{color:var(--red);margin-right:0.3rem}
+.ticker-item a{color:var(--cyan);text-decoration:none}
+.main{display:grid;grid-template-columns:1fr 380px;grid-template-rows:auto 1fr;gap:0;height:calc(100vh - 8rem)}
+.stats-bar{grid-column:1/-1;display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:var(--border);border-bottom:1px solid var(--border)}
+.stat-cell{background:var(--panel);padding:0.7rem 1rem;text-align:center;position:relative}
+.stat-cell::before{content:'';position:absolute;top:0;left:50%;width:30px;height:2px;transform:translateX(-50%)}
+.stat-cell.danger::before{background:var(--red)}
+.stat-cell.warning::before{background:var(--amber)}
+.stat-cell.info::before{background:var(--blue)}
+.stat-cell.success::before{background:var(--green)}
+.stat-cell.purple::before{background:var(--purple)}
+.stat-cell.cyan::before{background:var(--cyan)}
+.stat-value{font-size:1.6rem;font-weight:700;line-height:1.2}
+.stat-cell.danger .stat-value{color:var(--red)}
+.stat-cell.warning .stat-value{color:var(--amber)}
+.stat-cell.info .stat-value{color:var(--blue)}
+.stat-cell.success .stat-value{color:var(--green)}
+.stat-cell.purple .stat-value{color:var(--purple)}
+.stat-cell.cyan .stat-value{color:var(--cyan)}
+.stat-label{font-size:0.65rem;color:var(--text);text-transform:uppercase;letter-spacing:0.08em;margin-top:0.2rem}
+.map-wrap{position:relative;background:var(--bg)}
+#map{width:100%;height:100%}
+.leaflet-container{background:var(--bg)!important}
+.leaflet-tile-pane{filter:saturate(0.3) brightness(0.4) contrast(1.2)}
+.leaflet-popup-content-wrapper{background:var(--panel);color:var(--text);border:1px solid var(--border);border-radius:6px}
+.leaflet-popup-tip{background:var(--panel)}
+.leaflet-popup-content{font-family:var(--font);font-size:0.8rem;line-height:1.5}
+.leaflet-popup-content strong{color:var(--bright)}
+.leaflet-popup-content a{color:var(--cyan)}
+.side-panel{background:var(--panel);border-left:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden}
+.panel-tabs{display:flex;border-bottom:1px solid var(--border)}
+.panel-tab{flex:1;padding:0.6rem;text-align:center;font-size:0.7rem;text-transform:uppercase;letter-spacing:0.08em;cursor:pointer;color:var(--text);border-bottom:2px solid transparent;transition:all 0.2s}
+.panel-tab:hover{color:var(--bright);background:rgba(255,255,255,0.02)}
+.panel-tab.active{color:var(--green);border-bottom-color:var(--green)}
+.panel-content{flex:1;overflow-y:auto;padding:0.5rem}
+.panel-content::-webkit-scrollbar{width:4px}
+.panel-content::-webkit-scrollbar-track{background:var(--bg)}
+.panel-content::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+.panel-section{display:none}
+.panel-section.active{display:block}
+.outbreak-card{background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:0.6rem;margin-bottom:0.5rem;cursor:pointer;transition:all 0.2s;position:relative;border-left:3px solid transparent}
+.outbreak-card:hover{border-color:var(--cyan);transform:translateX(2px)}
+.outbreak-card.critical{border-left-color:var(--red)}
+.outbreak-card.high{border-left-color:var(--amber)}
+.outbreak-card.moderate{border-left-color:var(--blue)}
+.outbreak-card.low{border-left-color:var(--green)}
+.oc-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:0.3rem}
+.oc-disease{font-size:0.8rem;font-weight:600;color:var(--bright)}
+.oc-severity{font-size:0.6rem;padding:1px 5px;border-radius:3px;font-weight:600}
+.sev-critical{background:var(--red);color:white}
+.sev-high{background:var(--amber);color:#000}
+.sev-moderate{background:var(--blue);color:white}
+.sev-low{background:var(--green);color:#000}
+.oc-stats{display:flex;gap:0.8rem;font-size:0.7rem;color:var(--text)}
+.oc-stats .n{color:var(--bright);font-weight:600}
+.oc-meta{font-size:0.65rem;color:var(--text);margin-top:0.3rem;display:flex;gap:0.5rem;flex-wrap:wrap}
+.badge{font-size:0.6rem;padding:1px 4px;border-radius:2px}
+.badge-verified{background:rgba(0,255,136,0.15);color:var(--green)}
+.badge-unverified{background:rgba(255,255,255,0.05);color:var(--text)}
+.badge-h2h{background:rgba(255,59,92,0.2);color:var(--red)}
+.disease-table{width:100%;font-size:0.7rem}
+.disease-table th{color:var(--text);font-size:0.6rem;text-transform:uppercase;letter-spacing:0.05em;padding:0.3rem;text-align:left;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--panel)}
+.disease-table td{padding:0.3rem;border-bottom:1px solid rgba(26,41,64,0.5)}
+.disease-table tr:hover{background:rgba(0,229,255,0.03)}
+.disease-table .d-name{color:var(--bright);font-weight:600}
+.disease-table .d-h2h{color:var(--red);font-weight:600}
+.analysis-card{background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:0.6rem;margin-bottom:0.5rem}
+.analysis-title{font-size:0.75rem;color:var(--amber);font-weight:600;margin-bottom:0.3rem}
+.analysis-text{font-size:0.7rem;color:var(--text);line-height:1.5}
+.risk-indicator{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:0.3rem}
+.risk-critical{background:var(--red);box-shadow:0 0 6px var(--red)}
+.risk-high{background:var(--amber);box-shadow:0 0 6px var(--amber)}
+.risk-moderate{background:var(--blue)}
+.lang-toggle{display:flex;gap:0.3rem;align-items:center}
+.lang-btn{background:transparent;border:1px solid var(--border);color:var(--text);padding:0.2rem 0.5rem;font-size:0.7rem;cursor:pointer;border-radius:3px;font-family:var(--font);transition:all 0.2s}
+.lang-btn:hover{border-color:var(--cyan);color:var(--cyan)}
+.lang-btn.active{background:var(--cyan);color:var(--bg);border-color:var(--cyan)}
+.footer{background:var(--panel);border-top:1px solid var(--border);padding:0.4rem 1rem;font-size:0.65rem;color:var(--text);display:flex;justify-content:space-between;align-items:center}
+@media(max-width:900px){.main{grid-template-columns:1fr;grid-template-rows:auto 50vh auto;height:auto}.stats-bar{grid-template-columns:repeat(3,1fr)}.side-panel{border-left:none;border-top:1px solid var(--border)}}
+</style>
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <h1>🌍 Global Epidemic Tracker</h1>
-            <p class="subtitle">Real-time disease outbreak monitoring with news cross-validation</p>
-            <div id="last-update" class="meta">Loading...</div>
+<div class="motto-bar">El pueblo unido jamás será vencido — 团结的人民永远不会被击败</div>
+<div class="header">
+    <div class="header-left"><div class="status-dot"></div><div><h1>EPIDEMIC WAR ROOM <span class="zh">全球流行病作战室</span></h1></div></div>
+    <div class="header-right">
+        <div class="lang-toggle"><button class="lang-btn active" onclick="setLang('zh')">中文</button><button class="lang-btn" onclick="setLang('en')">EN</button></div>
+        <div style="margin-top:0.3rem"><span id="last-update" class="time">--</span><span> | </span><span id="data-source">--</span></div>
+    </div>
+</div>
+<div class="ticker-wrap"><div class="ticker" id="news-ticker"></div></div>
+<div class="main">
+    <div class="stats-bar" id="stats-bar"></div>
+    <div class="map-wrap"><div id="map"></div></div>
+    <div class="side-panel">
+        <div class="panel-tabs">
+            <div class="panel-tab active" data-tab="outbreaks" data-zh="疫情动态" data-en="OUTBREAKS">疫情动态</div>
+            <div class="panel-tab" data-tab="diseases" data-zh="疾病分析" data-en="DISEASES">疾病分析</div>
+            <div class="panel-tab" data-tab="analysis" data-zh="风险评估" data-en="ANALYSIS">风险评估</div>
         </div>
-    </header>
-
-    <main>
-        <section id="summary-cards" class="cards"></section>
-
-        <section id="map-section">
-            <div id="map"></div>
-        </section>
-
-        <section id="diseases-section">
-            <h2>Disease Breakdown</h2>
-            <div id="disease-table"></div>
-        </section>
-
-        <section id="outbreaks-section">
-            <h2>Active Outbreaks</h2>
-            <div class="filters">
-                <select id="disease-filter"><option value="">All Diseases</option></select>
-                <select id="severity-filter">
-                    <option value="">All Severities</option>
-                    <option value="very_high">Very High</option>
-                    <option value="high">High</option>
-                    <option value="moderate">Moderate</option>
-                    <option value="low">Low</option>
-                </select>
-                <select id="verified-filter">
-                    <option value="">All</option>
-                    <option value="verified">News Verified</option>
-                    <option value="unverified">Unverified</option>
-                </select>
-            </div>
-            <div id="outbreaks-list"></div>
-        </section>
-
-        <section id="validation-section">
-            <h2>News Cross-Validation</h2>
-            <div id="validation-summary"></div>
-        </section>
-    </main>
-
-    <footer>
-        <p>Data: WHO Disease Outbreak News API | Validation: Bing News, Google News RSS, Reddit</p>
-        <p>Auto-updated every 6 hours via GitHub Actions | <a href="https://github.com/MRLMRML/epidemic-tracker">Source</a></p>
-    </footer>
-
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="js/app.js"></script>
+        <div class="panel-content">
+            <div class="panel-section active" id="sec-outbreaks"></div>
+            <div class="panel-section" id="sec-diseases"></div>
+            <div class="panel-section" id="sec-analysis"></div>
+        </div>
+    </div>
+</div>
+<div class="footer"><span>DATA: WHO DISEASE OUTBREAK NEWS API | VALIDATION: BING NEWS · GOOGLE NEWS · REDDIT</span><span>数据来源：世界卫生组织 | 新闻验证：必应 · 谷歌 · Reddit</span></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script>
+const SEV_COLORS={very_high:'#ff3b5c',high:'#ffb300',moderate:'#00b4d8',low:'#00ff88',unknown:'#556677'};
+const SEV_ZH={very_high:'极高',high:'高',moderate:'中等',low:'低',unknown:'未知'};
+const SEV_CLASS={very_high:'critical',high:'high',moderate:'moderate',low:'low',unknown:'low'};
+const SEV_BADGE={very_high:'sev-critical',high:'sev-high',moderate:'sev-moderate',low:'sev-low',unknown:'sev-low'};
+let map,clusterGroup,allData,currentLang='zh';
+function t(zh,en){return currentLang==='zh'?zh:en}
+function setLang(lang){
+    currentLang=lang;
+    document.querySelectorAll('.lang-btn').forEach(b=>b.classList.toggle('active',b.textContent===(lang==='zh'?'中文':'EN')));
+    document.querySelectorAll('.panel-tab').forEach(tab=>{tab.textContent=tab.dataset[lang]});
+    if(allData)renderAll(allData);
+}
+function fmt(n){if(n>=1e6)return(n/1e6).toFixed(1)+'M';if(n>=1e3)return(n/1e3).toFixed(1)+'K';return String(n)}
+async function init(){
+    map=L.map('map',{zoomControl:false,attributionControl:false}).setView([20,0],2);
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{maxZoom:18}).addTo(map);
+    L.control.zoom({position:'bottomright'}).addTo(map);
+    clusterGroup=L.markerClusterGroup({maxClusterRadius:40,spiderfyOnMaxZoom:true,showCoverageOnHover:false,
+        iconCreateFunction:function(c){const n=c.getChildCount();let r=n<10?25:n<50?35:45;return L.divIcon({html:'<div style="width:'+r+'px;height:'+r+'px;border-radius:50%;background:rgba(255,59,92,0.25);border:2px solid rgba(255,59,92,0.6);display:flex;align-items:center;justify-content:center;color:#ff3b5c;font-weight:700;font-size:'+(r<30?10:12)+'px;font-family:var(--font);box-shadow:0 0 '+r+'px rgba(255,59,92,0.2)">'+n+'</div>',className:'',iconSize:[r,r]})}
+    });
+    map.addLayer(clusterGroup);
+    await loadData();setInterval(loadData,600000);updateClock();setInterval(updateClock,1000);
+    document.querySelectorAll('.panel-tab').forEach(tab=>{tab.addEventListener('click',()=>{document.querySelectorAll('.panel-tab').forEach(t=>t.classList.remove('active'));document.querySelectorAll('.panel-section').forEach(s=>s.classList.remove('active'));tab.classList.add('active');document.getElementById('sec-'+tab.dataset.tab).classList.add('active')})});
+}
+function updateClock(){const n=new Date();document.getElementById('last-update').textContent=String(n.getUTCHours()).padStart(2,'0')+':'+String(n.getUTCMinutes()).padStart(2,'0')+':'+String(n.getUTCSeconds()).padStart(2,'0')+' UTC'}
+async function loadData(){try{const r=await fetch('data/epidemics.json');allData=await r.json();renderAll(allData)}catch(e){document.getElementById('last-update').textContent=t('数据加载失败','DATA ERROR')}}
+function renderAll(data){renderStats(data.summary);renderMap(data.outbreaks);renderTicker(data.outbreaks);renderOutbreaks(data.outbreaks);renderDiseases(data.diseases);renderAnalysis(data);document.getElementById('data-source').textContent=(data.summary.data_sources||[]).join(' · ').toUpperCase();const d=new Date(data.last_update);document.getElementById('last-update').textContent=d.toISOString().slice(0,16).replace('T',' ')+' UTC'}
+function renderStats(s){document.getElementById('stats-bar').innerHTML='<div class="stat-cell danger"><div class="stat-value">'+s.total_active_outbreaks+'</div><div class="stat-label">'+t('活跃疫情','ACTIVE')+'</div></div><div class="stat-cell warning"><div class="stat-value">'+fmt(s.total_cases)+'</div><div class="stat-label">'+t('总病例','CASES')+'</div></div><div class="stat-cell info"><div class="stat-value">'+fmt(s.total_deaths)+'</div><div class="stat-label">'+t('总死亡','DEATHS')+'</div></div><div class="stat-cell purple"><div class="stat-value">'+(s.global_cfr*100).toFixed(1)+'%</div><div class="stat-label">'+t('致死率','CFR')+'</div></div><div class="stat-cell success"><div class="stat-value">'+s.countries_affected+'</div><div class="stat-label">'+t('受影响国家','COUNTRIES')+'</div></div><div class="stat-cell cyan"><div class="stat-value">'+s.diseases_tracked.length+'</div><div class="stat-label">'+t('疾病种类','DISEASES')+'</div></div>'}
+function renderMap(outbreaks){clusterGroup.clearLayers();outbreaks.forEach(o=>{if(!o.latitude&&!o.longitude)return;const c=SEV_COLORS[o.severity]||'#556677';const r=Math.max(4,Math.min(20,Math.sqrt(o.cases||1)));const m=L.circleMarker([o.latitude,o.longitude],{radius:r,color:c,fillColor:c,fillOpacity:0.5,weight:1});const v=o.news_verified?'<span style="color:var(--green)">✓ '+t('已验证','Verified')+'</span>':'<span style="color:var(--text)">? '+t('未验证','Unverified')+'</span>';const h=o.h2h_transmission?'<span style="color:var(--red)"> ⚠ H2H</span>':'';m.bindPopup('<strong>'+o.disease+'</strong>'+h+'<br>📍 '+o.location+', '+o.country+'<br>'+t('病例','Cases')+': <strong>'+(o.cases||0).toLocaleString()+'</strong> | '+t('死亡','Deaths')+': <strong>'+(o.deaths||0).toLocaleString()+'</strong><br>CFR: '+((o.cfr||0)*100).toFixed(1)+'% | '+t('严重程度','Severity')+': '+(SEV_ZH[o.severity]||o.severity)+'<br>'+v+'<br>'+(o.source_url?'<a href="'+o.source_url+'" target="_blank">WHO DON →</a>':''));clusterGroup.addLayer(m)})}
+function renderTicker(outbreaks){const top=outbreaks.filter(o=>o.cases>0).sort((a,b)=>b.cases-a.cases).slice(0,20);let h='';top.forEach(o=>{h+='<span class="ticker-item"><span class="dot">●</span>'+o.disease+(o.h2h_transmission?' [H2H]':'')+' — '+o.location+': '+fmt(o.cases)+' '+t('例','cases')+', '+fmt(o.deaths)+' '+t('例死亡','deaths')+'</span>'});document.getElementById('news-ticker').innerHTML=h+h}
+function renderOutbreaks(outbreaks){const sorted=[...outbreaks].sort((a,b)=>{const s={very_high:0,high:1,moderate:2,low:3,unknown:4};return(s[a.severity]||9)-(s[b.severity]||9)||(b.cases||0)-(a.cases||0)});let h='';sorted.forEach(o=>{const cls=SEV_CLASS[o.severity]||'low';const badge=SEV_BADGE[o.severity]||'sev-low';const v=o.news_verified?'<span class="badge badge-verified">✓</span>':'<span class="badge badge-unverified">?</span>';const h2h=o.h2h_transmission?'<span class="badge badge-h2h">H2H</span>':'';h+='<div class="outbreak-card '+cls+'" onclick="flyTo('+o.latitude+','+o.longitude+')"><div class="oc-header"><span class="oc-disease">'+o.disease+'</span><span class="oc-severity '+badge+'">'+(SEV_ZH[o.severity]||o.severity)+'</span></div><div class="oc-stats"><span>📍 '+o.location+'</span><span>'+t('病例','Cases')+': <span class="n">'+(o.cases||0).toLocaleString()+'</span></span><span>'+t('死亡','Deaths')+': <span class="n">'+(o.deaths||0).toLocaleString()+'</span></span></div><div class="oc-meta">'+v+' '+h2h+(o.source_url?' <a href="'+o.source_url+'" target="_blank" style="color:var(--cyan);font-size:0.6rem">WHO →</a>':'')+'</div></div>'});document.getElementById('sec-outbreaks').innerHTML=h}
+function renderDiseases(diseases){let h='<table class="disease-table"><thead><tr><th>'+t('疾病','Disease')+'</th><th>'+t('病例','Cases')+'</th><th>'+t('死亡','Deaths')+'</th><th>CFR</th><th>'+t('疫情','Outbreaks')+'</th><th>H2H</th></tr></thead><tbody>';for(const[n,d]of Object.entries(diseases)){h+='<tr><td class="d-name">'+n+'</td><td>'+fmt(d.cases)+'</td><td>'+fmt(d.deaths)+'</td><td>'+(d.cfr*100).toFixed(1)+'%</td><td>'+d.outbreaks+'</td><td>'+(d.h2h_transmission?'<span class="d-h2h">⚠</span>':'-')+'</td></tr>'}h+='</tbody></table>';document.getElementById('sec-diseases').innerHTML=h}
+function renderAnalysis(data){const o=data.outbreaks||[];const h2h=o.filter(x=>x.h2h_transmission);const high=o.filter(x=>x.severity==='very_high'||x.severity==='high');const ver=o.filter(x=>x.news_verified);let h='';if(h2h.length>0)h+='<div class="analysis-card"><div class="analysis-title"><span class="risk-indicator risk-critical"></span>'+t('人传人警报','H2H TRANSMISSION ALERT')+'</div><div class="analysis-text">'+t('检测到','Detected')+' <strong>'+h2h.length+'</strong> '+t('起人传人疫情','H2H outbreaks')+': '+h2h.map(x=>x.disease+' ('+x.location+')').slice(0,5).join(', ')+'</div></div>';h+='<div class="analysis-card"><div class="analysis-title"><span class="risk-indicator risk-high"></span>'+t('高危疫情','HIGH SEVERITY')+'</div><div class="analysis-text">'+t('共','Total')+' <strong>'+high.length+'</strong> '+t('起高危/极高疫情','high/very-high severity outbreaks')+', '+t('涉及','affecting')+' <strong>'+new Set(high.map(x=>x.country)).size+'</strong> '+t('个国家','countries')+'</div></div>';const rate=o.length>0?(ver.length/o.length*100).toFixed(0):0;h+='<div class="analysis-card"><div class="analysis-title"><span class="risk-indicator risk-moderate"></span>'+t('新闻验证率','NEWS VERIFICATION')+'</div><div class="analysis-text">'+ver.length+'/'+o.length+' '+t('疫情已通过新闻交叉验证','outbreaks verified by news')+' ('+rate+'%)</div></div>';const dangerous=[...o].filter(x=>x.cases>0).sort((a,b)=>{const s={very_high:4,high:3,moderate:2,low:1,unknown:0};return(s[b.severity]||0)*10000+b.cases-((s[a.severity]||0)*10000+a.cases)}).slice(0,5);h+='<div class="analysis-card"><div class="analysis-title">🔴 '+t('最危险疫情 TOP 5','TOP 5 MOST DANGEROUS')+'</div><div class="analysis-text">';dangerous.forEach((x,i)=>{h+='<div style="margin-bottom:0.3rem"><span class="risk-indicator risk-'+(SEV_CLASS[x.severity]==='critical'?'critical':SEV_CLASS[x.severity]==='high'?'high':'moderate')+'"></span><strong>'+(i+1)+'. '+x.disease+'</strong> — '+x.location+': '+fmt(x.cases)+' '+t('例','cases')+', CFR '+(x.cfr*100).toFixed(1)+'%</div>'});h+='</div></div>';document.getElementById('sec-analysis').innerHTML=h}
+function flyTo(lat,lng){if(lat&&lng)map.flyTo([lat,lng],6,{duration:1})}
+init();
+</script>
 </body>
 </html>
