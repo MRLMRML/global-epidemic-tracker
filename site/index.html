@@ -111,12 +111,12 @@ function popD(){
     var co={},di={};
     allData.outbreaks.forEach(function(x){if(x.country_iso3)co[x.country_iso3]=1;di[x.disease]=1});
     var ch="";Object.keys(co).sort(function(a,b){return cn(a).localeCompare(cn(b))}).forEach(function(iso){
-        ch+="<div class='o"+(pC.has(iso)?" sl":"")+"' onclick='event.stopPropagation();tSC(\""+iso+"\")'><span class='c'></span>"+cn(iso)+"</div>";
+        ch+="<div class='o"+(pC.has(iso)?" sl":"")+"' onclick='tSC(\""+iso+"\")'><span class='c'></span>"+cn(iso)+"</div>";
     });
     ch+="<div style='padding:8px;display:flex;gap:6px;border-top:1px solid var(--border);position:sticky;bottom:0;background:var(--card)'><button class='rb' onclick='cancelC()' style='flex:1'>\u2715</button><button onclick='confirmC()' style='flex:1;background:var(--accent);color:var(--bg);border:none;padding:4px 8px;border-radius:4px;font-size:11px;cursor:pointer;font-family:inherit'>\u2713</button></div>";
     document.getElementById("copts").innerHTML=ch;
     var dh="";Object.keys(di).sort(function(a,b){return dn(a).localeCompare(dn(b))}).forEach(function(d){
-        dh+="<div class='o"+(pD.has(d)?" sl":"")+"' onclick='event.stopPropagation();tSD(\""+d.replace(/'/g,"\\'")+"\")'><span class='c'></span>"+dn(d)+"</div>";
+        dh+="<div class='o"+(pD.has(d)?" sl":"")+"' onclick='tSD(\""+d.replace(/'/g,"\\'")+"\")'><span class='c'></span>"+dn(d)+"</div>";
     });
     dh+="<div style='padding:8px;display:flex;gap:6px;border-top:1px solid var(--border);position:sticky;bottom:0;background:var(--card)'><button class='rb' onclick='cancelD()' style='flex:1'>\u2715</button><button onclick='confirmD()' style='flex:1;background:var(--accent);color:var(--bg);border:none;padding:4px 8px;border-radius:4px;font-size:11px;cursor:pointer;font-family:inherit'>\u2713</button></div>";
     document.getElementById("dopts").innerHTML=dh;
@@ -229,7 +229,7 @@ function rS(o){
         var st=x.severity;var stT=st==='very_high'?'\u6781\u9ad8: \u5927\u89c4\u6a21\u75ab\u60c5/\u9ad8\u81f4\u6b7b\u7387':st==='high'?'\u9ad8: \u6d3b\u8dc3\u75ab\u60c5':st==='moderate'?'\u4e2d\u7b49: \u5730\u65b9\u6027\u6d41\u884c':'\u4f4e: \u5c11\u91cf\u75c5\u4f8b';h+="<div class='ch'><span class='cn'>"+dn(x.disease)+tt+"</span><span class='bg "+bg+"' title='"+stT+"'>"+sL(x.severity)+"</span></div>";
         h+="<div class='ci'>"+x.countries.size+" "+i("co")+"</div>";
         h+="<div class='cn2'><span>"+i("ca")+": <b>"+fmt(x.cases)+"</b></span><span>"+i("de")+": <b>"+fmt(x.deaths)+"</b></span><span>CFR: "+pct(x.deaths,x.cases)+"</span></div>";
-        h+="<div class='ct'>"+h2h+"<button onclick='event.stopPropagation();opD(this.closest('[data-d]').dataset.d)' style='background:#3b82f6;color:white;border:none;padding:4px 10px;border-radius:5px;font-size:11px;cursor:pointer;font-family:inherit;font-weight:600'>📊 详细数据</button><button class='hide-btn' onclick='event.stopPropagation();hideDisease(\""+x.disease+"\")'>\u2715</button></div></div>";
+        h+="<div class='ct'>"+h2h+"<button onclick='event.stopPropagation();opD(this.closest('.card').dataset.d)' style='background:#3b82f6;color:white;border:none;padding:4px 10px;border-radius:5px;font-size:11px;cursor:pointer;font-family:inherit;font-weight:600'>📊 详细数据</button></div></div>";
     });
     document.getElementById("side").innerHTML=h;
 }
