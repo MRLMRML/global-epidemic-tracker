@@ -42,7 +42,7 @@
         "cfr": 0.0,
         "severity": "very_high",
         "h2h": false,
-        "verified": false,
+        "verified": true,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2026-DON598",
         "date": "2026-04-23"
       }
@@ -295,7 +295,7 @@
         "cfr": 0.0123,
         "severity": "very_high",
         "h2h": false,
-        "verified": false,
+        "verified": true,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/DON588",
         "date": "2025-11-21"
       }
@@ -364,7 +364,7 @@
         "cfr": 0.0003,
         "severity": "very_high",
         "h2h": false,
-        "verified": false,
+        "verified": true,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON581",
         "date": "2025-10-03"
       }
@@ -1146,7 +1146,7 @@
         "cfr": 0.0002,
         "severity": "very_high",
         "h2h": false,
-        "verified": false,
+        "verified": true,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON545",
         "date": "2024-12-05"
       }
@@ -6183,7 +6183,7 @@
         "cfr": 0.0024,
         "severity": "very_high",
         "h2h": false,
-        "verified": false,
+        "verified": true,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON414",
         "date": "2022-10-13"
       }
@@ -6229,7 +6229,7 @@
         "cfr": 0.0,
         "severity": "very_high",
         "h2h": false,
-        "verified": false,
+        "verified": true,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON412",
         "date": "2022-10-10"
       }
@@ -7494,7 +7494,7 @@
         "cfr": 0.0,
         "severity": "very_high",
         "h2h": false,
-        "verified": true,
+        "verified": false,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
         "date": "2024-12-31"
       }
@@ -8230,7 +8230,7 @@
         "cfr": 0.0,
         "severity": "very_high",
         "h2h": false,
-        "verified": true,
+        "verified": false,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
         "date": "2024-12-31"
       }
@@ -10139,7 +10139,7 @@
         "cfr": 0.0,
         "severity": "very_high",
         "h2h": false,
-        "verified": true,
+        "verified": false,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
         "date": "2024-12-31"
       }
@@ -10162,7 +10162,7 @@
         "cfr": 0.0,
         "severity": "very_high",
         "h2h": false,
-        "verified": true,
+        "verified": false,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
         "date": "2024-12-31"
       }
@@ -11422,14 +11422,14 @@
         "disease": "Mpox",
         "location": "Cameroon",
         "country": "CMR",
-        "cases": 100,
+        "cases": 101,
         "deaths": 5,
-        "cfr": 0.05,
-        "severity": "low",
+        "cfr": 0.0495,
+        "severity": "moderate",
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-29"
+        "date": "2026-04-04"
       }
     },
     {
@@ -11468,14 +11468,14 @@
         "disease": "Mpox",
         "location": "Central African Republic",
         "country": "CAF",
-        "cases": 222,
+        "cases": 223,
         "deaths": 10,
-        "cfr": 0.045,
+        "cfr": 0.0448,
         "severity": "moderate",
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-29"
+        "date": "2026-04-05"
       }
     },
     {
@@ -11514,14 +11514,14 @@
         "disease": "Mpox",
         "location": "China",
         "country": "CHN",
-        "cases": 3924,
+        "cases": 3928,
         "deaths": 1,
         "cfr": 0.0003,
         "severity": "high",
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-31"
+        "date": "2026-04-17"
       }
     },
     {
@@ -11698,14 +11698,14 @@
         "disease": "Mpox",
         "location": "Democratic Republic of Congo",
         "country": "COD",
-        "cases": 33960,
+        "cases": 34011,
         "deaths": 80,
         "cfr": 0.0024,
         "severity": "very_high",
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-29"
+        "date": "2026-04-12"
       }
     },
     {
@@ -12418,7 +12418,7 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-29"
+        "date": "2026-04-05"
       }
     },
     {
@@ -12802,14 +12802,14 @@
         "disease": "Mpox",
         "location": "Qatar",
         "country": "QAT",
-        "cases": 20,
+        "cases": 22,
         "deaths": 0,
         "cfr": 0.0,
         "severity": "low",
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-21"
+        "date": "2026-04-02"
       }
     },
     {
@@ -12940,14 +12940,14 @@
         "disease": "Mpox",
         "location": "Singapore",
         "country": "SGP",
-        "cases": 98,
+        "cases": 101,
         "deaths": 0,
         "cfr": 0.0,
-        "severity": "low",
+        "severity": "moderate",
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-27"
+        "date": "2026-04-02"
       }
     },
     {
@@ -13009,14 +13009,14 @@
         "disease": "Mpox",
         "location": "South Africa",
         "country": "ZAF",
-        "cases": 48,
+        "cases": 49,
         "deaths": 3,
-        "cfr": 0.0625,
+        "cfr": 0.0612,
         "severity": "low",
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-29"
+        "date": "2026-04-02"
       }
     },
     {
@@ -13216,14 +13216,14 @@
         "disease": "Mpox",
         "location": "Thailand",
         "country": "THA",
-        "cases": 1044,
-        "deaths": 14,
-        "cfr": 0.0134,
+        "cases": 1056,
+        "deaths": 15,
+        "cfr": 0.0142,
         "severity": "high",
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-02-28"
+        "date": "2026-04-01"
       }
     },
     {
