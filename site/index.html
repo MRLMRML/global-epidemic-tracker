@@ -4,15 +4,15 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
 <style>
-*{margin:0;padding:0;box-sizing:border-box}:root{--bg:#0b1120;--panel:#131c2e;--card:#1a2540;--border:#253050;--text:#7b8ba3;--bright:#e8ecf2;--muted:#506078;--accent:#00d4aa;--accent2:#00b4d8;--red:#ff4757;--amber:#ffa502;--green:#2ed573;--purple:#a55eea}
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0b1120;--panel:#131c2e;--card:#1a2540;--border:#253050;--text:#7b8ba3;--bright:#e8ecf2;--muted:#506078;--accent:#00d4aa;--accent2:#00b4d8;--red:#ff4757;--amber:#ffa502;--green:#2ed573;--purple:#a55eea}
 body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;font-size:14px}
-a{color:var(--accent2);text-decoration:none}
 .top{background:linear-gradient(90deg,#ff4757,#ff6b81);color:white;text-align:center;padding:5px;font-size:11px;font-weight:700}
 .hdr{background:var(--panel);border-bottom:1px solid var(--border);padding:8px 16px;display:flex;align-items:center;justify-content:space-between}
 .hdr h1{font-size:15px;font-weight:700;color:var(--accent)}.hdr h1 span{color:var(--bright)}
-.sel{background:var(--card);color:var(--text);border:1px solid var(--border);padding:5px 10px;border-radius:6px;font-size:12px;font-family:inherit;cursor:pointer}.sel:focus{outline:none;border-color:var(--accent)}
-.news{background:var(--panel);border-bottom:1px solid var(--border);height:30px;overflow:hidden;display:flex;align-items:center;cursor:pointer}
-.nlbl{background:var(--red);color:white;padding:0 10px;font-size:10px;font-weight:700;height:100%;display:flex;align-items:center;flex-shrink:0;justify-content:center;min-width:60px}
+.sel{background:var(--card);color:var(--text);border:1px solid var(--border);padding:5px 10px;border-radius:6px;font-size:12px;font-family:inherit;cursor:pointer}
+.news{background:var(--panel);border-bottom:1px solid var(--border);height:30px;overflow:hidden;display:flex;align-items:center;cursor:pointer;justify-content:center}
+.nlbl{background:var(--red);color:white;padding:0 10px;font-size:10px;font-weight:700;height:100%;display:flex;align-items:center;flex-shrink:0;min-width:60px;justify-content:center}
 .nwrap{flex:1;height:100%;overflow:hidden;position:relative}
 .ninner{position:absolute;width:100%;animation:ns 8s linear infinite}
 @keyframes ns{0%{transform:translateY(0)}100%{transform:translateY(-50%)}}
@@ -22,17 +22,23 @@ a{color:var(--accent2);text-decoration:none}
 .ms{position:relative;min-width:200px;width:220px}
 .mb{background:var(--card);color:var(--text);border:1px solid var(--border);padding:5px 10px;border-radius:6px;font-size:12px;font-family:inherit;cursor:pointer;width:100%;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .mb:hover{border-color:var(--accent)}.mb.hv{color:var(--accent);border-color:var(--accent)}
-.md{display:none;position:absolute;top:calc(100% + 4px);left:0;right:0;background:var(--card);border:1px solid var(--accent);border-radius:8px;max-height:350px;overflow-y:auto;z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,0.5)}.md.op{display:block}
+.md{display:none;position:absolute;top:calc(100% + 4px);left:0;right:0;background:var(--card);border:1px solid var(--accent);border-radius:8px;max-height:350px;overflow-y:auto;z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,0.5)}
+.md.op{display:block}
 .md input{width:100%;padding:6px 8px;background:var(--bg);border:none;border-bottom:1px solid var(--border);color:var(--bright);font-size:12px;font-family:inherit;outline:none}
-.md .o{padding:5px 10px;font-size:12px;cursor:pointer;display:flex;align-items:center;gap:6px;border-bottom:1px solid rgba(37,48,80,0.3)}.md .o:hover{background:var(--border)}.md .o.sl{color:var(--accent)}
-.md .o .c{width:14px;height:14px;border:1px solid var(--border);border-radius:3px;display:flex;align-items:center;justify-content:center;flex-shrink:0}.md .o.sl .c{background:var(--accent);border-color:var(--accent)}
-.rb{background:transparent;color:var(--muted);border:1px solid var(--border);padding:5px 16px;border-radius:6px;font-size:11px;cursor:pointer;font-family:inherit;white-space:nowrap}.rb:hover{color:var(--red);border-color:var(--red)}
+.md .o{padding:5px 10px;font-size:12px;cursor:pointer;display:flex;align-items:center;gap:6px;border-bottom:1px solid rgba(37,48,80,0.3)}
+.md .o:hover{background:var(--border)}.md .o.sl{color:var(--accent)}
+.md .o .c{width:14px;height:14px;border:1px solid var(--border);border-radius:3px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.md .o.sl .c{background:var(--accent);border-color:var(--accent)}
+.rb{background:transparent;color:var(--muted);border:1px solid var(--border);padding:5px 16px;border-radius:6px;font-size:11px;cursor:pointer;font-family:inherit;white-space:nowrap}
+.rb:hover{color:var(--red);border-color:var(--red)}
 .st{display:grid;grid-template-columns:repeat(5,1fr);border-bottom:1px solid var(--border)}
 .si{background:var(--panel);padding:10px 8px;text-align:center;border-right:1px solid var(--border)}.si:last-child{border-right:none}
 .sv{font-size:20px;font-weight:700}.sl{font-size:10px;color:var(--muted);text-transform:uppercase;margin-top:2px}
 .si:nth-child(1) .sv{color:var(--red)}.si:nth-child(2) .sv{color:var(--amber)}.si:nth-child(3) .sv{color:var(--accent2)}.si:nth-child(4) .sv{color:var(--purple)}.si:nth-child(5) .sv{color:var(--green)}
-.main{display:grid;grid-template-columns:1fr 350px;height:calc(100vh - 200px)}#map{width:100%;height:100%}.leaflet-container{background:var(--bg)!important}
-.side{border-left:1px solid var(--border);overflow-y:auto;background:var(--panel);padding:6px}.side::-webkit-scrollbar{width:4px}.side::-webkit-scrollbar-thumb{background:var(--border)}
+.main{display:grid;grid-template-columns:1fr 350px;height:calc(100vh - 200px)}
+#map{width:100%;height:100%}.leaflet-container{background:var(--bg)!important}
+.side{border-left:1px solid var(--border);overflow-y:auto;background:var(--panel);padding:6px}
+.side::-webkit-scrollbar{width:4px}.side::-webkit-scrollbar-thumb{background:var(--border)}
 .card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:10px 36px 10px 10px;margin-bottom:5px;cursor:pointer;border-left:3px solid transparent;transition:all 0.15s;position:relative}
 .card:hover{transform:translateX(2px);border-color:var(--accent);box-shadow:0 2px 12px rgba(0,212,170,0.08)}
 .card.c1{border-left-color:var(--red)}.card.c2{border-left-color:var(--amber)}.card.c3{border-left-color:var(--accent2)}.card.c4{border-left-color:var(--green)}
@@ -42,9 +48,11 @@ a{color:var(--accent2);text-decoration:none}
 .bg{font-size:10px;padding:2px 7px;border-radius:4px;font-weight:700}
 .b1{background:rgba(255,71,87,0.15);color:var(--red)}.b2{background:rgba(255,165,2,0.15);color:var(--amber)}.b3{background:rgba(0,180,216,0.15);color:var(--accent2)}.b4{background:rgba(46,213,115,0.15);color:var(--green)}
 .ci{font-size:11px;color:var(--muted);margin-bottom:3px}
-.vbtn{background:var(--accent);color:var(--bg);border:none;padding:4px 12px;border-radius:5px;font-size:11px;cursor:pointer;font-weight:700;font-family:inherit}.vbtn:hover{opacity:0.8}.vbtn.hide-btn{background:var(--border);color:var(--muted);padding:8px 12px;border-radius:6px;font-size:13px;position:absolute;right:8px;top:8px}
 .cn2{display:flex;gap:10px;font-size:12px}.cn2 b{color:var(--bright)}
-.ct{display:flex;gap:4px;margin-top:4px;font-size:10px;align-items:center;flex-wrap:wrap}.badge-tip{position:relative;cursor:help}.badge-tip:hover .badge-desc{display:block}.badge-desc{display:none;position:absolute;bottom:100%;left:0;background:var(--bg);border:1px solid var(--accent);border-radius:6px;padding:6px 8px;font-size:10px;color:var(--text);white-space:nowrap;z-index:50;line-height:1.4}.tg{padding:2px 5px;border-radius:3px}.th{background:rgba(255,71,87,0.12);color:var(--red);cursor:help}
+.ct{display:flex;gap:4px;margin-top:4px;font-size:10px;align-items:center;flex-wrap:wrap}
+.tg{padding:2px 5px;border-radius:3px}.th{background:rgba(255,71,87,0.12);color:var(--red);cursor:help}
+.hide-btn{background:var(--border);color:var(--muted);border:none;position:absolute;right:0;top:0;bottom:0;width:20%;border-radius:0 10px 10px 0;font-size:14px;cursor:pointer;display:flex;align-items:center;justify-content:center;opacity:0.7;transition:opacity 0.2s}
+.hide-btn:hover{opacity:1;background:var(--red);color:white}
 .mbg{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.75);z-index:1000;align-items:center;justify-content:center}.mbg.op{display:flex}
 .mod{background:var(--panel);border:1px solid var(--border);border-radius:14px;width:92%;max-width:650px;max-height:85vh;overflow-y:auto;padding:24px;position:relative}
 .mod h2{color:var(--accent);font-size:18px;margin-bottom:8px}
@@ -54,6 +62,8 @@ a{color:var(--accent2);text-decoration:none}
 .pbtn.on{background:var(--accent);color:var(--bg);border-color:var(--accent);font-weight:700}
 .cbox{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px;height:280px;margin-bottom:14px}
 .ftr{background:var(--panel);border-top:1px solid var(--border);padding:6px;font-size:10px;color:var(--muted);text-align:center}
+.badge-tip{position:relative;cursor:help}.badge-tip:hover .badge-desc{display:block}
+.badge-desc{display:none;position:absolute;bottom:100%;left:0;background:var(--bg);border:1px solid var(--accent);border-radius:6px;padding:6px 8px;font-size:10px;color:var(--text);white-space:nowrap;z-index:50;line-height:1.4}
 @media(max-width:900px){.main{grid-template-columns:1fr;height:auto}#map{height:40vh}}
 </style></head><body>
 <div class="top">CDC is dead, we protect the people. — El pueblo unido jamás será vencido</div>
@@ -70,14 +80,14 @@ a{color:var(--accent2);text-decoration:none}
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <script>
-var map,cl,allData,myChart,Lang="zh",sC=new Set(),sD=new Set();
+var map,cl,allData,myChart,Lang="zh",sC=new Set(),sD=new Set(),pC=new Set(),pD=new Set(),hiddenD=new Set();
 var SC={very_high:"#ff4757",high:"#ffa502",moderate:"#00b4d8",low:"#2ed573",unknown:"#506078"};
 var SO={very_high:0,high:1,moderate:2,low:3,unknown:4};
 var CZH={"AFG":"阿富汗","AGO":"安哥拉","ALB":"阿尔巴尼亚","AMR":"美洲地区","ARE":"阿拉伯联合酋长国","ARG":"阿根廷","ARM":"亚美尼亚","AUS":"澳大利亚","AUT":"奥地利","BDI":"布隆迪","BEL":"比利时","BEN":"贝宁","BFA":"布基纳法索","BGD":"孟加拉国","BGR":"保加利亚","BIH":"波斯尼亚和黑塞哥维那","BOL":"玻利维亚","BRA":"巴西","BRN":"文莱","BTN":"不丹","BWA":"博茨瓦纳","CAF":"中非共和国","CAN":"加拿大","CHE":"瑞士","CHL":"智利","CHN":"中国","CIV":"科特迪瓦","CMR":"喀麦隆","COD":"刚果民主共和国","COG":"刚果共和国","COL":"哥伦比亚","COM":"科摩罗","CRI":"哥斯达黎加","CUB":"古巴","CZE":"捷克共和国","DEU":"德国","DJI":"吉布提","DNK":"丹麦","DOM":"多米尼加共和国","DZA":"阿尔及利亚","ECU":"厄瓜多尔","EGY":"埃及","EMR":"东地中海地区","ERI":"厄立特里亚","ESP":"西班牙","EST":"爱沙尼亚","ETH":"埃塞俄比亚","EUR":"欧洲地区","FIN":"芬兰","FJI":"斐济","FRA":"法国","GAB":"加蓬","GBR":"英国","GEO":"格鲁吉亚","GHA":"加纳","GIN":"几内亚","GLOBAL":"全球","GMB":"冈比亚","GNB":"几内亚比绍","GNQ":"赤道几内亚","GRC":"希腊","GTM":"危地马拉","GUY":"圭亚那","HND":"洪都拉斯","HRV":"克罗地亚","HTI":"海地","HUN":"匈牙利","IDN":"印度尼西亚","IND":"印度","IRL":"爱尔兰","IRN":"伊朗","IRQ":"伊拉克","ISL":"冰岛","ISR":"以色列","ITA":"意大利","JAM":"牙买加","JOR":"约旦","JPN":"日本","KAZ":"哈萨克斯坦","KEN":"肯尼亚","KGZ":"吉尔吉斯斯坦","KHM":"柬埔寨","KOR":"韩国","KWT":"科威特","LAO":"老挝","LBN":"黎巴嫩","LBR":"利比里亚","LBY":"利比亚","LKA":"斯里兰卡","LUX":"卢森堡","LVA":"拉脱维亚","MAR":"摩洛哥","MDA":"摩尔多瓦","MDG":"马达加斯加","MDV":"马尔代夫","MEX":"墨西哥","MLI":"马里","MLT":"马耳他","MMR":"缅甸","MNG":"蒙古","MOZ":"莫桑比克","MRT":"毛里塔尼亚","MUL":"多国","MWI":"马拉维","MYS":"马来西亚","NAM":"纳米比亚","NCL":"新喀里多尼亚","NER":"尼日尔","NGA":"尼日利亚","NIC":"尼加拉瓜","NLD":"荷兰","NOR":"挪威","NPL":"尼泊尔","NZL":"新西兰","OMN":"阿曼","OWID_NAM":"北美洲","OWID_OCE":"大洋洲","OWID_SAM":"南美洲","PAK":"巴基斯坦","PAN":"巴拿马","PER":"秘鲁","PHL":"菲律宾","PNG":"巴布亚新几内亚","POL":"波兰","PRK":"朝鲜","PRT":"葡萄牙","PRY":"巴拉圭","PSE":"巴勒斯坦","QAT":"卡塔尔","ROU":"罗马尼亚","RUS":"俄罗斯","RWA":"卢旺达","SAU":"沙特阿拉伯","SDN":"苏丹","SEAR":"东南亚地区","SEN":"塞内加尔","SGP":"新加坡","SLE":"塞拉利昂","SLV":"萨尔瓦多","SOM":"索马里","SRB":"塞尔维亚","SSD":"南苏丹","SVK":"斯洛伐克","SVN":"斯洛文尼亚","SWE":"瑞典","SWZ":"斯威士兰","SYR":"叙利亚","TCD":"乍得","TGO":"多哥","THA":"泰国","TJK":"塔吉克斯坦","TKM":"土库曼斯坦","TLS":"东帝汶","TTO":"特立尼达和多巴哥","TUN":"突尼斯","TUR":"土耳其","TWN":"台湾","TZA":"坦桑尼亚","UGA":"乌干达","UKR":"乌克兰","URY":"乌拉圭","USA":"美国","UZB":"乌兹别克斯坦","VEN":"委内瑞拉","VNM":"越南","WB_HI":"高收入国家","WB_LI":"低收入国家","WB_LMI":"中低收入国家","WB_UMI":"中高收入国家","WPR":"西太平洋地区","YEM":"也门","ZAF":"南非","ZMB":"赞比亚","ZWE":"津巴布韦"};
-var T={zh:{ac:"活跃疫情",ca:"病例",de:"死亡",cf:"致死率",co:"国家",alc:"所有国家",ald:"所有疾病",br:"突发",cr:"极高",hi:"高",mo:"中等",lo:"低",d7:"7天",d3:"30天",d6:"半年",to:"累计",h2h_desc:"已确认人传人传播",sev_vh_desc:"极高严重：大规模疫情或高致死率",sev_h_desc:"高严重：已报告活跃疫情",sev_m_desc:"中等严重：地方性流行区",sev_l_desc:"低严重：少量病例或无活跃疫情"},en:{ac:"ACTIVE",ca:"CASES",de:"DEATHS",cf:"CFR",co:"COUNTRIES",alc:"All Countries",ald:"All Diseases",br:"BREAKING",cr:"Critical",hi:"High",mo:"Moderate",lo:"Low",d7:"7D",d3:"30D",d6:"6M",to:"Total",h2h_desc:"Transmisión persona a persona confirmada",sev_vh_desc:"Gravedad muy alta",sev_h_desc:"Gravedad alta",sev_m_desc:"Gravedad moderada",sev_l_desc:"Gravedad baja",h2h_desc:"Person-to-person transmission confirmed",sev_vh_desc:"Very high severity: large outbreak or high CFR",sev_h_desc:"High severity: active outbreak reported",sev_m_desc:"Moderate severity: endemic region with steady cases",sev_l_desc:"Low severity: few cases or no active outbreak"},ru:{ac:"АКТИВНЫЕ",ca:"СЛУЧАИ",de:"СМЕРТИ",cf:"ЛЕТ.",co:"СТРАНЫ",alc:"Все страны",ald:"Все болезни",br:"СРОЧНО",cr:"Крит.",hi:"Выс.",mo:"Ум.",lo:"Низ.",d7:"7Д",d3:"30Д",d6:"6М",to:"Всего",h2h_desc:"Подтверждена передача между людьми",sev_vh_desc:"Критический",sev_h_desc:"Высокий",sev_m_desc:"Умеренный",sev_l_desc:"Низкий"},es:{ac:"ACTIVOS",ca:"CASOS",de:"MUERTES",cf:"CFR",co:"PAÍSES",alc:"Todos",ald:"Todas",br:"URGENTE",cr:"Crítico",hi:"Alto",mo:"Moderado",lo:"Bajo",d7:"7D",d3:"30D",d6:"6M",to:"Total",h2h_desc:"Person-to-person transmission confirmed",sev_vh_desc:"Very high severity: large outbreak or high CFR",sev_h_desc:"High severity: active outbreak reported",sev_m_desc:"Moderate severity: endemic region with steady cases",sev_l_desc:"Low severity: few cases or no active outbreak"}};
-var DN={Cholera:{zh:"霍乱"},Dengue:{zh:"登革热"},Measles:{zh:"麻疹"},Hantavirus:{zh:"汉坦病毒"},Mpox:{zh:"猴痘"},"Yellow Fever":{zh:"黄热病"},Diphtheria:{zh:"白喉"},Influenza:{zh:"流感"},"Lassa Fever":{zh:"拉沙热"},"Nipah Virus Infection":{zh:"尼帕病毒"},"Marburg Virus Disease":{zh:"马尔堡"},"Ebola Virus Disease":{zh:"埃博拉"},Poliomyelitis:{zh:"脊髓灰质炎"},Chikungunya:{zh:"基孔肯雅"},"Chikungunya virus disease":{zh:"基孔肯雅"},Malaria:{zh:"疟疾"},"Avian Influenza":{zh:"禽流感"},COVID:{zh:"新冠"},SARS:{zh:"非典"},Plague:{zh:"鼠疫"},Anthrax:{zh:"炭疽"},Rabies:{zh:"狂犬病"},"Rift Valley Fever":{zh:"裂谷热"},"West Nile Virus":{zh:"西尼罗病毒"},"Crimean-Congo Hemorrhagic Fever":{zh:"克里米亚出血热"},"Hepatitis E":{zh:"戊型肝炎"},Legionellosis:{zh:"军团菌病"},"Zika virus disease":{zh:"寨卡"},"Typhoid fever":{zh:"伤寒"},"Novel coronavirus infection":{zh:"新冠"},"Oropouche Virus Disease":{zh:"奥罗普切"},"Sudan Virus Disease":{zh:"苏丹病毒"},"Meningococcal Meningitis":{zh:"脑膜炎"},"Acute Unknown Illness":{zh:"急性未知疾病"},"Japanese Encephalitis":{zh:"日本脑炎"},Rubella:{zh:"风疹"},Mumps:{zh:"腮腾炎"},"Neonatal Tetanus":{zh:"新生儿破伤风"},MERS:{zh:"中东呼吸综合征"},"Middle East respiratory syndrome coronavirus":{zh:"中东呼吸综合征"},"Middle East Respiratory Syndrome Coronavirus":{zh:"中东呼吸综合征"}};
-var TIP={Cholera:{zh:"\u6025\u6027\u8179\u6cfb\u4f20\u67d3\u75c5\u3002\u7531\u970d\u4e71\u5f27\u83cc\u5f15\u8d77\uff0c\u7ecf\u6c61\u67d3\u6c34\u6e90\u4f20\u64ad\u3002\u53ef\u5bfc\u81f4\u4e25\u91cd\u8131\u6c34\uff0c\u4e0d\u6cbb\u5219\u53ef\u81f4\u6b7b\u3002",en:"Acute diarrheal disease caused by Vibrio cholerae. Spread via contaminated water. Can cause severe dehydration and death if untreated.",ru:"\u041e\u0441\u0442\u0440\u043e\u0435 \u0434\u0438\u0430\u0440\u0435\u0439\u043d\u043e\u0435 \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u0435. \u041f\u0435\u0440\u0435\u0434\u0430\u0451\u0442\u0441\u044f \u0447\u0435\u0440\u0435\u0437 \u0437\u0430\u0433\u0440\u044f\u0437\u043d\u0451\u043d\u043d\u0443\u044e \u0432\u043e\u0434\u0443.",es:"Enfermedad diarreica aguda. Se transmite por agua contaminada. Puede causar deshidrataci\u00f3n severa."},"Ebola Virus Disease":{zh:"\u9ad8\u81f4\u6b7b\u7387\u51fa\u8840\u70ed\u3002\u901a\u8fc7\u4f53\u6db2\u4f20\u64ad\uff0cCFR\u53ef\u8fbe90%\u3002\u6f5c\u4f0f\u671f2-21\u5929\u3002",en:"Severe hemorrhagic fever. Spread via bodily fluids. CFR up to 90%. Incubation 2-21 days.",ru:"\u0422\u044f\u0436\u0451\u043b\u0430\u044f \u0433\u0435\u043c\u043e\u0440\u0440\u0430\u0433\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043b\u0438\u0445\u043e\u0440\u0430\u0434\u043a\u0430. \u041a\u0420 90%.",es:"Fiebre hemorr\u00e1gica grave. CFR hasta 90%. Incubaci\u00f3n 2-21 d\u00edas."},Dengue:{zh:"\u868a\u5a92\u75c5\u6bd2\u75c5\u3002\u5168\u7403\u5e74\u611f\u67d3\u7ea63.9\u4ebf\u3002\u91cd\u75c7\u53ef\u5bfc\u81f4\u767b\u9769\u51fa\u8840\u70ed\u3002",en:"Mosquito-borne viral disease. ~390M infections/year globally. Severe form can cause dengue hemorrhagic fever.",ru:"\u041a\u043e\u043c\u0430\u0440\u0438\u043d\u044b\u0439 \u0432\u0438\u0440\u0443\u0441. ~390 \u043c\u043b\u043d \u0437\u0430\u0440\u0430\u0436\u0435\u043d\u0438\u0439/\u0433\u043e\u0434.",es:"Mosquito-borne. ~390M infecciones/a\u00f1o. Forma grave: fiebre hemorr\u00e1gica."},Measles:{zh:"\u9ad8\u4f20\u67d3\u6027\u547c\u5438\u9053\u75c5\u6bd2\u3002\u53ef\u759f\u82d7\u9884\u9632\u3002\u4f20\u67d3\u529b\u6781\u5f3a\uff0cR0=12-18\u3002",en:"Highly contagious respiratory virus. Vaccine-preventable. R0=12-18.",ru:"\u0412\u044b\u0441\u043e\u043a\u043e\u043a\u043e\u043d\u0442\u0430\u0433\u0438\u043e\u0437\u043d\u044b\u0439. \u0412\u0430\u043a\u0446\u0438\u043d\u0438\u0440\u0443\u0435\u043c\u044b\u0439. R0=12-18.",es:"Muy contagioso. Prevenible por vacuna. R0=12-18."},Hantavirus:{zh:"\u5583\u9f7f\u52a8\u7269\u4f20\u64ad\u3002\u5438\u5165\u53d7\u6c61\u67d3\u6c14\u6eb6\u80f6\u611f\u67d3\u3002\u5b89\u7b2c\u65af\u75c5\u6bd2\u662f\u552f\u4e00\u53ef\u4eba\u4f20\u4eba\u7684\u6c49\u5766\u75c5\u6bd2\u3002",en:"Rodent-borne. Inhale aerosolized excreta. Andes virus is the only hantavirus with H2H transmission.",ru:"\u041f\u0435\u0440\u0435\u0434\u0430\u0451\u0442\u0441\u044f \u043e\u0442 \u0433\u0440\u044b\u0437\u0443\u043d\u043e\u0432. \u0412\u0438\u0440\u0443\u0441 \u0410\u043d\u0434\u0435\u0441 \u2014 \u0435\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0441 H2H.",es:"Transmitido por roedores. Andes es el \u00fanico con transmisi\u00f3n H2H."},Mpox:{zh:"\u5bc6\u5207\u63a5\u89e6\u4f20\u64ad\uff0c\u5f15\u8d77\u76ae\u75b9\u548c\u53d1\u70ed\u3002\u6b7b\u4ea1\u7387\u4f4e\uff0c\u4f46\u53ef\u4f20\u64ad\u3002",en:"Close-contact transmission. Causes rash and fever. Low mortality but transmissible.",ru:"\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u043d\u044b\u0439 \u043f\u0443\u0442\u044c. \u0412\u044b\u0437\u044b\u0432\u0430\u0435\u0442 \u0441\u044b\u043f\u044c \u0438 \u043b\u0438\u0445\u043e\u0440\u0430\u0434\u043a\u0443.",es:"Transmisi\u00f3n por contacto. Causa erupci\u00f3n y fiebre."},"Yellow Fever":{zh:"\u868a\u5a92\u51fa\u8840\u70ed\uff0c\u6709\u759f\u82d7\u53ef\u9884\u9632\u3002\u975e\u6d32\u548c\u5357\u7f8e\u6d41\u884c\u3002",en:"Mosquito-borne hemorrhagic fever. Vaccine-preventable. Endemic in Africa/South America.",ru:"\u041a\u043e\u043c\u0430\u0440\u0438\u043d\u0430\u044f \u0433\u0435\u043c\u043e\u0440\u0440\u0430\u0433\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043b\u0438\u0445\u043e\u0440\u0430\u0434\u043a\u0430.",es:"Fiebre hemorr\u00e1gica. Prevenible por vacuna."},Diphtheria:{zh:"\u767d\u5589\u6746\u83cc\u5f15\u8d77\u7684\u7ec6\u83cc\u611f\u67d3\u3002\u53ef\u759f\u82d7\u9884\u9632\u3002",en:"Bacterial infection by Corynebacterium diphtheriae. Vaccine-preventable.",ru:"\u0411\u0430\u043a\u0442\u0435\u0440\u0438\u0430\u043b\u044c\u043d\u0430\u044f \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u044f. \u0412\u0430\u043a\u0446\u0438\u043d\u0438\u0440\u0443\u0435\u043c\u0430\u044f.",es:"Infecci\u00f3n bacteriana. Prevenible por vacuna."},Influenza:{zh:"\u6d41\u611f\u75c5\u6bd2\u5f15\u8d77\u7684\u547c\u5438\u9053\u611f\u67d3\u3002\u5e74\u91cd\u75c7300-500\u4e07\u4f8b\u3002",en:"Respiratory infection by influenza viruses. 3-5M severe cases/year.",ru:"\u0420\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u043d\u0430\u044f \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u044f. 3-5 \u043c\u043b\u043d \u0442\u044f\u0436\u0451\u043b\u044b\u0445 \u0441\u043b\u0443\u0447\u0430\u0435\u0432/\u0433\u043e\u0434.",es:"Infecci\u00f3n respiratoria. 3-5M casos graves/a\u00f1o."},"Lassa Fever":{zh:"\u5583\u9f7f\u52a8\u7269\u4f20\u64ad\u51fa\u8840\u70ed\u3002\u897f\u975e\u6d41\u884c\u3002",en:"Rodent-borne hemorrhagic fever. Endemic in West Africa.",ru:"\u0413\u0440\u044b\u0437\u0443\u043d\u0438\u043d\u0430\u044f \u0433\u0435\u043c\u043e\u0440\u0440\u0430\u0433\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043b\u0438\u0445\u043e\u0440\u0430\u0434\u043a\u0430.",es:"Fiebre hemorr\u00e1gica por roedores. End\u00e9mica en \u00c1frica occidental."},"Nipah Virus Infection":{zh:"\u679c\u8760\u4f20\u64ad\uff0c\u53ef\u4eba\u4f20\u4eba\u3002CFR 40-75%\u3002",en:"From fruit bats. Can transmit H2H. CFR 40-75%.",ru:"\u041e\u0442 \u043f\u043b\u043e\u0434\u043e\u0432\u044b\u0445 \u043b\u0435\u0442\u0443\u0447\u0435\u0439. H2H. CFR 40-75%.",es:"De murci\u00e9lagos. H2H posible. CFR 40-75%."},"Marburg Virus Disease":{zh:"\u4e25\u91cd\u51fa\u8840\u70ed\uff0c\u4e0e\u57c3\u535a\u62c9\u76f8\u4f3c\u3002CFR\u53ef\u8fbe88%\u3002",en:"Severe hemorrhagic fever, similar to Ebola. CFR up to 88%.",ru:"\u0422\u044f\u0436\u0451\u043b\u0430\u044f \u0433\u0435\u043c\u043e\u0440\u0440\u0430\u0433\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043b\u0438\u0445\u043e\u0440\u0430\u0434\u043a\u0430. CFR 88%.",es:"Fiebre hemorr\u00e1gica grave. CFR hasta 88%."},Malaria:{zh:"\u868a\u5a92\u5bc4\u751f\u866b\u75c5\u3002\u5e74\u6b7b\u4ea1\u7ea660\u4e07\u3002\u53ef\u759f\u82d7\u9884\u9632\u3002",en:"Mosquito-borne parasitic disease. ~600K deaths/year. Preventable.",ru:"\u041c\u0430\u043b\u044f\u0440\u0438\u044f. ~600 \u0442\u044b\u0441. \u0441\u043c\u0435\u0440\u0442\u0435\u0439/\u0433\u043e\u0434.",es:"Malaria. ~600K muertes/a\u00f1o. Prevenible."},"Avian Influenza":{zh:"\u79bd\u6d41\u611f\uff0c\u5076\u53d1\u4eba\u7c7b\u611f\u67d3\u3002\u81f4\u6b7b\u7387\u9ad8\u4f46\u4f20\u64ad\u6709\u9650\u3002",en:"Bird flu. Occasional human spillover. High CFR but limited spread.",ru:"\u041f\u0442\u0438\u0447\u0438\u0439 \u0433\u0440\u0438\u043f\u043f. \u0412\u044b\u0441\u043e\u043a\u0438\u0439 \u041a\u0420 \u043d\u043e \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u043e\u0435 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u0438\u0435.",es:"Gripe aviar. Alto CFR pero propagaci\u00f3n limitada."},COVID:{zh:"\u65b0\u578b\u51a0\u72b6\u75c5\u6bd2\uff0c2019\u5e74\u8d77\u5168\u7403\u5927\u6d41\u884c\u3002",en:"SARS-CoV-2. Global pandemic since 2019.",ru:"SARS-CoV-2. \u041f\u0430\u043d\u0434\u0435\u043c\u0438\u044f \u0441 2019.",es:"SARS-CoV-2. Pandemia global desde 2019."},Plague:{zh:"\u9f20\u75ab\u6746\u83cc\uff0c\u8df3\u86a4\u4f20\u64ad\u3002\u4e0d\u6cbb\u5219\u53ef\u81f4\u6b7b\u3002",en:"Yersinia pestis. Flea-borne. Fatal without treatment.",ru:"\u0427\u0443\u043c\u043d\u0430\u044f \u043f\u0430\u043b\u043e\u0447\u043a\u0430. \u0421\u043c\u0435\u0440\u0442\u0435\u043b\u044c\u043d\u0430 \u0431\u0435\u0437 \u043b\u0435\u0447\u0435\u043d\u0438\u044f.",es:"Yersinia pestis. Mortal sin tratamiento."}};
-var AL={"新冠":["COVID","Novel coronavirus"],"covid":["COVID"],"ebola":["Ebola Virus Disease"],"埃博拉":["Ebola Virus Disease"],"霍乱":["Cholera"],"cholera":["Cholera"],"登革热":["Dengue"],"dengue":["Dengue"],"麻疹":["Measles"],"measles":["Measles"],"汉坦":["Hantavirus"],"hanta":["Hantavirus"],"猴痘":["Mpox"],"monkeypox":["Mpox"],"禽流感":["Avian Influenza"],"bird flu":["Avian Influenza"],"流感":["Influenza"],"flu":["Influenza"],"疟疾":["Malaria"],"malaria":["Malaria"],"鼠疫":["Plague"],"plague":["Plague"],"非典":["SARS"],"sars":["SARS"],"脑膜炎":["Meningococcal Meningitis"],"伤寒":["Typhoid fever"],"typhoid":["Typhoid fever"],"狂犬病":["Rabies"],"rabies":["Rabies"],"寨卡":["Zika virus disease"],"zika":["Zika virus disease"],"黄热":["Yellow Fever"],"拉沙":["Lassa Fever"],"尼帕":["Nipah Virus Infection"],"马尔堡":["Marburg Virus Disease"],"白喉":["Diphtheria"]};
+var T={zh:{ac:"活跃疫情",ca:"病例",de:"死亡",cf:"致死率",co:"国家",alc:"所有国家",ald:"所有疾病",br:"突发",cr:"极高",hi:"高",mo:"中等",lo:"低",d7:"7天",d3:"30天",d6:"半年",to:"累计"},en:{ac:"ACTIVE",ca:"CASES",de:"DEATHS",cf:"CFR",co:"COUNTRIES",alc:"All Countries",ald:"All Diseases",br:"BREAKING",cr:"Critical",hi:"High",mo:"Moderate",lo:"Low",d7:"7D",d3:"30D",d6:"6M",to:"Total"},ru:{ac:"АКТИВНЫЕ",ca:"СЛУЧАИ",de:"СМЕРТИ",cf:"ЛЕТ.",co:"СТРАНЫ",alc:"Все страны",ald:"Все болезни",br:"СРОЧНО",cr:"Крит.",hi:"Выс.",mo:"Ум.",lo:"Низ.",d7:"7Д",d3:"30Д",d6:"6М",to:"Всего"},es:{ac:"ACTIVOS",ca:"CASOS",de:"MUERTES",cf:"CFR",co:"PAÍSES",alc:"Todos",ald:"Todas",br:"URGENTE",cr:"Crítico",hi:"Alto",mo:"Moderado",lo:"Bajo",d7:"7D",d3:"30D",d6:"6M",to:"Total"}};
+var DN={Cholera:{zh:"霍乱"},Dengue:{zh:"登革热"},Measles:{zh:"麻疹"},Hantavirus:{zh:"汉坦病毒"},Mpox:{zh:"猴痘"},"Yellow Fever":{zh:"黄热病"},Diphtheria:{zh:"白喉"},Influenza:{zh:"流感"},"Lassa Fever":{zh:"拉沙热"},"Nipah Virus Infection":{zh:"尼帕病毒"},"Marburg Virus Disease":{zh:"马尔堡"},"Ebola Virus Disease":{zh:"埃博拉"},Poliomyelitis:{zh:"脊髓灰质炎"},Chikungunya:{zh:"基孔肯雅"},Malaria:{zh:"疟疾"},"Avian Influenza":{zh:"禽流感"},COVID:{zh:"新冠"},SARS:{zh:"非典"},Plague:{zh:"鼠疫"},Anthrax:{zh:"炭疽"},Rabies:{zh:"狂犬病"},"Rift Valley Fever":{zh:"裂谷热"},"West Nile Virus":{zh:"西尼罗病毒"},"Crimean-Congo Hemorrhagic Fever":{zh:"克里米亚出血热"},"Hepatitis E":{zh:"戊型肝炎"},Legionellosis:{zh:"军团菌病"},"Zika virus disease":{zh:"寨卡"},"Typhoid fever":{zh:"伤寒"},"Novel coronavirus infection":{zh:"新冠"},"Oropouche Virus Disease":{zh:"奥罗普切"},"Sudan Virus Disease":{zh:"苏丹病毒"},"Meningococcal Meningitis":{zh:"脑膜炎"},"Acute Unknown Illness":{zh:"急性未知疾病"},"Japanese Encephalitis":{zh:"日本脑炎"},Rubella:{zh:"风疹"},Mumps:{zh:"腮腾炎"},"Neonatal Tetanus":{zh:"新生儿破伤风"},MERS:{zh:"中东呼吸综合征"},"Middle East respiratory syndrome coronavirus":{zh:"中东呼吸综合征"},"Middle East Respiratory Syndrome Coronavirus":{zh:"中东呼吸综合征"}};
+var TIP={Cholera:{zh:"急性腹泻传染病。由霍乱弧菌引起，经污染水源传播。",en:"Acute diarrheal disease caused by Vibrio cholerae via contaminated water."},"Ebola Virus Disease":{zh:"高致死率出血热。通过体液传播，CFR可达90%。",en:"Severe hemorrhagic fever. CFR up to 90%."},Dengue:{zh:"蚊媒病毒病。全球年感染约3.9亿。",en:"Mosquito-borne viral disease. ~390M infections/year."},Measles:{zh:"高传染性呼吸道病毒。可疟苗预防。",en:"Highly contagious respiratory virus. Vaccine-preventable."},Hantavirus:{zh:"喃齿动物传播。安第斯病毒可人传人。",en:"Rodent-borne. Andes virus H2H capable."},Mpox:{zh:"密切接触传播，引起皮疹。",en:"Close-contact transmission. Causes rash."},Influenza:{zh:"呼吸道传染病。",en:"Respiratory infection."},Malaria:{zh:"蚊媒寄生虫病。年死亡约60万。",en:"Mosquito-borne parasite. ~600K deaths/year."},"Avian Influenza":{zh:"禽流感，偶发人类感染。",en:"Bird flu. Occasional human spillover."},COVID:{zh:"新型冠状病毒。",en:"SARS-CoV-2."},Plague:{zh:"鼠疫杆菌，跳蚤传播。",en:"Yersinia pestis. Flea-borne."}};
+var AL={"新冠":["COVID"],"covid":["COVID"],"ebola":["Ebola Virus Disease"],"埃博拉":["Ebola Virus Disease"],"霍乱":["Cholera"],"cholera":["Cholera"],"登革热":["Dengue"],"dengue":["Dengue"],"麻疹":["Measles"],"measles":["Measles"],"汉坦":["Hantavirus"],"hanta":["Hantavirus"],"猴痘":["Mpox"],"monkeypox":["Mpox"],"禽流感":["Avian Influenza"],"bird flu":["Avian Influenza"],"流感":["Influenza"],"flu":["Influenza"],"疟疾":["Malaria"],"malaria":["Malaria"],"鼠疫":["Plague"],"plague":["Plague"],"非典":["SARS"],"sars":["SARS"],"脑膜炎":["Meningococcal Meningitis"],"伤寒":["Typhoid fever"],"typhoid":["Typhoid fever"],"狂犬病":["Rabies"],"rabies":["Rabies"],"寨卡":["Zika virus disease"],"zika":["Zika virus disease"],"黄热":["Yellow Fever"],"拉沙":["Lassa Fever"],"尼帕":["Nipah Virus Infection"],"马尔堡":["Marburg Virus Disease"],"白喉":["Diphtheria"]};
 
 function i(k){return(T[Lang]&&T[Lang][k])||T.en[k]||k}
 function dn(n){if(Lang==="en")return n;return(DN[n]&&DN[n][Lang])||n}
@@ -86,64 +96,122 @@ function fmt(n){if(!n)return"\u2014";if(n>=1e6)return(n/1e6).toFixed(1)+"M";if(n
 function pct(a,b){return b>0?((a/b)*100).toFixed(1)+"%":"\u2014"}
 function tp(n){var t=TIP[n];return t?(t[Lang]||t.en||""):""}
 function sL(s){return s==="very_high"?i("cr"):s==="high"?i("hi"):s==="moderate"?i("mo"):i("lo")}
-var hiddenD=new Set();
-function hideDisease(d){hiddenD.add(d);if(allData)render(allData)}
-function setLang(l){
-    Lang=l;
-    document.getElementById("cbtn").textContent=sC.size===0?i("alc"):(sC.size===1?cn(Array.from(sC)[0]):sC.size+" "+i("co"));
-    document.getElementById("dbtn").textContent=sD.size===0?i("ald"):(sD.size===1?dn(Array.from(sD)[0]):sD.size+" "+i("ald"));
-    popD();
-    if(allData)render(allData);
-}
+function setLang(l){Lang=l;uB();popD();if(allData)render(allData)}
 function cloN(){document.getElementById("nbg").classList.remove("op")}
 function cloD(){document.getElementById("dbg").classList.remove("op")}
-function resetAll(){sC.clear();sD.clear();document.getElementById("cbtn").textContent=i("alc");document.getElementById("dbtn").textContent=i("ald");document.getElementById("cbtn").classList.remove("hv");document.getElementById("dbtn").classList.remove("hv");closD();if(allData)render(allData);if(map)map.flyTo([20,0],2,{duration:0.5})}
+function resetAll(){sC.clear();sD.clear();pC.clear();pD.clear();hiddenD.clear();document.getElementById("cbtn").textContent=i("alc");document.getElementById("dbtn").textContent=i("ald");document.getElementById("cbtn").classList.remove("hv");document.getElementById("dbtn").classList.remove("hv");closD();if(allData)render(allData);if(map)map.flyTo([20,0],2,{duration:0.5})}
 function togD(t){var dd=document.getElementById(t==="c"?"cdd":"ddd");var o=dd.classList.contains("op");closD();if(!o)dd.classList.add("op")}
 function closD(){document.getElementById("cdd").classList.remove("op");document.getElementById("ddd").classList.remove("op")}
 function filD(t,q){var o=document.getElementById(t==="c"?"copts":"dopts").children;q=q.toLowerCase();for(var j=0;j<o.length;j++){var tx=o[j].textContent.toLowerCase();o[j].style.display=tx.indexOf(q)>=0?"":"none"}}
-var pC=new Set(),pD=new Set();
+function hideDisease(d){hiddenD.add(d);if(allData)render(allData)}
+
 function popD(){
     if(!allData)return;
     pC=new Set(sC);pD=new Set(sD);
-    var co={},di={};allData.outbreaks.forEach(function(x){if(x.country_iso3)co[x.country_iso3]=1;di[x.disease]=1});var ch="";Object.keys(co).sort(function(a,b){return cn(a).localeCompare(cn(b))}).forEach(function(iso){ch+='<div class="o'+(sC.has(iso)?" sl":"")+'" onclick="tSC(\''+iso+'\')"><span class="c"></span>'+cn(iso)+'</div>'});ch+=`<div style="padding:8px;display:flex;gap:6px;border-top:1px solid var(--border);position:sticky;bottom:0;background:var(--card)"><button class="rb" onclick="cancelC()" style="flex:1">✕</button><button onclick="confirmC()" style="flex:1;background:var(--accent);color:var(--bg);border:none;padding:4px 8px;border-radius:4px;font-size:11px;cursor:pointer;font-family:inherit">✓</button></div>`;
-    document.getElementById("copts").innerHTML=ch;var dh="";Object.keys(di).sort(function(a,b){return dn(a).localeCompare(dn(b))}).forEach(function(d){dh+='<div class="o'+(sD.has(d)?" sl":"")+'" onclick="tSD(\''+d.replace(/'/g,"\\'")+'\')"><span class="c"></span>'+dn(d)+'</div>'});dh+=`<div style="padding:8px;display:flex;gap:6px;border-top:1px solid var(--border);position:sticky;bottom:0;background:var(--card)"><button class="rb" onclick="cancelD()" style="flex:1">✕</button><button onclick="confirmD()" style="flex:1;background:var(--accent);color:var(--bg);border:none;padding:4px 8px;border-radius:4px;font-size:11px;cursor:pointer;font-family:inherit">✓</button></div>`;
-    document.getElementById("dopts").innerHTML=dh;uB()}
-function tSC(iso){pC.has(iso)?pC.delete(iso):pC.add(iso);popD_noApply()}
-function confirmC(){sC=new Set(pC);closD();doF();uB()}
-function cancelC(){pC.clear();sC.clear();closD();popD();doF();uB()}
-function tSD(d){pD.has(d)?pD.delete(d):pD.add(d);popD_noApply()}
-function confirmD(){sD=new Set(pD);closD();doF();uB()}
-function cancelD(){pD.clear();sD.clear();closD();popD();doF();uB()}
-function popD_noApply(){
-    if(!allData)return;
     var co={},di={};
     allData.outbreaks.forEach(function(x){if(x.country_iso3)co[x.country_iso3]=1;di[x.disease]=1});
     var ch="";Object.keys(co).sort(function(a,b){return cn(a).localeCompare(cn(b))}).forEach(function(iso){
-        ch+=`<div class="o${pC.has(iso)?" sl":""}" onclick="tSC('${iso}')"><span class="c"></span>${cn(iso)}</div>`;
+        ch+="<div class='o"+(pC.has(iso)?" sl":"")+"' onclick='tSC(\""+iso+"\")'><span class='c'></span>"+cn(iso)+"</div>";
     });
-    ch+=`<div style="padding:8px;display:flex;gap:6px;border-top:1px solid var(--border);position:sticky;bottom:0;background:var(--card)"><button class="rb" onclick="cancelC()" style="flex:1">✕</button><button onclick="confirmC()" style="flex:1;background:var(--accent);color:var(--bg);border:none;padding:4px 8px;border-radius:4px;font-size:11px;cursor:pointer;font-family:inherit">✓</button></div>`;
+    ch+="<div style='padding:8px;display:flex;gap:6px;border-top:1px solid var(--border);position:sticky;bottom:0;background:var(--card)'><button class='rb' onclick='cancelC()' style='flex:1'>\u2715</button><button onclick='confirmC()' style='flex:1;background:var(--accent);color:var(--bg);border:none;padding:4px 8px;border-radius:4px;font-size:11px;cursor:pointer;font-family:inherit'>\u2713</button></div>";
     document.getElementById("copts").innerHTML=ch;
     var dh="";Object.keys(di).sort(function(a,b){return dn(a).localeCompare(dn(b))}).forEach(function(d){
-        dh+=`<div class="o${pD.has(d)?" sl":""}" onclick="tSD('${d.replace(/'/g,"\'")}')"><span class="c"></span>${dn(d)}</div>`;
+        dh+="<div class='o"+(pD.has(d)?" sl":"")+"' onclick='tSD(\""+d.replace(/'/g,"\\'")+"\")'><span class='c'></span>"+dn(d)+"</div>";
     });
-    dh+=`<div style="padding:8px;display:flex;gap:6px;border-top:1px solid var(--border);position:sticky;bottom:0;background:var(--card)"><button class="rb" onclick="cancelD()" style="flex:1">✕</button><button onclick="confirmD()" style="flex:1;background:var(--accent);color:var(--bg);border:none;padding:4px 8px;border-radius:4px;font-size:11px;cursor:pointer;font-family:inherit">✓</button></div>`;
+    dh+="<div style='padding:8px;display:flex;gap:6px;border-top:1px solid var(--border);position:sticky;bottom:0;background:var(--card)'><button class='rb' onclick='cancelD()' style='flex:1'>\u2715</button><button onclick='confirmD()' style='flex:1;background:var(--accent);color:var(--bg);border:none;padding:4px 8px;border-radius:4px;font-size:11px;cursor:pointer;font-family:inherit'>\u2713</button></div>";
     document.getElementById("dopts").innerHTML=dh;
     uB();
 }
-function uB(){var cb=document.getElementById("cbtn"),db=document.getElementById("dbtn");if(sC.size===0){cb.textContent=i("alc");cb.classList.remove("hv")}else if(sC.size===1){cb.textContent=cn(Array.from(sC)[0]);cb.classList.add("hv")}else{cb.textContent=sC.size+" "+i("co");cb.classList.add("hv")}if(sD.size===0){db.textContent=i("ald");db.classList.remove("hv")}else if(sD.size===1){db.textContent=dn(Array.from(sD)[0]);db.classList.add("hv")}else{db.textContent=sD.size+" "+i("ald");db.classList.add("hv")}}
+
+function tSC(iso){pC.has(iso)?pC.delete(iso):pC.add(iso);popD()}
+function confirmC(){sC=new Set(pC);closD();if(allData)render(allData)}
+function cancelC(){pC=new Set(sC);closD();uB()}
+function tSD(d){pD.has(d)?pD.delete(d):pD.add(d);popD()}
+function confirmD(){sD=new Set(pD);closD();if(allData)render(allData)}
+function cancelD(){pD=new Set(sD);closD();uB()}
+
+function uB(){
+    var cb=document.getElementById("cbtn"),db=document.getElementById("dbtn");
+    if(sC.size===0){cb.textContent=i("alc");cb.classList.remove("hv")}
+    else if(sC.size===1){cb.textContent=cn(Array.from(sC)[0]);cb.classList.add("hv")}
+    else{cb.textContent=sC.size+" "+i("co");cb.classList.add("hv")}
+    if(sD.size===0){db.textContent=i("ald");db.classList.remove("hv")}
+    else if(sD.size===1){db.textContent=dn(Array.from(sD)[0]);db.classList.add("hv")}
+    else{db.textContent=sD.size+" "+i("ald");db.classList.add("hv")}
+}
+
 function doF(){closD();if(allData)render(allData)}
-function init(){map=L.map("map",{zoomControl:true,attributionControl:false}).setView([20,0],2);L.tileLayer("https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",{maxZoom:18}).addTo(map);cl=L.markerClusterGroup({maxClusterRadius:50,showCoverageOnHover:false,iconCreateFunction:function(c){var n=c.getChildCount(),r=n<5?18:n<15?26:n<50?34:42;return L.divIcon({html:'<div style="width:'+r+'px;height:'+r+'px;border-radius:50%;background:rgba(0,212,170,0.2);border:2px solid rgba(0,212,170,0.5);display:flex;align-items:center;justify-content:center;color:#00d4aa;font-weight:700;font-size:'+(r<26?10:12)+'px">'+n+'</div>',className:"",iconSize:[r,r]})}});map.addLayer(cl);ld();setInterval(ld,600000);window.addEventListener("resize",function(){map.invalidateSize()});document.addEventListener("click",function(e){if(!e.target.closest(".ms"))closD()})}
-function ld(){fetch("data/epidemics.json?t="+Date.now()).then(function(r){return r.json()}).then(function(d){allData=d;popD();render(d)}).catch(function(e){console.error(e)})}
-function render(d){var o=d.outbreaks.slice();if(sC.size>0)o=o.filter(function(x){return sC.has(x.country_iso3)});if(sD.size>0)o=o.filter(function(x){return sD.has(x.disease)});o=o.filter(function(x){return !hiddenD.has(x.disease)});if(sC.size>0||sD.size>0){var pts=o.filter(function(x){return x.latitude});if(pts.length){var lt=pts.reduce(function(s,x){return s+x.latitude},0)/pts.length;var ln=pts.reduce(function(s,x){return s+x.longitude},0)/pts.length;map.flyTo([lt,ln],sD.size===1?3:5,{duration:1})}}var tc=0,td=0;o.forEach(function(x){tc+=x.cases||0;td+=x.deaths||0});document.getElementById("stats").innerHTML='<div class="si"><div class="sv">'+o.length+'</div><div class="sl">'+i("ac")+'</div></div><div class="si"><div class="sv">'+fmt(tc||null)+'</div><div class="sl">'+i("ca")+'</div></div><div class="si"><div class="sv">'+fmt(td||null)+'</div><div class="sl">'+i("de")+'</div></div><div class="si"><div class="sv">'+pct(td,tc)+'</div><div class="sl">'+i("cf")+'</div></div><div class="si"><div class="sv">'+new Set(o.map(function(x){return x.country_iso3})).size+'</div><div class="sl">'+i("co")+'</div></div>';rM(o);rN(d.outbreaks);rS(o)}
-function rM(o){cl.clearLayers();o.forEach(function(x){if(!x.latitude)return;var c=SC[x.severity]||"#506078",r=Math.max(4,Math.min(18,Math.sqrt(x.cases||1)*1.1));var m=L.circleMarker([x.latitude,x.longitude],{radius:r,color:c,fillColor:c,fillOpacity:0.4,weight:1.5});m.bindPopup("<b>"+dn(x.disease)+"</b>"+(x.h2h_transmission?" <b style='color:#ff4757'>H2H</b>":"")+"<br>\ud83d\udccd "+cn(x.country_iso3)+"<br>"+i("ca")+": <b>"+fmt(x.cases)+"</b> \xb7 "+i("de")+": <b>"+fmt(x.deaths)+"</b>"+(x.source_url?"<br><a href='"+x.source_url+"' target='_blank'>WHO \u2192</a>":""));cl.addLayer(m)})}
-function rN(o){var top=o.filter(function(x){return x.description&&x.cases>0}).sort(function(a,b){return new Date(b.date_reported)-new Date(a.date_reported)}).slice(0,12);var h="";top.forEach(function(x){h+='<div class="ni"><span class="d">\u25cf</span>'+dn(x.disease)+" \u2014 "+cn(x.country_iso3)+": "+(x.description||"").substring(0,55)+"</div>"});document.getElementById("nlist").innerHTML=h+h}
+
+function init(){
+    map=L.map("map",{zoomControl:true,attributionControl:false}).setView([20,0],2);
+    L.tileLayer("https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",{maxZoom:18}).addTo(map);
+    cl=L.markerClusterGroup({maxClusterRadius:50,showCoverageOnHover:false,iconCreateFunction:function(c){
+        var n=c.getChildCount(),r=n<5?18:n<15?26:n<50?34:42;
+        return L.divIcon({html:'<div style="width:'+r+'px;height:'+r+'px;border-radius:50%;background:rgba(0,212,170,0.2);border:2px solid rgba(0,212,170,0.5);display:flex;align-items:center;justify-content:center;color:#00d4aa;font-weight:700;font-size:'+(r<26?10:12)+'px">'+n+'</div>',className:"",iconSize:[r,r]});
+    }});
+    map.addLayer(cl);
+    ld();setInterval(ld,600000);
+    window.addEventListener("resize",function(){map.invalidateSize()});
+    document.addEventListener("click",function(e){if(!e.target.closest(".ms"))closD()});
+}
+
+function ld(){
+    fetch("data/epidemics.json?t="+Date.now()).then(function(r){return r.json()}).then(function(d){
+        allData=d;popD();render(d);
+    }).catch(function(e){console.error(e)});
+}
+
+function render(d){
+    var o=d.outbreaks.slice();
+    if(sC.size>0)o=o.filter(function(x){return sC.has(x.country_iso3)});
+    if(sD.size>0)o=o.filter(function(x){return sD.has(x.disease)});
+    o=o.filter(function(x){return !hiddenD.has(x.disease)});
+    if(sC.size>0||sD.size>0){
+        var pts=o.filter(function(x){return x.latitude});
+        if(pts.length){
+            var lt=pts.reduce(function(s,x){return s+x.latitude},0)/pts.length;
+            var ln=pts.reduce(function(s,x){return s+x.longitude},0)/pts.length;
+            map.flyTo([lt,ln],sD.size===1?3:5,{duration:1});
+        }
+    }
+    var tc=0,td=0;
+    o.forEach(function(x){tc+=x.cases||0;td+=x.deaths||0});
+    document.getElementById("stats").innerHTML=
+        '<div class="si"><div class="sv">'+o.length+'</div><div class="sl">'+i("ac")+'</div></div>'+
+        '<div class="si"><div class="sv">'+fmt(tc||null)+'</div><div class="sl">'+i("ca")+'</div></div>'+
+        '<div class="si"><div class="sv">'+fmt(td||null)+'</div><div class="sl">'+i("de")+'</div></div>'+
+        '<div class="si"><div class="sv">'+pct(td,tc)+'</div><div class="sl">'+i("cf")+'</div></div>'+
+        '<div class="si"><div class="sv">'+new Set(o.map(function(x){return x.country_iso3})).size+'</div><div class="sl">'+i("co")+'</div></div>';
+    rM(o);rN(d.outbreaks);rS(o);
+}
+
+function rM(o){
+    cl.clearLayers();
+    o.forEach(function(x){
+        if(!x.latitude)return;
+        var c=SC[x.severity]||"#506078",r=Math.max(4,Math.min(18,Math.sqrt(x.cases||1)*1.1));
+        var m=L.circleMarker([x.latitude,x.longitude],{radius:r,color:c,fillColor:c,fillOpacity:0.4,weight:1.5});
+        m.bindPopup("<b>"+dn(x.disease)+"</b>"+(x.h2h_transmission?" <b style='color:#ff4757'>H2H</b>":"")+"<br>\ud83d\udccd "+cn(x.country_iso3)+"<br>"+i("ca")+": <b>"+fmt(x.cases)+"</b> \xb7 "+i("de")+": <b>"+fmt(x.deaths)+"</b>"+(x.source_url?"<br><a href='"+x.source_url+"' target='_blank'>WHO \u2192</a>":""));
+        cl.addLayer(m);
+    });
+}
+
+function rN(o){
+    var top=o.filter(function(x){return x.description&&x.cases>0}).sort(function(a,b){return new Date(b.date_reported)-new Date(a.date_reported)}).slice(0,12);
+    var h="";
+    top.forEach(function(x){
+        var d=x.date_reported?new Date(x.date_reported).toLocaleDateString():"";
+        h+="<div class='ni'><span class='d'>\u25cf</span>"+dn(x.disease)+" \u2014 "+cn(x.country_iso3)+": "+(x.description||"").substring(0,55)+"</div>";
+    });
+    document.getElementById("nlist").innerHTML=h+h;
+}
+
 function rS(o){
     var g={};
     o.forEach(function(x){
         var k=x.disease;
         if(!g[k])g[k]={disease:k,cases:0,deaths:0,severity:"low",h2h:false,countries:new Set()};
-        var d=g[k];
-        d.cases+=x.cases||0;d.deaths+=x.deaths||0;
+        var d=g[k];d.cases+=x.cases||0;d.deaths+=x.deaths||0;
         d.countries.add(x.country_iso3);
         if(x.h2h_transmission)d.h2h=true;
         if((SO[x.severity]||9)<(SO[d.severity]||9))d.severity=x.severity;
@@ -154,25 +222,76 @@ function rS(o){
         var cls=x.severity==="very_high"?"c1":x.severity==="high"?"c2":x.severity==="moderate"?"c3":"c4";
         var bg=x.severity==="very_high"?"b1":x.severity==="high"?"b2":x.severity==="moderate"?"b3":"b4";
         var tip=tp(x.disease);
-        var tt=tip?`<span class="tp">${tip}</span>`:"";
-        var h2h=x.h2h?`<span class="tg th badge-tip">H2H<span class="badge-desc">${i("h2h_desc")}</span></span>`:"";
-        var sevTip=x.severity==="very_high"?i("sev_vh_desc"):x.severity==="high"?i("sev_h_desc"):x.severity==="moderate"?i("sev_m_desc"):i("sev_l_desc");
-        var sevBadge=`<span class="bg ${bg} badge-tip">${sL(x.severity)}<span class="badge-desc">${sevTip}</span></span>`;
-        h+=`<div class="card ${cls}" data-d="${x.disease}" onclick="filterDisease(this.dataset.d)">`;
-        h+=`<div class="ch"><span class="cn">${dn(x.disease)}${tt}</span><span class="bg ${bg}">${sL(x.severity)}</span></div>`;
-        h+=`<div class="ci">${x.countries.size} ${i("co")}</div>`;
-        h+=`<div class="cn2"><span>${i("ca")}: <b>${fmt(x.cases)}</b></span><span>${i("de")}: <b>${fmt(x.deaths)}</b></span><span>CFR: ${pct(x.deaths,x.cases)}</span></div>`;
-        h+=`<div class="ct">${h2h}<button class="vbtn" onclick="event.stopPropagation();hideDisease('${x.disease.replace(/'/g,"\\'")}')" style="background:var(--border);color:var(--muted)">✕</button><button class="vbtn" onclick="event.stopPropagation();opD('${x.disease.replace(/'/g,"\'")}')">查看数据</button></div></div>`;
+        var tt=tip?'<span class="tp">'+tip+'</span>':"";
+        var h2h=x.h2h?'<span class="tg th">H2H</span>':"";
+        var sevTip=x.severity==="very_high"?"Very high severity":x.severity==="high"?"High severity":x.severity==="moderate"?"Moderate severity":"Low severity";
+        h+="<div class='card "+cls+"' data-d='"+x.disease+"' onclick='opD(this.dataset.d)'>";
+        h+="<div class='ch'><span class='cn'>"+dn(x.disease)+tt+"</span><span class='bg "+bg+"'>"+sL(x.severity)+"</span></div>";
+        h+="<div class='ci'>"+x.countries.size+" "+i("co")+"</div>";
+        h+="<div class='cn2'><span>"+i("ca")+": <b>"+fmt(x.cases)+"</b></span><span>"+i("de")+": <b>"+fmt(x.deaths)+"</b></span><span>CFR: "+pct(x.deaths,x.cases)+"</span></div>";
+        h+="<div class='ct'>"+h2h+"<button class='hide-btn' onclick='event.stopPropagation();hideDisease(\""+x.disease+"\")'>\u2715</button></div></div>";
     });
     document.getElementById("side").innerHTML=h;
 }
 
-function filterDisease(disease){
-    sD.clear();sD.add(disease);popD();doF();
+function openNews(){
+    if(!allData)return;
+    var o=allData.outbreaks.filter(function(x){return x.description&&x.cases>0}).sort(function(a,b){return new Date(b.date_reported)-new Date(a.date_reported)}).slice(0,30);
+    var h="";
+    o.forEach(function(x){
+        var d=x.date_reported?new Date(x.date_reported).toLocaleDateString():"";
+        h+="<div style='padding:10px 0;border-bottom:1px solid var(--border)'>";
+        h+="<div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:4px'>";
+        h+="<b style='color:var(--bright)'>"+dn(x.disease)+"</b>";
+        h+="<span style='font-size:10px;color:var(--muted)'>"+d+"</span></div>";
+        h+="<div style='font-size:12px;color:var(--muted);margin-bottom:4px'>"+cn(x.country_iso3)+" | "+i("ca")+": "+(x.cases||0).toLocaleString()+" | "+i("de")+": "+(x.deaths||0).toLocaleString()+"</div>";
+        h+="<div style='font-size:12px;color:var(--text)'>"+(x.description||"").substring(0,250)+"</div>";
+        if(x.source_url)h+="<a href='"+x.source_url+"' target='_blank' style='font-size:11px;margin-top:4px;display:inline-block'>\u2192 WHO DON</a>";
+        h+="</div>";
+    });
+    document.getElementById("na").innerHTML=h;
+    document.getElementById("nt").textContent=i("br");
+    document.getElementById("nbg").classList.add("op");
 }
 
-function opD(disease){sD.clear();sD.add(disease);popD();doF();var items=allData.outbreaks.filter(function(x){return x.disease===disease});var tc=0,td=0;items.forEach(function(x){tc+=x.cases||0;td+=x.deaths||0});var tip=tp(disease);var now=new Date();var p7=0,p30=0,p180=0;items.forEach(function(x){var d=(now-new Date(x.date_reported))/86400000;if(d<=7)p7+=x.cases||0;if(d<=30)p30+=x.cases||0;if(d<=180)p180+=x.cases||0});var h='<button class="mcl" onclick="cloD()">&times;</button>';h+="<h2>"+dn(disease)+"</h2>";if(tip)h+='<p style="font-size:12px;color:var(--text);margin-bottom:10px">'+tip+"</p>";h+='<div style="font-size:12px;color:var(--muted);margin-bottom:10px">'+items.length+" outbreaks \xb7 "+new Set(items.map(function(x){return x.country_iso3})).size+" "+i("co")+"</div>";h+='<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px">';h+='<div style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px;text-align:center"><div style="font-size:20px;font-weight:700;color:var(--red)">'+fmt(p7||null)+'</div><div style="font-size:10px;color:var(--muted)">'+i("d7")+"</div></div>";h+='<div style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px;text-align:center"><div style="font-size:20px;font-weight:700;color:var(--amber)">'+fmt(p30||null)+'</div><div style="font-size:10px;color:var(--muted)">'+i("d3")+"</div></div>";h+='<div style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px;text-align:center"><div style="font-size:20px;font-weight:700;color:var(--accent2)">'+fmt(p180||null)+'</div><div style="font-size:10px;color:var(--muted)">'+i("d6")+"</div></div></div>";h+='<div class="pb"><button class="pbtn" onclick="dC(\''+disease.replace(/'/g,"\\'")+"',7)\">"+i("d7")+'</button><button class="pbtn on" onclick="dC(\''+disease.replace(/'/g,"\\'")+"',30)\">"+i("d3")+'</button><button class="pbtn" onclick="dC(\''+disease.replace(/'/g,"\\'")+"',180)\">"+i("d6")+"</button></div>";h+='<div class="cbox"><canvas id="dc"></canvas></div>';h+='<div style="font-size:13px;color:var(--bright);font-weight:600">'+i("to")+": "+(tc?tc.toLocaleString():"\u2014")+" "+i("ca")+" \xb7 "+(td?td.toLocaleString():"\u2014")+" "+i("de")+" \xb7 CFR "+pct(td,tc)+"</div>";document.getElementById("dm").innerHTML=h;document.getElementById("dbg").classList.add("op");setTimeout(function(){dC(disease,30)},100)}
-function dC(disease,days){document.querySelectorAll(".pbtn").forEach(function(b){b.classList.remove("on")});if(event&&event.target&&event.target.classList)event.target.classList.add("on");var items=allData.outbreaks.filter(function(x){return x.disease===disease});var now=new Date();var n=days<=7?7:days<=30?30:6;var buckets=new Array(n).fill(0);var labels=[];if(days<=7){for(var d=6;d>=0;d--){var dt=new Date(now-d*86400000);labels.push((dt.getMonth()+1)+"/"+dt.getDate())}items.forEach(function(x){var diff=Math.floor((now-new Date(x.date_reported))/86400000);if(diff>=0&&diff<7)buckets[6-diff]+=x.cases||0})}else if(days<=30){buckets=new Array(30).fill(0);for(var d=29;d>=0;d--){var dt=new Date(now-d*86400000);labels.push(d%5===0?(dt.getMonth()+1)+"/"+dt.getDate():"")}items.forEach(function(x){var diff=Math.floor((now-new Date(x.date_reported))/86400000);if(diff>=0&&diff<30)buckets[29-diff]+=x.cases||0})}else{for(var m=5;m>=0;m--){var dt=new Date(now.getFullYear(),now.getMonth()-m,1);labels.push(dt.getFullYear()+"/"+(dt.getMonth()+1))}items.forEach(function(x){var dt=new Date(x.date_reported);var diff=Math.floor((now-dt)/86400000/30);if(diff>=0&&diff<6)buckets[5-diff]+=x.cases||0})}var ctx=document.getElementById("dc");if(!ctx)return;if(myChart)myChart.destroy();myChart=new Chart(ctx,{type:"line",data:{labels:labels,datasets:[{label:i("ca"),data:buckets,borderColor:"#00d4aa",backgroundColor:"rgba(0,212,170,0.08)",fill:true,tension:0.3,pointRadius:4,pointBackgroundColor:"#00d4aa",pointBorderColor:"#0b1120",pointBorderWidth:2,borderWidth:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:"#7b8ba3"}}},scales:{x:{title:{display:true,text:days<=30?"Date":"Month",color:"#7b8ba3"},grid:{color:"rgba(37,48,80,0.5)"},ticks:{color:"#7b8ba3",maxRotation:0}},y:{title:{display:true,text:i("ca"),color:"#7b8ba3"},grid:{color:"rgba(37,48,80,0.5)"},ticks:{color:"#7b8ba3"},beginAtZero:true}}}})}
+function opD(disease){
+    sD.clear();sD.add(disease);popD();doF();
+    var items=allData.outbreaks.filter(function(x){return x.disease===disease});
+    var tc=0,td=0;items.forEach(function(x){tc+=x.cases||0;td+=x.deaths||0});
+    var tip=tp(disease);var now=new Date();
+    var p7=0,p30=0,p180=0;
+    items.forEach(function(x){var d=(now-new Date(x.date_reported))/86400000;if(d<=7)p7+=x.cases||0;if(d<=30)p30+=x.cases||0;if(d<=180)p180+=x.cases||0});
+    var h='<button class="mcl" onclick="cloD()">&times;</button>';
+    h+="<h2>"+dn(disease)+"</h2>";
+    if(tip)h+="<p style='font-size:12px;color:var(--text);margin-bottom:10px'>"+tip+"</p>";
+    h+="<div style='font-size:12px;color:var(--muted);margin-bottom:10px'>"+items.length+" outbreaks \xb7 "+new Set(items.map(function(x){return x.country_iso3})).size+" "+i("co")+"</div>";
+    h+="<div style='display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px'>";
+    h+="<div style='background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px;text-align:center'><div style='font-size:20px;font-weight:700;color:var(--red)'>"+fmt(p7||null)+"</div><div style='font-size:10px;color:var(--muted)'>"+i("d7")+"</div></div>";
+    h+="<div style='background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px;text-align:center'><div style='font-size:20px;font-weight:700;color:var(--amber)'>"+fmt(p30||null)+"</div><div style='font-size:10px;color:var(--muted)'>"+i("d3")+"</div></div>";
+    h+="<div style='background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px;text-align:center'><div style='font-size:20px;font-weight:700;color:var(--accent2)'>"+fmt(p180||null)+"</div><div style='font-size:10px;color:var(--muted)'>"+i("d6")+"</div></div></div>";
+    h+="<div class='pb'><button class='pbtn' onclick=\"dC('"+disease+"',7)\">"+i("d7")+"</button><button class='pbtn on' onclick=\"dC('"+disease+"',30)\">"+i("d3")+"</button><button class='pbtn' onclick=\"dC('"+disease+"',180)\">"+i("d6")+"</button></div>";
+    h+="<div class='cbox'><canvas id='dc'></canvas></div>";
+    h+="<div style='font-size:13px;color:var(--bright);font-weight:600'>"+i("to")+": "+(tc?tc.toLocaleString():"\u2014")+" "+i("ca")+" \xb7 "+(td?td.toLocaleString():"\u2014")+" "+i("de")+" \xb7 CFR "+pct(td,tc)+"</div>";
+    document.getElementById("dm").innerHTML=h;
+    document.getElementById("dbg").classList.add("op");
+    setTimeout(function(){dC(disease,30)},100);
+}
+
+function dC(disease,days){
+    document.querySelectorAll(".pbtn").forEach(function(b){b.classList.remove("on")});
+    if(event&&event.target&&event.target.classList)event.target.classList.add("on");
+    var items=allData.outbreaks.filter(function(x){return x.disease===disease});
+    var now=new Date();
+    var n=days<=7?7:days<=30?30:6;
+    var buckets=new Array(n).fill(0);var labels=[];
+    if(days<=7){for(var d=6;d>=0;d--){var dt=new Date(now-d*86400000);labels.push((dt.getMonth()+1)+"/"+dt.getDate())}items.forEach(function(x){var diff=Math.floor((now-new Date(x.date_reported))/86400000);if(diff>=0&&diff<7)buckets[6-diff]+=x.cases||0})}
+    else if(days<=30){buckets=new Array(30).fill(0);for(var d=29;d>=0;d--){var dt=new Date(now-d*86400000);labels.push(d%5===0?(dt.getMonth()+1)+"/"+dt.getDate():"")}items.forEach(function(x){var diff=Math.floor((now-new Date(x.date_reported))/86400000);if(diff>=0&&diff<30)buckets[29-diff]+=x.cases||0})}
+    else{for(var m=5;m>=0;m--){var dt=new Date(now.getFullYear(),now.getMonth()-m,1);labels.push(dt.getFullYear()+"/"+(dt.getMonth()+1))}items.forEach(function(x){var dt=new Date(x.date_reported);var diff=Math.floor((now-dt)/86400000/30);if(diff>=0&&diff<6)buckets[5-diff]+=x.cases||0})}
+    var ctx=document.getElementById("dc");if(!ctx)return;
+    if(myChart)myChart.destroy();
+    myChart=new Chart(ctx,{type:"line",data:{labels:labels,datasets:[{label:i("ca"),data:buckets,borderColor:"#00d4aa",backgroundColor:"rgba(0,212,170,0.08)",fill:true,tension:0.3,pointRadius:4,pointBackgroundColor:"#00d4aa",pointBorderColor:"#0b1120",pointBorderWidth:2,borderWidth:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:"#7b8ba3"}}},scales:{x:{title:{display:true,text:days<=30?"Date":"Month",color:"#7b8ba3"},grid:{color:"rgba(37,48,80,0.5)"},ticks:{color:"#7b8ba3",maxRotation:0}},y:{title:{display:true,text:i("ca"),color:"#7b8ba3"},grid:{color:"rgba(37,48,80,0.5)"},ticks:{color:"#7b8ba3"},beginAtZero:true}}}});
+}
+
 window.addEventListener("load",init);
 
 </script></body></html>
