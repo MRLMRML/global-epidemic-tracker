@@ -83,7 +83,9 @@ a{color:var(--cyan);text-decoration:none}
 <div class="main"><div id="map"></div><div class="side"><div class="side-body" id="list"></div></div></div>
 <div class="ftr">DATA: WHO DON · WHO GHO · OWID | CROSS-VALIDATION: Bing · Google · Reddit</div>
 <div class="modal-bg" id="mbg" onclick="if(event.target===this)closeM()"><div class="modal" id="mc"></div></div>
+<div class="modal-bg" id="nbg" onclick="if(event.target===this)document.getElementById('nbg').classList.remove('open')"><div class="modal" id="nc" style="max-width:550px"><button class="mcls" onclick="document.getElementById('nbg').classList.remove('open')">&times;</button><h2 id="news-title">Breaking News</h2><div id="news-list" style="max-height:60vh;overflow-y:auto"></div></div></div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<div class="modal-bg" id="nbg" onclick="if(event.target===this)document.getElementById('nbg').classList.remove('open')"><div class="modal" id="nc" style="max-width:550px"><button class="mcls" onclick="document.getElementById('nbg').classList.remove('open')">&times;</button><h2 id="news-title">Breaking News</h2><div id="news-list" style="max-height:60vh;overflow-y:auto"></div></div></div>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <script>
 var map,cl,allData,myChart,lang='zh',curPeriod=30;
@@ -186,7 +188,33 @@ function renderMap(o){cl.clearLayers();o.forEach(function(x){if(!x.latitude&&!x.
 
 function renderNews(o){var top=o.filter(function(x){return x.description&&x.cases>0}).sort(function(a,b){return new Date(b.date_reported)-new Date(a.date_reported)}).slice(0,10);var h='';top.forEach(function(x){var txt=dn(x.disease)+' — '+cn(x.country_iso3,x.location)+': '+x.description.substring(0,80);h+='<div class="ni"><span class="dot">●</span>'+txt+(x.source_url?' <a href="'+x.source_url+'" target="_blank">→</a>':'')+'</div>'});document.getElementById('news').innerHTML=h+h}
 
-function renderList(o){var h='';o.forEach(function(x){var cls=SL[x.severity]||'sl',bg=SB[x.severity]||'bl';var conf=x.confidence==='high'?'<span class="tg tv">'+i('v')+'</span>':x.confidence==='pending'?'<span class="tg tp">'+i('p')+'</span>':'';var h2h=x.h2h_transmission?'<span class="tg th">H2H</span>':'';var t=tip(x.disease);var tt=t?'<span class="tt">'+t+'</span>':'';var sl=x.severity==='very_high'?i('crit'):x.severity==='high'?i('high'):x.severity==='moderate'?i('mod'):i('low');h+='<div class="card '+cls+'" onclick="openM(\''+x.disease.replace(/'/g,"\\'")+'\')"><div class="card-hd"><span class="card-nm">'+dn(x.disease)+tt+'</span><span class="bge '+bg+'">'+sl+'</span></div><div class="card-loc">📍 '+cn(x.country_iso3,x.location)+'</div><div class="card-st"><span>'+i('cases')+': <b>'+fmt(x.cases)+'</b></span><span>'+i('deaths')+': <b>'+fmt(x.deaths)+'</b></span><span>CFR: '+pct(x.deaths,x.cases)+'</span></div><div class="card-tg">'+conf+h2h+(x.source_url?' <a href="'+x.source_url+'" target="_blank" onclick="event.stopPropagation()" style="font-size:10px">WHO→</a>':'')+'</div></div>'});document.getElementById('list').innerHTML=h}
+function renderList(o){
+    // Group by disease, merge stats
+    var groups={};
+    o.forEach(function(x){
+        var key=x.disease;
+        if(!groups[key])groups[key]={disease:key,cases:0,deaths:0,severity:x.severity,outbreaks:0,h2h:false,countries:new Set(),source_url:x.source_url,confidence:x.confidence};
+        var g=groups[key];
+        g.cases+=x.cases||0;g.deaths+=x.deaths||0;g.outbreaks++;
+        if(x.h2h_transmission)g.h2h=true;
+        if(x.country_iso3)g.countries.add(x.country_iso3);
+        // Keep highest severity
+        var sv={very_high:0,high:1,moderate:2,low:3,unknown:4};
+        if((sv[x.severity]||9)<(sv[g.severity]||9))g.severity=x.severity;
+        if(x.confidence==='high')g.confidence='high';
+    });
+    // Sort by severity only
+    var sorted=Object.values(groups).sort(function(a,b){var s={very_high:0,high:1,moderate:2,low:3,unknown:4};return(s[a.severity]||9)-(s[b.severity]||9)});
+    var h='';
+    sorted.forEach(function(g){
+        var cls=SL[g.severity]||'sl',bg=SB[g.severity]||'bl';
+        var conf=g.confidence==='high'?'<span class="tg tv">'+i('v')+'</span>':'<span class="tg tp">'+i('p')+'</span>';
+        var h2h=g.h2h?'<span class="tg th">H2H</span>':'';
+        var t=tip(g.disease);var tt=t?'<span class="tt">'+t+'</span>':'';
+        var sl=g.severity==='very_high'?i('crit'):g.severity==='high'?i('high'):g.severity==='moderate'?i('mod'):i('low');
+        h+='<div class="card '+cls+'" onclick="openM(\''+g.disease.replace(/'/g,"\\'")+'\')"><div class="card-hd"><span class="card-nm">'+dn(g.disease)+tt+'</span><span class="bge '+bg+'">'+sl+'</span></div><div class="card-loc">'+g.countries.size+' '+i('countries')+' · '+g.outbreaks+' outbreaks</div><div class="card-st"><span>'+i('cases')+': <b>'+fmt(g.cases)+'</b></span><span>'+i('deaths')+': <b>'+fmt(g.deaths)+'</b></span><span>CFR: '+pct(g.deaths,g.cases)+'</span></div><div class="card-tg">'+conf+h2h+(g.source_url?' <a href="'+g.source_url+'" target="_blank" onclick="event.stopPropagation()" style="font-size:10px">WHO→</a>':'')+'</div></div>';
+    });
+    document.getElementById('list').innerHTML=h}
 
 function openM(disease){
     var items=allData.outbreaks.filter(function(x){return x.disease===disease});
@@ -251,6 +279,17 @@ function drawChart(disease,days){
 }
 
 function closeM(){document.getElementById('mbg').classList.remove('open');if(myChart){myChart.destroy();myChart=null}}
+function openNews(){
+    if(!allData)return;
+    var o=allData.outbreaks.filter(function(x){return x.description&&x.cases>0}).sort(function(a,b){return new Date(b.date_reported)-new Date(a.date_reported)}).slice(0,30);
+    var h='';
+    o.forEach(function(x){
+        h+='<div style="padding:8px 0;border-bottom:1px solid var(--border);font-size:13px"><span style="color:var(--red);margin-right:6px">●</span><b>'+dn(x.disease)+'</b> — '+cn(x.country_iso3,x.location)+'<br><span style="color:var(--text);font-size:12px">'+x.description.substring(0,150)+'</span>'+(x.source_url?' <a href="'+x.source_url+'" target="_blank" style="font-size:11px">WHO →</a>':'')+'</div>';
+    });
+    document.getElementById('news-list').innerHTML=h;
+    document.getElementById('news-title').textContent=i('brk');
+    document.getElementById('nbg').classList.add('open');
+}
 window.addEventListener('load',init);
 </script>
 </body>
