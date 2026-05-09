@@ -112,12 +112,12 @@ function popD(){
     var co={},di={};
     allData.outbreaks.forEach(function(x){if(x.country_iso3)co[x.country_iso3]=1;di[x.disease]=1});
     var ch="";Object.keys(co).sort(function(a,b){return cn(a).localeCompare(cn(b))}).forEach(function(iso){
-        ch+="<div class='o"+(pC.has(iso)?" sl":"")+"' onclick='tSC(\""+iso+"\")'><span class='c'></span>"+cn(iso)+"</div>";
+        ch+="<div class='o"+(pC.has(iso)?" sl":"")+"' onclick='event.stopPropagation();tSC(\""+iso+"\")'><span class='c'></span>"+cn(iso)+"</div>";
     });
     ch+="<div style='padding:8px;display:flex;gap:6px;border-top:1px solid var(--border);position:sticky;bottom:0;background:var(--card)'><button class='rb' onclick='cancelC()' style='flex:1'>\u2715</button><button onclick='confirmC()' style='flex:1;background:var(--accent);color:var(--bg);border:none;padding:4px 8px;border-radius:4px;font-size:11px;cursor:pointer;font-family:inherit'>\u2713</button></div>";
     document.getElementById("copts").innerHTML=ch;
     var dh="";Object.keys(di).sort(function(a,b){return dn(a).localeCompare(dn(b))}).forEach(function(d){
-        dh+="<div class='o"+(pD.has(d)?" sl":"")+"' onclick='tSD(\""+d.replace(/'/g,"\\'")+"\")'><span class='c'></span>"+dn(d)+"</div>";
+        dh+="<div class='o"+(pD.has(d)?" sl":"")+"' onclick='event.stopPropagation();tSD(\""+d.replace(/'/g,"\\'")+"\")'><span class='c'></span>"+dn(d)+"</div>";
     });
     dh+="<div style='padding:8px;display:flex;gap:6px;border-top:1px solid var(--border);position:sticky;bottom:0;background:var(--card)'><button class='rb' onclick='cancelD()' style='flex:1'>\u2715</button><button onclick='confirmD()' style='flex:1;background:var(--accent);color:var(--bg);border:none;padding:4px 8px;border-radius:4px;font-size:11px;cursor:pointer;font-family:inherit'>\u2713</button></div>";
     document.getElementById("dopts").innerHTML=dh;
