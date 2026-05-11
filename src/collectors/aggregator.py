@@ -24,6 +24,17 @@ class EpidemicAggregator:
 
     def fetch_all(self, validate: bool = True, max_validations: int = 15) -> None:
         self._outbreaks = self.who.collect()
+        # Normalize disease names to merge duplicates
+        DISEASE_NORMALIZE = {
+            "Novel coronavirus infection": "COVID",
+            "Middle East Respiratory Syndrome Coronavirus": "MERS",
+            "Middle East respiratory syndrome coronavirus": "MERS",
+            "Chikungunya virus disease": "Chikungunya",
+            "Western equine encephalitis": "Western Equine Encephalitis",
+        }
+        for o in self._outbreaks:
+            if o.disease in DISEASE_NORMALIZE:
+                o.disease = DISEASE_NORMALIZE[o.disease]
         self._outbreaks.extend(self.gho.collect())
         self._outbreaks.extend(self.owid.collect())
         self._deduplicate()

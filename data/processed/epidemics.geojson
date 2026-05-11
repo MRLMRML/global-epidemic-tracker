@@ -42,7 +42,7 @@
         "cfr": 0.0,
         "severity": "very_high",
         "h2h": false,
-        "verified": true,
+        "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2026-DON598",
         "date": "2026-04-23"
       }
@@ -172,7 +172,7 @@
         ]
       },
       "properties": {
-        "disease": "Middle East respiratory syndrome coronavirus",
+        "disease": "MERS",
         "location": "France",
         "country": "FRA",
         "cases": 19,
@@ -295,7 +295,7 @@
         "cfr": 0.0123,
         "severity": "very_high",
         "h2h": false,
-        "verified": true,
+        "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/DON588",
         "date": "2025-11-21"
       }
@@ -356,7 +356,7 @@
         ]
       },
       "properties": {
-        "disease": "Chikungunya virus disease",
+        "disease": "Chikungunya",
         "location": "Egypt",
         "country": "EGY",
         "cases": 445271,
@@ -364,7 +364,7 @@
         "cfr": 0.0003,
         "severity": "very_high",
         "h2h": false,
-        "verified": true,
+        "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON581",
         "date": "2025-10-03"
       }
@@ -655,7 +655,7 @@
         ]
       },
       "properties": {
-        "disease": "Middle East respiratory syndrome coronavirus",
+        "disease": "MERS",
         "location": "Saudi Arabia",
         "country": "SAU",
         "cases": 9,
@@ -839,7 +839,7 @@
         ]
       },
       "properties": {
-        "disease": "Middle East respiratory syndrome coronavirus",
+        "disease": "MERS",
         "location": "Saudi Arabia",
         "country": "SAU",
         "cases": 2,
@@ -1146,7 +1146,7 @@
         "cfr": 0.0002,
         "severity": "very_high",
         "h2h": false,
-        "verified": true,
+        "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON545",
         "date": "2024-12-05"
       }
@@ -1253,7 +1253,7 @@
         ]
       },
       "properties": {
-        "disease": "Middle East respiratory syndrome coronavirus",
+        "disease": "MERS",
         "location": "Saudi Arabia",
         "country": "SAU",
         "cases": 4,
@@ -1644,7 +1644,7 @@
         ]
       },
       "properties": {
-        "disease": "Middle East respiratory syndrome coronavirus",
+        "disease": "MERS",
         "location": "Saudi Arabia",
         "country": "SAU",
         "cases": 1,
@@ -3921,7 +3921,7 @@
         ]
       },
       "properties": {
-        "disease": "Novel coronavirus infection",
+        "disease": "COVID",
         "location": "Qatar",
         "country": "QAT",
         "cases": 0,
@@ -3944,7 +3944,7 @@
         ]
       },
       "properties": {
-        "disease": "Novel coronavirus infection",
+        "disease": "COVID",
         "location": "Jordan",
         "country": "JOR",
         "cases": 0,
@@ -3967,7 +3967,7 @@
         ]
       },
       "properties": {
-        "disease": "Middle East respiratory syndrome coronavirus",
+        "disease": "MERS",
         "location": "Saudi Arabia",
         "country": "SAU",
         "cases": 0,
@@ -4105,7 +4105,7 @@
         ]
       },
       "properties": {
-        "disease": "Middle East respiratory syndrome coronavirus",
+        "disease": "MERS",
         "location": "Saudi Arabia",
         "country": "SAU",
         "cases": 0,
@@ -4174,7 +4174,7 @@
         ]
       },
       "properties": {
-        "disease": "Middle East respiratory syndrome coronavirus",
+        "disease": "MERS",
         "location": "Oman",
         "country": "OMN",
         "cases": 0,
@@ -4208,29 +4208,6 @@
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON508",
         "date": "2024-02-27"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          45.1,
-          23.9
-        ]
-      },
-      "properties": {
-        "disease": "Middle East Respiratory Syndrome Coronavirus",
-        "location": "Saudi Arabia",
-        "country": "SAU",
-        "cases": 2,
-        "deaths": 2,
-        "cfr": 1.0,
-        "severity": "very_high",
-        "h2h": false,
-        "verified": false,
-        "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON506",
-        "date": "2024-02-16"
       }
     },
     {
@@ -4381,7 +4358,7 @@
         ]
       },
       "properties": {
-        "disease": "Western equine encephalitis",
+        "disease": "Western Equine Encephalitis",
         "location": "Argentina",
         "country": "ARG",
         "cases": 0,
@@ -4726,7 +4703,7 @@
         ]
       },
       "properties": {
-        "disease": "Middle East Respiratory Syndrome Coronavirus",
+        "disease": "MERS",
         "location": "Saudi Arabia",
         "country": "SAU",
         "cases": 2,
@@ -4864,7 +4841,7 @@
         ]
       },
       "properties": {
-        "disease": "Middle East respiratory syndrome coronavirus",
+        "disease": "MERS",
         "location": "United Arab Emirates",
         "country": "ARE",
         "cases": 94,
@@ -5692,7 +5669,7 @@
         ]
       },
       "properties": {
-        "disease": "Middle East Respiratory Syndrome Coronavirus",
+        "disease": "MERS",
         "location": "Oman",
         "country": "OMN",
         "cases": 76,
@@ -6014,7 +5991,7 @@
         ]
       },
       "properties": {
-        "disease": "Middle East Respiratory Syndrome Coronavirus",
+        "disease": "MERS",
         "location": "Saudi Arabia",
         "country": "SAU",
         "cases": 0,
@@ -6183,7 +6160,7 @@
         "cfr": 0.0024,
         "severity": "very_high",
         "h2h": false,
-        "verified": true,
+        "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON414",
         "date": "2022-10-13"
       }
@@ -6229,7 +6206,7 @@
         "cfr": 0.0,
         "severity": "very_high",
         "h2h": false,
-        "verified": true,
+        "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON412",
         "date": "2022-10-10"
       }
@@ -7494,7 +7471,7 @@
         "cfr": 0.0,
         "severity": "very_high",
         "h2h": false,
-        "verified": false,
+        "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
         "date": "2024-12-31"
       }
@@ -8230,7 +8207,7 @@
         "cfr": 0.0,
         "severity": "very_high",
         "h2h": false,
-        "verified": false,
+        "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
         "date": "2024-12-31"
       }
@@ -10139,7 +10116,7 @@
         "cfr": 0.0,
         "severity": "very_high",
         "h2h": false,
-        "verified": false,
+        "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
         "date": "2024-12-31"
       }
@@ -10162,7 +10139,7 @@
         "cfr": 0.0,
         "severity": "very_high",
         "h2h": false,
-        "verified": false,
+        "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
         "date": "2024-12-31"
       }
