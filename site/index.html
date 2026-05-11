@@ -128,10 +128,17 @@ function popD(){
     uB();
 }
 
-function tSC(iso){pC.has(iso)?pC.delete(iso):pC.add(iso);popD()}
+function tSC(iso){pC.has(iso)?pC.delete(iso):pC.add(iso);updateDropUI()}
 function confirmC(){sC=new Set(pC);closD();if(allData)render(allData)}
 function cancelC(){pC=new Set(sC);closD();uB()}
-function tSD(d){pD.has(d)?pD.delete(d):pD.add(d);popD()}
+function tSD(d){pD.has(d)?pD.delete(d):pD.add(d);updateDropUI()}
+function updateDropUI(){
+    var co=document.getElementById("copts");
+    if(co)co.querySelectorAll(".o").forEach(function(o){var i=o.dataset.iso;if(i&&pC.has(i))o.classList.add("sl");else o.classList.remove("sl")});
+    var dd=document.getElementById("dopts");
+    if(dd)dd.querySelectorAll(".o").forEach(function(o){var d=o.dataset.dis;if(d&&pD.has(d))o.classList.add("sl");else o.classList.remove("sl")});
+    uB();
+}
 function confirmD(){sD=new Set(pD);closD();if(allData)render(allData)}
 function cancelD(){pD=new Set(sD);closD();uB()}
 
@@ -153,7 +160,7 @@ function init(){
     map.addLayer(cl);
     ld();setInterval(ld,600000);
     window.addEventListener("resize",function(){map.invalidateSize()});
-    document.addEventListener("click",function(e){if(!e.target.closest(".ms")&&!e.target.closest(".md"))closD()});
+    document.addEventListener("click",function(e){if(!e.target.closest(".ms")&&!e.target.closest(".md")&&!e.target.closest("#copts")&&!e.target.closest("#dopts"))closD()});
 }
 
 function ld(){fetch("data/epidemics.json?t="+Date.now()).then(function(r){return r.json()}).then(function(d){allData=d;popD();render(d)}).catch(function(e){console.error(e)})}
