@@ -210,7 +210,10 @@ class WHODONCollector:
         return ""
 
     def _extract_countries(self, text: str) -> list[tuple[str, str, float, float]]:
+        # For Multi-country/Global DONs, return single entry
         text_lower = text.lower()
+        if any(kw in text_lower for kw in ['multi-country', 'global situation', 'global update', 'regional']):
+            return [("Multi-country", "MUL", 0.0, 0.0)]
         found = []
         for keyword, (iso3, lat, lon) in COUNTRY_COORDS.items():
             if keyword in text_lower:
@@ -221,8 +224,12 @@ class WHODONCollector:
     def _extract_counts(self, text: str) -> tuple[int, int, int]:
         cases, deaths, suspected = 0, 0, 0
 
+        # Search first 2 sentences for outbreak-specific numbers
+        sentences = re.split(r'(?<=[.!?])\s+', text)
+        context = ' '.join(sentences[:2]) if len(sentences) >= 2 else text
+
         # Pattern: "a total of X cases" (most reliable)
-        m = re.search(r"a\s+total\s+of\s+(\d[\d\s,]+)\s+(?:\w+\s+)*?cases?", text, re.I)
+        m = re.search(r"a\s+total\s+of\s+(\d[\d\s,]+)\s+(?:[\w/()]+\s+)*?cases?", context, re.I)
         if m:
             cases = self._word_to_num(m.group(1).strip().replace(",","").replace(" ",""))
 

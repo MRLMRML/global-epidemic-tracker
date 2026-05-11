@@ -75,14 +75,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          79.0,
-          20.6
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Mpox",
-        "location": "India",
-        "country": "IND",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 0,
         "deaths": 0,
         "cfr": 0.0,
@@ -98,14 +98,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          90.4,
-          23.7
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Nipah Virus Infection",
-        "location": "Bangladesh",
-        "country": "BGD",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 0,
         "deaths": 0,
         "cfr": 0.0,
@@ -121,14 +121,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          79.0,
-          20.6
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Nipah Virus Infection",
-        "location": "India",
-        "country": "IND",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 0,
         "deaths": 0,
         "cfr": 0.0,
@@ -167,14 +167,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.2,
-          46.2
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "MERS",
-        "location": "France",
-        "country": "FRA",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 19,
         "deaths": 4,
         "cfr": 0.2105,
@@ -282,14 +282,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.7,
-          28.0
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Diphtheria",
-        "location": "Algeria",
-        "country": "DZA",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 20412,
         "deaths": 252,
         "cfr": 0.0123,
@@ -305,14 +305,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          40.5,
-          9.1
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Marburg Virus Disease",
-        "location": "Ethiopia",
-        "country": "ETH",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 6,
         "deaths": 3,
         "cfr": 0.5,
@@ -328,14 +328,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.0,
-          17.6
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Rift Valley Fever",
-        "location": "Mali",
-        "country": "MLI",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 404,
         "deaths": 42,
         "cfr": 0.104,
@@ -351,14 +351,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.8,
-          26.8
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Chikungunya",
-        "location": "Egypt",
-        "country": "EGY",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 445271,
         "deaths": 155,
         "cfr": 0.0003,
@@ -374,14 +374,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          90.4,
-          23.7
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Nipah Virus Infection",
-        "location": "Bangladesh",
-        "country": "BGD",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 0,
         "deaths": 0,
         "cfr": 0.0,
@@ -397,14 +397,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.8,
-          -4.0
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Ebola Virus Disease",
-        "location": "Congo",
-        "country": "COG",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 28,
         "deaths": 15,
         "cfr": 0.5357,
@@ -420,17 +420,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.7,
-          15.5
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Cholera",
-        "location": "Chad",
-        "country": "TCD",
-        "cases": 4738,
+        "location": "Multi-country",
+        "country": "MUL",
+        "cases": 409222,
         "deaths": 4738,
-        "cfr": 1.0,
+        "cfr": 0.0116,
         "severity": "very_high",
         "h2h": false,
         "verified": false,
@@ -497,10 +497,10 @@
         "disease": "Rabies",
         "location": "Multi-country",
         "country": "MUL",
-        "cases": 106,
+        "cases": 0,
         "deaths": 0,
         "cfr": 0.0,
-        "severity": "high",
+        "severity": "low",
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON576",
@@ -520,8 +520,8 @@
         "disease": "Avian Influenza",
         "location": "Cambodia",
         "country": "KHM",
-        "cases": 27,
-        "deaths": 27,
+        "cases": 49,
+        "deaths": 49,
         "cfr": 1.0,
         "severity": "very_high",
         "h2h": false,
@@ -627,14 +627,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.1,
-          31.8
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Measles",
-        "location": "Morocco",
-        "country": "MAR",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 0,
         "deaths": 0,
         "cfr": 0.0,
@@ -650,14 +650,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.1,
-          23.9
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "MERS",
-        "location": "Saudi Arabia",
-        "country": "SAU",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 9,
         "deaths": 0,
         "cfr": 0.0,
@@ -765,14 +765,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.1,
-          23.9
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Meningococcal Meningitis",
-        "location": "Saudi Arabia",
-        "country": "SAU",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 0,
         "deaths": 0,
         "cfr": 0.0,
@@ -819,10 +819,10 @@
         "disease": "Measles",
         "location": "Mexico",
         "country": "MEX",
-        "cases": 378,
+        "cases": 2,
         "deaths": 2,
-        "cfr": 0.0053,
-        "severity": "high",
+        "cfr": 1.0,
+        "severity": "very_high",
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON561",
@@ -834,14 +834,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.1,
-          23.9
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "MERS",
-        "location": "Saudi Arabia",
-        "country": "SAU",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 2,
         "deaths": 2,
         "cfr": 1.0,
@@ -1018,14 +1018,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          104.2,
-          35.9
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Acute Unknown Illness",
-        "location": "China",
-        "country": "CHN",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 0,
         "deaths": 0,
         "cfr": 0.0,
@@ -1049,10 +1049,10 @@
         "disease": "Acute Unknown Illness",
         "location": "Congo",
         "country": "COG",
-        "cases": 891,
+        "cases": 48,
         "deaths": 48,
-        "cfr": 0.0539,
-        "severity": "high",
+        "cfr": 1.0,
+        "severity": "very_high",
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON547",
@@ -1133,18 +1133,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -51.9,
-          -14.2
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Oropouche Virus Disease",
-        "location": "Brazil",
-        "country": "BRA",
-        "cases": 11634,
+        "location": "Multi-country",
+        "country": "MUL",
+        "cases": 634,
         "deaths": 2,
-        "cfr": 0.0002,
-        "severity": "very_high",
+        "cfr": 0.0032,
+        "severity": "high",
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON545",
@@ -1179,14 +1179,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          42.6,
-          11.8
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Malaria",
-        "location": "Djibouti",
-        "country": "DJI",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 1157,
         "deaths": 1157,
         "cfr": 1.0,
@@ -1248,14 +1248,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.1,
-          23.9
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "MERS",
-        "location": "Saudi Arabia",
-        "country": "SAU",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 4,
         "deaths": 4,
         "cfr": 1.0,
@@ -1271,14 +1271,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.9,
-          -2.0
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Marburg Virus Disease",
-        "location": "Rwanda",
-        "country": "RWA",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 26,
         "deaths": 8,
         "cfr": 0.3077,
@@ -1386,14 +1386,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -51.9,
-          -14.2
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Oropouche Virus Disease",
-        "location": "Brazil",
-        "country": "BRA",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 8078,
         "deaths": 2,
         "cfr": 0.0002,
@@ -1432,14 +1432,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.9,
-          -3.4
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Mpox",
-        "location": "Burundi",
-        "country": "BDI",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 0,
         "deaths": 0,
         "cfr": 0.0,
@@ -1509,9 +1509,9 @@
         "disease": "Mpox",
         "location": "Congo",
         "country": "COG",
-        "cases": 7851,
+        "cases": 384,
         "deaths": 384,
-        "cfr": 0.0489,
+        "cfr": 1.0,
         "severity": "very_high",
         "h2h": true,
         "verified": false,
@@ -1639,14 +1639,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.1,
-          23.9
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "MERS",
-        "location": "Saudi Arabia",
-        "country": "SAU",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 1,
         "deaths": 1,
         "cfr": 1.0,
@@ -1662,14 +1662,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.7,
-          15.5
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Hepatitis E",
-        "location": "Chad",
-        "country": "TCD",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 2092,
         "deaths": 7,
         "cfr": 0.0033,
@@ -1754,14 +1754,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.5,
-          12.2
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Yellow Fever",
-        "location": "Burkina Faso",
-        "country": "BFA",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 13,
         "deaths": 0,
         "cfr": 0.0,
@@ -2298,29 +2298,6 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2001DON208",
-        "date": "2024-03-14"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.0,
-          0.0
-        ]
-      },
-      "properties": {
-        "disease": "Yellow Fever",
-        "location": "Multi-country",
-        "country": "MUL",
-        "cases": 0,
-        "deaths": 0,
-        "cfr": 0.0,
-        "severity": "low",
-        "h2h": false,
-        "verified": false,
-        "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2001DON207",
         "date": "2024-03-14"
       }
     },
@@ -3103,6 +3080,29 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2004DON143",
+        "date": "2024-03-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5,
+          12.2
+        ]
+      },
+      "properties": {
+        "disease": "Yellow Fever",
+        "location": "Burkina Faso",
+        "country": "BFA",
+        "cases": 0,
+        "deaths": 0,
+        "cfr": 0.0,
+        "severity": "low",
+        "h2h": false,
+        "verified": false,
+        "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2004DON141",
         "date": "2024-03-13"
       }
     },
@@ -4215,6 +4215,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          0.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "disease": "MERS",
+        "location": "Multi-country",
+        "country": "MUL",
+        "cases": 2,
+        "deaths": 2,
+        "cfr": 1.0,
+        "severity": "very_high",
+        "h2h": false,
+        "verified": false,
+        "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON506",
+        "date": "2024-02-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           104.2,
           35.9
         ]
@@ -4330,14 +4353,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.9,
-          -0.8
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Poliomyelitis",
-        "location": "Indonesia",
-        "country": "IDN",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 1,
         "deaths": 0,
         "cfr": 0.0,
@@ -4399,17 +4422,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.9,
-          -11.2
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Anthrax",
-        "location": "Angola",
-        "country": "AGO",
-        "cases": 511,
+        "location": "Multi-country",
+        "country": "MUL",
+        "cases": 684,
         "deaths": 4,
-        "cfr": 0.0078,
+        "cfr": 0.0058,
         "severity": "high",
         "h2h": false,
         "verified": false,
@@ -4583,14 +4606,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.8,
-          -4.0
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Cholera",
-        "location": "Congo",
-        "country": "COG",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 2389,
         "deaths": 52,
         "cfr": 0.0218,
@@ -4652,14 +4675,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.1,
-          17.6
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Diphtheria",
-        "location": "Niger",
-        "country": "NER",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 5898,
         "deaths": 0,
         "cfr": 0.0,
@@ -4859,14 +4882,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -51.9,
-          -14.2
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Dengue",
-        "location": "Brazil",
-        "country": "BRA",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 1302,
         "deaths": 1302,
         "cfr": 1.0,
@@ -4882,14 +4905,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.1,
-          51.9
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Influenza",
-        "location": "Poland",
-        "country": "POL",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 0,
         "deaths": 0,
         "cfr": 0.0,
@@ -5135,14 +5158,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.4,
-          7.4
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Lassa Fever",
-        "location": "Cameroon",
-        "country": "CMR",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 4702,
         "deaths": 152,
         "cfr": 0.0323,
@@ -5296,14 +5319,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -11.9,
-          9.9
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Marburg Virus Disease",
-        "location": "Guinea",
-        "country": "GIN",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 11,
         "deaths": 11,
         "cfr": 1.0,
@@ -5319,14 +5342,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          104.2,
-          35.9
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Avian Influenza",
-        "location": "China",
-        "country": "CHN",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 0,
         "deaths": 0,
         "cfr": 0.0,
@@ -5342,14 +5365,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.2,
-          8.6
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Meningococcal Meningitis",
-        "location": "Togo",
-        "country": "TGO",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 141,
         "deaths": 12,
         "cfr": 0.0851,
@@ -5365,14 +5388,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.9,
-          -3.4
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Marburg Virus Disease",
-        "location": "Burundi",
-        "country": "BDI",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 8,
         "deaths": 5,
         "cfr": 0.625,
@@ -5434,37 +5457,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -11.9,
-          9.9
-        ]
-      },
-      "properties": {
-        "disease": "Marburg Virus Disease",
-        "location": "Guinea",
-        "country": "GIN",
-        "cases": 0,
-        "deaths": 0,
-        "cfr": 0.0,
-        "severity": "low",
-        "h2h": false,
-        "verified": false,
-        "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON449",
-        "date": "2023-03-22"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          22.9,
-          -30.6
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Measles",
-        "location": "South Africa",
-        "country": "ZAF",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 2023,
         "deaths": 0,
         "cfr": 0.0,
@@ -5473,29 +5473,6 @@
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON447",
         "date": "2023-03-21"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          84.1,
-          28.4
-        ]
-      },
-      "properties": {
-        "disease": "Measles",
-        "location": "Nepal",
-        "country": "NPL",
-        "cases": 0,
-        "deaths": 0,
-        "cfr": 0.0,
-        "severity": "low",
-        "h2h": false,
-        "verified": false,
-        "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON446",
-        "date": "2023-03-14"
       }
     },
     {
@@ -5526,14 +5503,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -11.9,
-          9.9
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Marburg Virus Disease",
-        "location": "Guinea",
-        "country": "GIN",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 0,
         "deaths": 0,
         "cfr": 0.0,
@@ -5549,14 +5526,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.3,
-          -13.3
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Cholera",
-        "location": "Malawi",
-        "country": "MWI",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 5237,
         "deaths": 37,
         "cfr": 0.0071,
@@ -5572,14 +5549,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          90.4,
-          23.7
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Nipah Virus Infection",
-        "location": "Bangladesh",
-        "country": "BGD",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 11,
         "deaths": 8,
         "cfr": 0.7273,
@@ -5588,52 +5565,6 @@
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON442",
         "date": "2023-02-17"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.0,
-          0.0
-        ]
-      },
-      "properties": {
-        "disease": "Cholera",
-        "location": "Multi-country",
-        "country": "MUL",
-        "cases": 0,
-        "deaths": 0,
-        "cfr": 0.0,
-        "severity": "low",
-        "h2h": false,
-        "verified": false,
-        "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON437",
-        "date": "2023-02-11"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.8,
-          -4.0
-        ]
-      },
-      "properties": {
-        "disease": "Cholera",
-        "location": "Congo",
-        "country": "COG",
-        "cases": 4386,
-        "deaths": 16,
-        "cfr": 0.0036,
-        "severity": "very_high",
-        "h2h": false,
-        "verified": false,
-        "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON441",
-        "date": "2023-02-10"
       }
     },
     {
@@ -5664,6 +5595,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          34.3,
+          -13.3
+        ]
+      },
+      "properties": {
+        "disease": "Cholera",
+        "location": "Malawi",
+        "country": "MWI",
+        "cases": 0,
+        "deaths": 0,
+        "cfr": 0.0,
+        "severity": "low",
+        "h2h": false,
+        "verified": false,
+        "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON435",
+        "date": "2023-02-09"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           55.9,
           21.5
         ]
@@ -5672,10 +5626,10 @@
         "disease": "MERS",
         "location": "Oman",
         "country": "OMN",
-        "cases": 76,
+        "cases": 0,
         "deaths": 0,
         "cfr": 0.0,
-        "severity": "moderate",
+        "severity": "low",
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON436",
@@ -5687,14 +5641,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.1,
-          17.6
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Meningococcal Meningitis",
-        "location": "Niger",
-        "country": "NER",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 559,
         "deaths": 18,
         "cfr": 0.0322,
@@ -6078,14 +6032,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.7,
-          28.0
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Rift Valley Fever",
-        "location": "Algeria",
-        "country": "DZA",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 47,
         "deaths": 23,
         "cfr": 0.4894,
@@ -6109,10 +6063,10 @@
         "disease": "Cholera",
         "location": "Lebanon",
         "country": "LBN",
-        "cases": 18,
+        "cases": 0,
         "deaths": 0,
         "cfr": 0.0,
-        "severity": "moderate",
+        "severity": "low",
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON416",
@@ -6201,10 +6155,10 @@
         "disease": "Dengue",
         "location": "Nepal",
         "country": "NPL",
-        "cases": 28109,
+        "cases": 0,
         "deaths": 0,
         "cfr": 0.0,
-        "severity": "very_high",
+        "severity": "low",
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON412",
@@ -6362,10 +6316,10 @@
         "disease": "Yellow Fever",
         "location": "Cameroon",
         "country": "CMR",
-        "cases": 12,
-        "deaths": 12,
-        "cfr": 1.0,
-        "severity": "very_high",
+        "cases": 184,
+        "deaths": 21,
+        "cfr": 0.1141,
+        "severity": "high",
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON405",
@@ -7067,14 +7021,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.8,
-          9.7
+          0.0,
+          0.0
         ]
       },
       "properties": {
         "disease": "Acute Unknown Illness",
-        "location": "Costa Rica",
-        "country": "CRI",
+        "location": "Multi-country",
+        "country": "MUL",
         "cases": 22,
         "deaths": 22,
         "cfr": 1.0,
@@ -7175,29 +7129,6 @@
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON391",
         "date": "2022-06-17"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.1,
-          17.6
-        ]
-      },
-      "properties": {
-        "disease": "Mpox",
-        "location": "Niger",
-        "country": "NER",
-        "cases": 0,
-        "deaths": 0,
-        "cfr": 0.0,
-        "severity": "low",
-        "h2h": false,
-        "verified": false,
-        "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON390",
-        "date": "2022-06-04"
       }
     },
     {
