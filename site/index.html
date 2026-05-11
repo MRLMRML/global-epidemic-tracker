@@ -92,6 +92,7 @@ var DN={Cholera:"霍乱",Dengue:"登革热",Measles:"麻疹",Hantavirus:"汉坦�
 
 var TIP={Cholera:"急性腹泻传染病。由霍乱弧菌引起，经污染水源传播。可导致严重脱水，不治则可致死。",Dengue:"蚊媒病毒病。全球年感染约3.9亿。重症可导致登革出血热。",Measles:"高传染性呼吸道病毒。可疫苗预防。传染力极强，R0=12-18。",Hantavirus:"啮齿动物传播。吸入受污染气溶胶感染。安第斯病毒是唯一可人传人的汉坦病毒。",Mpox:"密切接触传播，引起皮疹和发热。死亡率低但可传播。","Yellow Fever":"蚊媒出血热，有疫苗可预防。非洲和南美流行。",Diphtheria:"白喉杆菌引起的细菌感染。可疫苗预防。",Influenza:"呼吸道传染病。年重症300-500万例。","Lassa Fever":"啮齿动物传播出血热，西非流行。","Nipah Virus Infection":"果蝠传播，可人传人。CFR 40-75%。","Marburg Virus Disease":"严重出血热，与埃博拉相似。CFR可达88%。","Ebola Virus Disease":"高致死率出血热。通过体液传播，CFR可达90%。",Malaria:"蚊媒寄生虫病。年死亡约60万。非洲负担最重。","Avian Influenza":"禽流感。偶发人类感染，致死率高但传播有限。",COVID:"新型冠状病毒，2019年起全球大流行。",Plague:"鼠疫杆菌，跳蚤传播。不治则可致死。",Anthrax:"炭疽杆菌引起的人畜共患病。",Rabies:"狂犬病病毒引起的致命疾病，可疫苗预防。"};
 
+var DIS_ALIAS={"COVID": ["新冠", "covid", "coronavirus", "sars-cov-2", "covid-19", "corona"], "Dengue": ["登革热", "dengue", "breakbone fever"], "Measles": ["麻疹", "measles", "rubeola"], "Hantavirus": ["汉坦病毒", "hanta", "hantavirus"], "Mpox": ["猴痘", "mpox", "monkeypox"], "Ebola Virus Disease": ["埃博拉", "ebola", "ebola virus"], "Marburg Virus Disease": ["马尔堡", "marburg"], "Cholera": ["霍乱", "cholera"], "Yellow Fever": ["黄热病", "yellow fever"], "Diphtheria": ["白喉", "diphtheria"], "Influenza": ["流感", "flu", "influenza"], "Lassa Fever": ["拉沙热", "lassa fever"], "Nipah Virus Infection": ["尼帕病毒", "nipah"], "Malaria": ["疟疾", "malaria"], "Avian Influenza": ["禽流感", "bird flu", "avian influenza"], "Plague": ["鼠疫", "plague"], "Anthrax": ["炭疽", "anthrax"], "Rabies": ["狂犬病", "rabies"], "SARS": ["非典", "sars"], "Poliomyelitis": ["脊髓灰质炎", "polio"], "Meningococcal Meningitis": ["脑膜炎", "meningitis"], "Chikungunya": ["基孔肯雅", "chikungunya"], "Zika virus disease": ["寨卡", "zika"], "Typhoid fever": ["伤寒", "typhoid"], "Rift Valley Fever": ["裂谷热", "rift valley"], "Crimean-Congo Hemorrhagic Fever": ["克里米亚出血热", "crimean-congo", "cchf"], "Hepatitis E": ["戊型肝炎", "hepatitis e"], "Legionellosis": ["军团菌病", "legionella", "legionellosis"], "Japanese Encephalitis": ["日本脑炎", "japanese encephalitis"], "Rubella": ["风疹", "rubella"], "Mumps": ["腮腺炎", "mumps"]};
 var AL={"新冠":["COVID","Novel coronavirus"],"covid":["COVID"],"ebola":["Ebola Virus Disease"],"埃博拉":["Ebola Virus Disease"],"霍乱":["Cholera"],"cholera":["Cholera"],"登革热":["Dengue"],"dengue":["Dengue"],"麻疹":["Measles"],"measles":["Measles"],"汉坦":["Hantavirus"],"hanta":["Hantavirus"],"猴痘":["Mpox"],"monkeypox":["Mpox"],"禽流感":["Avian Influenza"],"bird flu":["Avian Influenza"],"流感":["Influenza"],"flu":["Influenza"],"疟疾":["Malaria"],"malaria":["Malaria"],"鼠疫":["Plague"],"plague":["Plague"],"非典":["SARS"],"sars":["SARS"],"脑膜炎":["Meningococcal Meningitis"],"伤寒":["Typhoid fever"],"typhoid":["Typhoid fever"],"狂犬病":["Rabies"],"rabies":["Rabies"],"寨卡":["Zika"],"黄热":["Yellow Fever"],"拉沙":["Lassa Fever"],"尼帕":["Nipah"],"马尔堡":["Marburg"],"白喉":["Diphtheria"]};
 
 function dn(n){return DN[n]||n}
@@ -117,13 +118,13 @@ function popD(){
     Object.keys(co).sort(function(a,b){return cn(a).localeCompare(cn(b))}).forEach(function(iso){
         ch+="<div class='o"+(pC.has(iso)?" sl":"")+"' data-iso='"+iso+"' onclick='tSC(this.dataset.iso)'><span class='c'></span>"+cn(iso)+"</div>";
     });
-    ch+="<div style='padding:8px;display:flex;gap:6px;border-top:1px solid var(--border);position:sticky;bottom:0;background:var(--card)'><button class='rb' onclick='cancelC()' style='flex:1'>✕</button><button onclick='confirmC()' style='flex:1;background:var(--accent);color:var(--bg);border:none;padding:4px 8px;border-radius:4px;font-size:11px;cursor:pointer;font-family:inherit'>✓</button></div>";
+    ch="<div style='padding:6px;position:sticky;top:0;background:var(--card);z-index:1'><input type='text' id='csearch' placeholder='搜索国家...' oninput='filterCOptions(this.value)' style='width:100%;padding:6px 8px;background:var(--bg);border:1px solid var(--border);border-radius:4px;color:var(--bright);font-size:12px;font-family:inherit;outline:none'></div>"+ch;ch+="<div style='padding:8px;display:flex;gap:6px;border-top:1px solid var(--border);position:sticky;bottom:0;background:var(--card)'><button class='rb' onclick='cancelC()' style='flex:1'>✕</button><button onclick='confirmC()' style='flex:1;background:var(--accent);color:var(--bg);border:none;padding:4px 8px;border-radius:4px;font-size:11px;cursor:pointer;font-family:inherit'>✓</button></div>";
     document.getElementById("copts").innerHTML=ch;
     var dh="";
     Object.keys(di).sort(function(a,b){return dn(a).localeCompare(dn(b))}).forEach(function(d){
         dh+="<div class='o"+(pD.has(d)?" sl":"")+"' data-dis='"+d+"' onclick='tSD(this.dataset.dis)'><span class='c'></span>"+dn(d)+"</div>";
     });
-    dh+="<div style='padding:8px;display:flex;gap:6px;border-top:1px solid var(--border);position:sticky;bottom:0;background:var(--card)'><button class='rb' onclick='cancelD()' style='flex:1'>✕</button><button onclick='confirmD()' style='flex:1;background:var(--accent);color:var(--bg);border:none;padding:4px 8px;border-radius:4px;font-size:11px;cursor:pointer;font-family:inherit'>✓</button></div>";
+    dh="<div style='padding:6px;position:sticky;top:0;background:var(--card);z-index:1'><input type='text' id='dsearch' placeholder='搜索疾病...' oninput='filterDOptions(this.value)' style='width:100%;padding:6px 8px;background:var(--bg);border:1px solid var(--border);border-radius:4px;color:var(--bright);font-size:12px;font-family:inherit;outline:none'></div>"+dh;dh+="<div style='padding:8px;display:flex;gap:6px;border-top:1px solid var(--border);position:sticky;bottom:0;background:var(--card)'><button class='rb' onclick='cancelD()' style='flex:1'>✕</button><button onclick='confirmD()' style='flex:1;background:var(--accent);color:var(--bg);border:none;padding:4px 8px;border-radius:4px;font-size:11px;cursor:pointer;font-family:inherit'>✓</button></div>";
     document.getElementById("dopts").innerHTML=dh;
     uB();
 }
@@ -149,6 +150,33 @@ function uB(){
 }
 
 function doF(){closD();if(allData)render(allData)}
+
+
+function filterCOptions(q){
+    q=q.toLowerCase().trim();
+    var opts=document.querySelectorAll("#copts .o");
+    opts.forEach(function(o){
+        var txt=o.textContent.toLowerCase();
+        var iso=(o.dataset.iso||"").toLowerCase();
+        o.style.display=(!q||txt.indexOf(q)>=0||iso.indexOf(q)>=0)?"":"none";
+    });
+}
+
+function filterDOptions(q){
+    q=q.toLowerCase().trim();
+    var opts=document.querySelectorAll("#dopts .o");
+    opts.forEach(function(o){
+        var txt=o.textContent.toLowerCase();
+        var dis=o.dataset.dis||"";
+        var disLower=dis.toLowerCase();
+        var match=txt.indexOf(q)>=0||disLower.indexOf(q)>=0;
+        // Check aliases
+        if(!match && DIS_ALIAS[dis]){
+            match=DIS_ALIAS[dis].some(function(a){return a.toLowerCase().indexOf(q)>=0});
+        }
+        o.style.display=(!q||match)?"":"none";
+    });
+}
 
 function init(){
     map=L.map("map",{zoomControl:true,attributionControl:false}).setView([20,0],2);
