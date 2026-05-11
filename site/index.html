@@ -327,7 +327,9 @@ function rS(o){
         var tt=tip?"<span class='tp'>"+tip+"</span>":"";
         var h2h=x.h2h?"<span class='tg th' onmouseover=\"this.title='已确认人传人传播 / H2H confirmed'\">H2H</span>":"";
         h+="<div class='card "+cls+"' data-d='"+x.disease+"' onclick='filterDisease(this.dataset.d)'>";
-        h+="<div class='ch'><span class='cn'>"+dn(x.disease)+tt+"</span></div>";
+        var sevText=x.severity==="very_high"?"极高":x.severity==="high"?"高":x.severity==="moderate"?"中等":"低";
+        var sevBg=x.severity==="very_high"?"var(--red)":x.severity==="high"?"var(--amber)":x.severity==="moderate"?"var(--blue)":"var(--green)";
+        h+="<div class='ch'><span class='cn'>"+dn(x.disease)+tt+"</span><span style='background:"+sevBg+";color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600'>"+sevText+"</span></div>";
         h+="<div class='ci'>"+x.countries.size+" 国家</div>";
         h+="<div class='cn2'><span>病例: <b>"+fmt(x.cases)+"</b></span><span>死亡: <b>"+fmt(x.deaths)+"</b></span><span>CFR: "+pct(x.deaths,x.cases)+"</span></div>";
         h+="<div class='ct'>"+h2h+"<button class='vbtn' onclick='event.stopPropagation();opD(this.closest(\".card\").dataset.d)'>📊 详细数据</button></div>";
