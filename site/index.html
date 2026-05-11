@@ -103,7 +103,7 @@ function sL(s){return s==="very_high"?"极高":s==="high"?"高":s==="moderate"?"
 
 function cloN(){document.getElementById("nbg").classList.remove("op")}
 function cloD(){document.getElementById("dbg").classList.remove("op")}
-function resetAll(){sC.clear();sD.clear();pC.clear();pD.clear();hiddenD.clear();uB();closD();if(allData)render(allData);if(map)map.flyTo([20,0],2,{duration:0.5})}
+function resetAll(){sC.clear();sD.clear();pC.clear();pD.clear();hiddenD.clear();updateDropUI();uB();closD();if(allData)render(allData);if(map)map.flyTo([20,0],2,{duration:0.5})}
 function togD(t){var dd=document.getElementById(t==="c"?"cdd":"ddd");var o=dd.classList.contains("op");closD();if(!o)dd.classList.add("op")}
 function closD(){document.getElementById("cdd").classList.remove("op");document.getElementById("ddd").classList.remove("op")}
 function hideDisease(d){hiddenD.add(d);if(allData)render(allData)}
@@ -130,7 +130,7 @@ function popD(){
 
 function tSC(iso){pC.has(iso)?pC.delete(iso):pC.add(iso);updateDropUI()}
 function confirmC(){sC=new Set(pC);uB();closD();if(allData)render(allData)}
-function cancelC(){pC=new Set(sC);uB();closD()}
+function cancelC(){pC=new Set(sC);updateDropUI();uB();closD()}
 function tSD(d){pD.has(d)?pD.delete(d):pD.add(d);updateDropUI()}
 function updateDropUI(){
     var co=document.getElementById("copts");
@@ -140,7 +140,7 @@ function updateDropUI(){
     uB();
 }
 function confirmD(){sD=new Set(pD);uB();closD();if(allData)render(allData)}
-function cancelD(){pD=new Set(sD);uB();closD()}
+function cancelD(){pD=new Set(sD);updateDropUI();uB();closD()}
 
 function uB(){
     var cb=document.getElementById("cbtn"),db=document.getElementById("dbtn");
