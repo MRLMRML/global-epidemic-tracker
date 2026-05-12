@@ -519,7 +519,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2026-DON598",
@@ -556,7 +558,9 @@
         "ReliefWeb"
       ],
       "news_summary": "Verified by 10 source(s): ReliefWeb, OSV News, The Daily Star. WHO reports 19161 cases, 0 deaths.",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2026-DON597",
@@ -582,7 +586,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2026-DON595",
@@ -608,7 +614,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2026-DON594",
@@ -634,7 +642,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2026-DON593",
@@ -660,7 +670,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2026-DON592",
@@ -686,7 +698,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON591",
@@ -712,7 +726,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON586",
@@ -738,7 +754,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON587",
@@ -764,7 +782,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON590",
@@ -790,7 +810,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON589",
@@ -816,7 +838,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "DON588",
@@ -848,7 +872,9 @@
         "Medical Xpress"
       ],
       "news_summary": "Verified by 5 source(s): Africa Check, WHO | Regional Office for Africa, Johns Hopkins Bloomberg School of Public Health. WHO reports 20412 cases, 252 deaths.",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2025-DON585",
@@ -874,7 +900,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON584",
@@ -900,7 +928,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON581",
@@ -932,7 +962,9 @@
         "The Lancet"
       ],
       "news_summary": "Verified by 5 source(s): News-Medical, Pan American Health Organization (PAHO), CIDRAP. WHO reports 445271 cases, 155 deaths.",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON582",
@@ -958,7 +990,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON580",
@@ -984,7 +1018,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON579",
@@ -1015,7 +1051,9 @@
         "Global Biodefense"
       ],
       "news_summary": "Verified by 4 source(s): ReliefWeb, Global Biodefense, World Health Organization (WHO). WHO reports 409222 cases, 4738 deaths.",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2025-DON578",
@@ -1041,7 +1079,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON577",
@@ -1067,7 +1107,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON576",
@@ -1093,7 +1135,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON575",
@@ -1119,7 +1163,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON573",
@@ -1145,7 +1191,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2025-DON572",
@@ -1171,7 +1219,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON571",
@@ -1197,7 +1247,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON570",
@@ -1223,7 +1275,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON568",
@@ -1249,7 +1303,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON569",
@@ -1275,7 +1331,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON567",
@@ -1301,7 +1359,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON565",
@@ -1327,7 +1387,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON566",
@@ -1353,7 +1415,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON564",
@@ -1379,7 +1443,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON563",
@@ -1405,7 +1471,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2025-DON562",
@@ -1431,7 +1499,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2025-DON561",
@@ -1457,7 +1527,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON560",
@@ -1483,7 +1555,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON559",
@@ -1509,7 +1583,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON558",
@@ -1535,7 +1611,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON556",
@@ -1561,7 +1639,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON554",
@@ -1587,7 +1667,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON549",
@@ -1613,7 +1695,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON553",
@@ -1639,7 +1723,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON552",
@@ -1665,7 +1751,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2025-DON550",
@@ -1691,7 +1779,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Unknown"
     },
     {
       "outbreak_id": "2024-DON547",
@@ -1717,7 +1807,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Unknown"
     },
     {
       "outbreak_id": "2024-DON548",
@@ -1743,7 +1835,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON514",
@@ -1769,7 +1863,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON546",
@@ -1795,7 +1891,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Unknown"
     },
     {
       "outbreak_id": "2024-DON545",
@@ -1821,7 +1919,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON544",
@@ -1847,7 +1947,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON542",
@@ -1873,7 +1975,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Parasite"
     },
     {
       "outbreak_id": "2024-DON541",
@@ -1899,7 +2003,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON538",
@@ -1925,7 +2031,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON536",
@@ -1951,7 +2059,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON537",
@@ -1977,7 +2087,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON534",
@@ -2003,7 +2115,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON532",
@@ -2029,7 +2143,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON533",
@@ -2055,7 +2171,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON531",
@@ -2081,7 +2199,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON530",
@@ -2107,7 +2227,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON529",
@@ -2133,7 +2255,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Unknown"
     },
     {
       "outbreak_id": "2024-DON528",
@@ -2159,7 +2283,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON526",
@@ -2185,7 +2311,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON525",
@@ -2211,7 +2339,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON522",
@@ -2237,7 +2367,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON524",
@@ -2263,7 +2395,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON523",
@@ -2289,7 +2423,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON521",
@@ -2315,7 +2451,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON519",
@@ -2341,7 +2479,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Oceania",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON518",
@@ -2367,7 +2507,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON516",
@@ -2393,7 +2535,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON517",
@@ -2419,7 +2563,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON513",
@@ -2445,7 +2591,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON512",
@@ -2471,7 +2619,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON511",
@@ -2497,7 +2647,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON510",
@@ -2523,7 +2675,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "1998DON236",
@@ -2549,7 +2703,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "1998DON235",
@@ -2575,7 +2731,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "1998DON233",
@@ -2601,7 +2759,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "1999DON232",
@@ -2627,7 +2787,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "1999DON231",
@@ -2653,7 +2815,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "1999DON230",
@@ -2679,7 +2843,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "1999DON229",
@@ -2705,7 +2871,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "1999DON228",
@@ -2731,7 +2899,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Unknown"
     },
     {
       "outbreak_id": "1999DON227",
@@ -2757,7 +2927,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2000DON226",
@@ -2783,7 +2955,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2000DON225",
@@ -2809,7 +2983,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2000DON223",
@@ -2835,7 +3011,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2000DON221",
@@ -2861,7 +3039,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2000DON220",
@@ -2887,7 +3067,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2000DON217",
@@ -2913,7 +3095,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Europe",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2000DON216",
@@ -2939,7 +3123,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2000DON215",
@@ -2965,7 +3151,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2000DON214",
@@ -2991,7 +3179,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2000DON213",
@@ -3017,7 +3207,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2000DON212",
@@ -3043,7 +3235,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2001DON211",
@@ -3069,7 +3263,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2001DON210",
@@ -3095,7 +3291,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2001DON208",
@@ -3121,7 +3319,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2001DON206",
@@ -3147,7 +3347,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2001DON205",
@@ -3173,7 +3375,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2001DON203",
@@ -3199,7 +3403,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2001DON199",
@@ -3225,7 +3431,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2001DON198",
@@ -3251,7 +3459,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2002DON197",
@@ -3277,7 +3487,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2002DON196",
@@ -3303,7 +3515,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2002DON191",
@@ -3329,7 +3543,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2002DON189",
@@ -3355,7 +3571,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2002DON187",
@@ -3381,7 +3599,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2002DON185",
@@ -3407,7 +3627,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2002DON184",
@@ -3433,7 +3655,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2002DON183",
@@ -3459,7 +3683,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2002DON182",
@@ -3485,7 +3711,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2003DON181",
@@ -3511,7 +3739,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Unknown"
     },
     {
       "outbreak_id": "2003DON180",
@@ -3537,7 +3767,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2003DON179",
@@ -3563,7 +3795,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2003DON177",
@@ -3589,7 +3823,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2003DON176",
@@ -3615,7 +3851,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Unknown"
     },
     {
       "outbreak_id": "2003DON175",
@@ -3641,7 +3879,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2003DON173",
@@ -3667,7 +3907,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Europe",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2003DON172",
@@ -3693,7 +3935,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2003DON170",
@@ -3719,7 +3963,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2003DON169",
@@ -3745,7 +3991,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2003DON165",
@@ -3771,7 +4019,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2003DON164",
@@ -3797,7 +4047,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2003DON163",
@@ -3823,7 +4075,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2003DON162",
@@ -3849,7 +4103,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Unknown"
     },
     {
       "outbreak_id": "2003DON159",
@@ -3875,7 +4131,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2003DON155",
@@ -3901,7 +4159,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2003DON151",
@@ -3927,7 +4187,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2003DON148",
@@ -3953,7 +4215,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2004DON146",
@@ -3979,7 +4243,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2004DON143",
@@ -4005,7 +4271,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2004DON141",
@@ -4031,7 +4299,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2004DON140",
@@ -4057,7 +4327,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Unknown"
     },
     {
       "outbreak_id": "2004DON138",
@@ -4083,7 +4355,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2004DON137",
@@ -4109,7 +4383,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2004DON133",
@@ -4135,7 +4411,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2005DON127",
@@ -4161,7 +4439,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2005DON125",
@@ -4187,7 +4467,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2005DON121",
@@ -4213,7 +4495,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2005DON119",
@@ -4239,7 +4523,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2005DON117",
@@ -4265,7 +4551,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2005DON116",
@@ -4291,7 +4579,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2005DON108",
@@ -4317,7 +4607,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Unknown"
     },
     {
       "outbreak_id": "2005DON107",
@@ -4343,7 +4635,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2005DON106",
@@ -4369,7 +4663,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2005DON105",
@@ -4395,7 +4691,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2006DON104",
@@ -4421,7 +4719,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2006DON103",
@@ -4447,7 +4747,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2006DON101",
@@ -4473,7 +4775,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2006DON100",
@@ -4499,7 +4803,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2006DON099",
@@ -4525,7 +4831,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2006DON096",
@@ -4551,7 +4859,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2006DON094",
@@ -4577,7 +4887,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2006DON092",
@@ -4603,7 +4915,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2006DON090",
@@ -4629,7 +4943,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2006DON089",
@@ -4655,7 +4971,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2006DON085",
@@ -4681,7 +4999,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2007DON081",
@@ -4707,7 +5027,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2007DON077",
@@ -4733,7 +5055,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2007DON076",
@@ -4759,7 +5083,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2008DON066",
@@ -4785,7 +5111,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2009DON061",
@@ -4811,7 +5139,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2009DON049",
@@ -4837,7 +5167,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2009DON047",
@@ -4863,7 +5195,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2010DON044",
@@ -4889,7 +5223,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2010DON043",
@@ -4915,7 +5251,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON509",
@@ -4941,7 +5279,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Europe",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "novel-coronavirus-infection---saudi-arabia-and-qatar",
@@ -4967,7 +5307,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2012DON028",
@@ -4993,7 +5335,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2013DON026",
@@ -5019,7 +5363,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2013DON025",
@@ -5045,7 +5391,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2013DON023",
@@ -5071,7 +5419,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2013DON022",
@@ -5097,7 +5447,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2013DON021",
@@ -5123,7 +5475,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2013DON018",
@@ -5149,7 +5503,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2014DON017",
@@ -5175,7 +5531,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2014DON016",
@@ -5201,7 +5559,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2014DON015",
@@ -5227,7 +5587,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2014DON001",
@@ -5253,7 +5615,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON508",
@@ -5279,7 +5643,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON506",
@@ -5305,7 +5671,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON504",
@@ -5331,7 +5699,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON503",
@@ -5357,7 +5727,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON505",
@@ -5383,7 +5755,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON501",
@@ -5409,7 +5783,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON502",
@@ -5435,7 +5811,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2024-DON500",
@@ -5461,7 +5839,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON499",
@@ -5487,7 +5867,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON498",
@@ -5513,7 +5895,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON497",
@@ -5539,7 +5923,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2023-DON496",
@@ -5565,7 +5951,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Oceania",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON495",
@@ -5591,7 +5979,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON494",
@@ -5617,7 +6007,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Unknown"
     },
     {
       "outbreak_id": "2023-DON493",
@@ -5643,7 +6035,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON492",
@@ -5669,7 +6063,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2023-DON491",
@@ -5695,7 +6091,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON490",
@@ -5721,7 +6119,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON488",
@@ -5747,7 +6147,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2023-DON489",
@@ -5773,7 +6175,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2023-DON487",
@@ -5799,7 +6203,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2023-DON485",
@@ -5825,7 +6231,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2023-DON486",
@@ -5851,7 +6259,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON484",
@@ -5877,7 +6287,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON483",
@@ -5903,7 +6315,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON482",
@@ -5929,7 +6343,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON481",
@@ -5955,7 +6371,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON479",
@@ -5981,7 +6399,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON480",
@@ -6007,7 +6427,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON478",
@@ -6033,7 +6455,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON475",
@@ -6059,7 +6483,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON476",
@@ -6085,7 +6511,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON474",
@@ -6111,7 +6539,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON473",
@@ -6137,7 +6567,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON472",
@@ -6163,7 +6595,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON470",
@@ -6189,7 +6623,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2023-DON469",
@@ -6215,7 +6651,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON468",
@@ -6241,7 +6679,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON465",
@@ -6267,7 +6707,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Europe",
+      "pathogen_type": "Unknown"
     },
     {
       "outbreak_id": "2023-DON467",
@@ -6293,7 +6735,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON466",
@@ -6319,7 +6763,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Unknown"
     },
     {
       "outbreak_id": "2023-DON460",
@@ -6345,7 +6791,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON463",
@@ -6371,7 +6819,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON462",
@@ -6397,7 +6847,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON454",
@@ -6423,7 +6875,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2023-DON452",
@@ -6449,7 +6903,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2023-DON461",
@@ -6475,7 +6931,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON457",
@@ -6501,7 +6959,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON458",
@@ -6527,7 +6987,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON459",
@@ -6553,7 +7015,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON456",
@@ -6579,7 +7043,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON455",
@@ -6605,7 +7071,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2023-DON451",
@@ -6631,7 +7099,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON450",
@@ -6657,7 +7127,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2023-DON448",
@@ -6683,7 +7155,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON447",
@@ -6709,7 +7183,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON445",
@@ -6735,7 +7211,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON444",
@@ -6761,7 +7239,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON443",
@@ -6787,7 +7267,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2023-DON442",
@@ -6813,7 +7295,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON440",
@@ -6839,7 +7323,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON435",
@@ -6865,7 +7351,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2023-DON436",
@@ -6891,7 +7379,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON439",
@@ -6917,7 +7407,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2023-DON438",
@@ -6943,7 +7435,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON352",
@@ -6969,7 +7463,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON434",
@@ -6995,7 +7491,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON433",
@@ -7021,7 +7519,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2023-DON362",
@@ -7047,7 +7547,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON431",
@@ -7073,7 +7575,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON430",
@@ -7099,7 +7603,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON426",
@@ -7125,7 +7631,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2022-DON427",
@@ -7151,7 +7659,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2022-DON428",
@@ -7177,7 +7687,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON424",
@@ -7203,7 +7715,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON425",
@@ -7229,7 +7743,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON422",
@@ -7255,7 +7771,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON419",
@@ -7281,7 +7799,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2022-DON420",
@@ -7307,7 +7827,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON421",
@@ -7333,7 +7855,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON417",
@@ -7359,7 +7883,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON416",
@@ -7385,7 +7911,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2022-DON413",
@@ -7411,7 +7939,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Parasite"
     },
     {
       "outbreak_id": "2022-DON414",
@@ -7444,7 +7974,9 @@
         "thekabultribune.com"
       ],
       "news_summary": "Verified by 6 source(s): ReliefWeb, thekabultribune.com, Bing News. News reports mention ~1000 cases. WHO reports 25932 cases, 62 deaths.",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON415",
@@ -7470,7 +8002,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2022-DON412",
@@ -7496,7 +8030,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON411",
@@ -7522,7 +8058,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON409",
@@ -7548,7 +8086,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON410",
@@ -7574,7 +8114,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON408",
@@ -7600,7 +8142,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON406",
@@ -7626,7 +8170,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON407",
@@ -7652,7 +8198,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2022-DON405",
@@ -7678,7 +8226,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON404",
@@ -7704,7 +8254,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON403",
@@ -7730,7 +8282,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2022-DON401",
@@ -7756,7 +8310,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON403",
@@ -7782,7 +8338,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON166",
@@ -7808,7 +8366,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON163",
@@ -7834,7 +8394,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON173",
@@ -7860,7 +8422,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON180",
@@ -7886,7 +8450,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON183",
@@ -7912,7 +8478,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON186",
@@ -7938,7 +8506,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON256",
@@ -7964,7 +8534,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Europe",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2019-DON188",
@@ -7990,7 +8562,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Unknown"
     },
     {
       "outbreak_id": "2019-DON190",
@@ -8016,7 +8590,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON192",
@@ -8042,7 +8618,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2019-DON195",
@@ -8068,7 +8646,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON200",
@@ -8094,7 +8674,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON201",
@@ -8120,7 +8702,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON205",
@@ -8146,7 +8730,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON206",
@@ -8172,7 +8758,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON208",
@@ -8198,7 +8786,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON207",
@@ -8224,7 +8814,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON211",
@@ -8250,7 +8842,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON210",
@@ -8276,7 +8870,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON214",
@@ -8302,7 +8898,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON213",
@@ -8328,7 +8926,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON218",
@@ -8354,7 +8954,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON227",
@@ -8380,7 +8982,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2019-DON223",
@@ -8406,7 +9010,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON402",
@@ -8432,7 +9038,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON398_1",
@@ -8458,7 +9066,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2022-DON400",
@@ -8484,7 +9094,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Unknown"
     },
     {
       "outbreak_id": "2022-DON396",
@@ -8510,7 +9122,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON394",
@@ -8536,7 +9150,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Unknown"
     },
     {
       "outbreak_id": "2022-DON395",
@@ -8562,7 +9178,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON391",
@@ -8588,7 +9206,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "2022-DON386",
@@ -8614,7 +9234,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "2022-DON388",
@@ -8640,7 +9262,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "DON-389",
@@ -8666,7 +9290,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "pending"
+      "confidence": "pending",
+      "continent": "Global",
+      "pathogen_type": "Unknown"
     },
     {
       "outbreak_id": "gho_POL_Measles_2024",
@@ -8692,7 +9318,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_VNM_Measles_2024",
@@ -8718,7 +9346,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_AUS_Measles_2024",
@@ -8744,7 +9374,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Oceania",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_SVK_Measles_2024",
@@ -8770,7 +9402,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_BWA_Measles_2024",
@@ -8796,7 +9430,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_SDN_Measles_2024",
@@ -8822,7 +9458,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_COD_Measles_2024",
@@ -8854,7 +9492,9 @@
         "Welcome to the United Nations"
       ],
       "news_summary": "Verified by 5 source(s): The New York Times, Centers for Disease Control and Prevention | CDC (.gov), Doctors Without Borders. WHO reports 311500 cases, 0 deaths.",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_ALB_Measles_2024",
@@ -8880,7 +9520,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_WB_LI_Measles_2024",
@@ -8906,7 +9548,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "No independent news sources found to verify this outbreak.",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_GNQ_Measles_2024",
@@ -8932,7 +9576,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_SGP_Measles_2024",
@@ -8958,7 +9604,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_AGO_Measles_2024",
@@ -8984,7 +9632,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_OMN_Measles_2024",
@@ -9010,7 +9660,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_DZA_Measles_2024",
@@ -9036,7 +9688,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_MLT_Measles_2024",
@@ -9062,7 +9716,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_YEM_Measles_2024",
@@ -9088,7 +9744,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_SWE_Measles_2024",
@@ -9114,7 +9772,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_CZE_Measles_2024",
@@ -9140,7 +9800,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_IRQ_Measles_2024",
@@ -9172,7 +9834,9 @@
         "Outbreak News Today"
       ],
       "news_summary": "Verified by 5 source(s): World Health Organization (WHO), Centers for Disease Control and Prevention | CDC (.gov), Outbreak News Today. WHO reports 32494 cases, 0 deaths.",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_MYS_Measles_2024",
@@ -9198,7 +9862,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_SYR_Measles_2024",
@@ -9224,7 +9890,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_LUX_Measles_2024",
@@ -9250,7 +9918,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_ITA_Measles_2024",
@@ -9276,7 +9946,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_EMR_Measles_2024",
@@ -9308,7 +9980,9 @@
         "Centers for Disease Control and Prevention | CDC (.gov)"
       ],
       "news_summary": "Verified by 5 source(s): World Health Organization (WHO), American Medical Association, Centers for Disease Control and Prevention | CDC (.gov). WHO reports 78765 cases, 0 deaths.",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_QAT_Measles_2024",
@@ -9334,7 +10008,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_GLOBAL_Measles_2024",
@@ -9367,7 +10043,9 @@
         "BBC"
       ],
       "news_summary": "Verified by 6 source(s): World Health Organization (WHO), Centers for Disease Control and Prevention | CDC (.gov), Bing News. WHO reports 675533 cases, 0 deaths.",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_PRT_Measles_2024",
@@ -9393,7 +10071,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_MDA_Measles_2024",
@@ -9419,7 +10099,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_UGA_Measles_2024",
@@ -9445,7 +10127,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_BEN_Measles_2024",
@@ -9471,7 +10155,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_BRA_Measles_2024",
@@ -9497,7 +10183,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_GEO_Measles_2024",
@@ -9523,7 +10211,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_NER_Measles_2024",
@@ -9549,7 +10239,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_LBR_Measles_2024",
@@ -9575,7 +10267,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_PER_Measles_2024",
@@ -9601,7 +10295,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_BGR_Measles_2024",
@@ -9627,7 +10323,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_AMR_Measles_2024",
@@ -9653,7 +10351,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_JOR_Measles_2024",
@@ -9679,7 +10379,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_TCD_Diphtheria_2024",
@@ -9705,7 +10407,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_UKR_Diphtheria_2024",
@@ -9731,7 +10435,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_WB_LMI_Diphtheria_2024",
@@ -9757,7 +10463,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "No independent news sources found to verify this outbreak.",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_NGA_Diphtheria_2024",
@@ -9790,7 +10498,9 @@
         "Wiley Online Library"
       ],
       "news_summary": "Verified by 6 source(s): ReliefWeb, World Health Organization (WHO), Bing News. WHO reports 10595 cases, 0 deaths.",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_LVA_Diphtheria_2024",
@@ -9816,7 +10526,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_SWZ_Diphtheria_2024",
@@ -9842,7 +10554,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_POL_Diphtheria_2024",
@@ -9868,7 +10582,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_KEN_Diphtheria_2024",
@@ -9894,7 +10610,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_AFG_Diphtheria_2024",
@@ -9920,7 +10638,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_SVK_Diphtheria_2024",
@@ -9946,7 +10666,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_NPL_Diphtheria_2024",
@@ -9972,7 +10694,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_VEN_Diphtheria_2024",
@@ -9998,7 +10722,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_SAU_Diphtheria_2024",
@@ -10024,7 +10750,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_DEU_Diphtheria_2024",
@@ -10050,7 +10778,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_COD_Diphtheria_2024",
@@ -10076,7 +10806,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_ITA_Diphtheria_2024",
@@ -10102,7 +10834,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_PHL_Diphtheria_2024",
@@ -10128,7 +10862,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_LAO_Diphtheria_2024",
@@ -10154,7 +10890,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_BRA_Diphtheria_2024",
@@ -10180,7 +10918,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_GAB_Diphtheria_2024",
@@ -10206,7 +10946,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_BRA_Yellow Fever_2024",
@@ -10232,7 +10974,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_PER_Yellow Fever_2024",
@@ -10258,7 +11002,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_COD_Yellow Fever_2024",
@@ -10284,7 +11030,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_WB_LI_Yellow Fever_2024",
@@ -10310,7 +11058,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_GAB_Yellow Fever_2024",
@@ -10336,7 +11086,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_GIN_Yellow Fever_2024",
@@ -10362,7 +11114,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_NGA_Yellow Fever_2024",
@@ -10388,7 +11142,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_SLE_Yellow Fever_2024",
@@ -10414,7 +11170,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_COG_Yellow Fever_2024",
@@ -10440,7 +11198,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_AMR_Yellow Fever_2024",
@@ -10466,7 +11226,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_WPR_Neonatal Tetanus_2024",
@@ -10492,7 +11254,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_BFA_Neonatal Tetanus_2024",
@@ -10518,7 +11282,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_GIN_Neonatal Tetanus_2024",
@@ -10544,7 +11310,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_WB_LMI_Neonatal Tetanus_2024",
@@ -10570,7 +11338,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_KEN_Neonatal Tetanus_2024",
@@ -10596,7 +11366,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_SYR_Neonatal Tetanus_2024",
@@ -10622,7 +11394,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_IDN_Neonatal Tetanus_2024",
@@ -10648,7 +11422,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_CAF_Neonatal Tetanus_2024",
@@ -10674,7 +11450,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_MDG_Neonatal Tetanus_2024",
@@ -10700,7 +11478,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_ETH_Neonatal Tetanus_2024",
@@ -10726,7 +11506,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_TZA_Neonatal Tetanus_2024",
@@ -10752,7 +11534,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_NGA_Neonatal Tetanus_2024",
@@ -10778,7 +11562,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_COD_Neonatal Tetanus_2024",
@@ -10804,7 +11590,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_COG_Neonatal Tetanus_2024",
@@ -10830,7 +11618,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_MMR_Neonatal Tetanus_2024",
@@ -10856,7 +11646,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_WB_LI_Neonatal Tetanus_2024",
@@ -10882,7 +11674,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_GAB_Neonatal Tetanus_2024",
@@ -10908,7 +11702,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_MOZ_Neonatal Tetanus_2024",
@@ -10934,7 +11730,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_AMR_Neonatal Tetanus_2024",
@@ -10960,7 +11758,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_ZMB_Neonatal Tetanus_2024",
@@ -10986,7 +11786,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Bacteria"
     },
     {
       "outbreak_id": "gho_MOZ_Rubella_2024",
@@ -11012,7 +11814,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_MLI_Rubella_2024",
@@ -11038,7 +11842,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_QAT_Rubella_2024",
@@ -11064,7 +11870,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_NPL_Rubella_2024",
@@ -11090,7 +11898,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_BDI_Rubella_2024",
@@ -11116,7 +11926,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_UKR_Rubella_2024",
@@ -11142,7 +11954,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_SWZ_Rubella_2024",
@@ -11168,7 +11982,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_COD_Rubella_2024",
@@ -11194,7 +12010,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_TZA_Rubella_2024",
@@ -11220,7 +12038,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_LVA_Rubella_2024",
@@ -11246,7 +12066,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_EUR_Rubella_2024",
@@ -11272,7 +12094,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_ZMB_Rubella_2024",
@@ -11298,7 +12122,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_BIH_Rubella_2024",
@@ -11324,7 +12150,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_COM_Rubella_2024",
@@ -11350,7 +12178,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_TLS_Rubella_2024",
@@ -11376,7 +12206,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_LBY_Rubella_2024",
@@ -11402,7 +12234,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_GIN_Rubella_2024",
@@ -11428,7 +12262,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_NCL_Rubella_2024",
@@ -11454,7 +12290,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Oceania",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_WPR_Rubella_2024",
@@ -11480,7 +12318,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_BWA_Rubella_2024",
@@ -11506,7 +12346,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_SEN_Rubella_2024",
@@ -11532,7 +12374,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_TCD_Rubella_2024",
@@ -11558,7 +12402,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_RWA_Rubella_2024",
@@ -11584,7 +12430,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_BGD_Rubella_2024",
@@ -11610,7 +12458,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_IRQ_Rubella_2024",
@@ -11636,7 +12486,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_RUS_Rubella_2024",
@@ -11662,7 +12514,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_COG_Rubella_2024",
@@ -11688,7 +12542,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_ZWE_Rubella_2024",
@@ -11714,7 +12570,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_DJI_Rubella_2024",
@@ -11740,7 +12598,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_COL_Mumps_2024",
@@ -11766,7 +12626,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_OMN_Mumps_2024",
@@ -11792,7 +12654,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_KGZ_Mumps_2024",
@@ -11818,7 +12682,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_LBY_Mumps_2024",
@@ -11844,7 +12710,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_ZMB_Mumps_2024",
@@ -11870,7 +12738,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_QAT_Mumps_2024",
@@ -11896,7 +12766,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_WB_LMI_Mumps_2024",
@@ -11922,7 +12794,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "No independent news sources found to verify this outbreak.",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_WB_HI_Mumps_2024",
@@ -11948,7 +12822,9 @@
       "news_verified": false,
       "news_sources": [],
       "news_summary": "No independent news sources found to verify this outbreak.",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_NOR_Mumps_2024",
@@ -11974,7 +12850,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_EGY_Mumps_2024",
@@ -12000,7 +12878,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_GRC_Mumps_2024",
@@ -12026,7 +12906,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_EST_Mumps_2024",
@@ -12052,7 +12934,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_CZE_Mumps_2024",
@@ -12078,7 +12962,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_ARM_Mumps_2024",
@@ -12104,7 +12990,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_ITA_Mumps_2024",
@@ -12130,7 +13018,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_JOR_Mumps_2024",
@@ -12156,7 +13046,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_GBR_Mumps_2024",
@@ -12182,7 +13074,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_LBN_Mumps_2024",
@@ -12208,7 +13102,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_RWA_Mumps_2024",
@@ -12234,7 +13130,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_BTN_Mumps_2024",
@@ -12260,7 +13158,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_CHL_Mumps_2024",
@@ -12286,7 +13186,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_KOR_Mumps_2024",
@@ -12312,7 +13214,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_SEAR_Mumps_2024",
@@ -12338,7 +13242,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_HUN_Mumps_2024",
@@ -12364,7 +13270,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_AMR_Mumps_2024",
@@ -12392,7 +13300,9 @@
         "Nature"
       ],
       "news_summary": "Single source confirmation: GSK seeks partners to innovate and accelerate vaccine R&amp;D - Nature",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_CIV_Mumps_2024",
@@ -12418,7 +13328,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_CRI_Mumps_2024",
@@ -12444,7 +13356,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_JPN_Mumps_2024",
@@ -12470,7 +13384,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_ISL_Mumps_2024",
@@ -12496,7 +13412,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_ARE_Mumps_2024",
@@ -12522,7 +13440,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_NZL_Mumps_2024",
@@ -12548,7 +13468,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Oceania",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_SVK_Mumps_2024",
@@ -12574,7 +13496,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_BRA_Mumps_2024",
@@ -12600,7 +13524,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_VNM_Japanese Encephalitis_2024",
@@ -12626,7 +13552,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_GLOBAL_Japanese Encephalitis_2024",
@@ -12652,7 +13580,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_LKA_Japanese Encephalitis_2024",
@@ -12678,7 +13608,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_WB_LMI_Japanese Encephalitis_2024",
@@ -12704,7 +13636,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_KOR_Japanese Encephalitis_2024",
@@ -12730,7 +13664,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_MMR_Japanese Encephalitis_2024",
@@ -12756,7 +13692,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_LAO_Japanese Encephalitis_2024",
@@ -12782,7 +13720,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_NPL_Japanese Encephalitis_2024",
@@ -12808,7 +13748,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_WB_HI_Japanese Encephalitis_2024",
@@ -12834,7 +13776,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_IDN_Japanese Encephalitis_2024",
@@ -12860,7 +13804,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_WPR_Japanese Encephalitis_2024",
@@ -12886,7 +13832,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_THA_Japanese Encephalitis_2024",
@@ -12912,7 +13860,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_BTN_Japanese Encephalitis_2024",
@@ -12938,7 +13888,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_CHN_Japanese Encephalitis_2024",
@@ -12964,7 +13916,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_BRN_Japanese Encephalitis_2024",
@@ -12990,7 +13944,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_TLS_Japanese Encephalitis_2024",
@@ -13016,7 +13972,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_WB_UMI_Japanese Encephalitis_2024",
@@ -13042,7 +14000,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Global",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_BGD_Japanese Encephalitis_2024",
@@ -13068,7 +14028,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "gho_JPN_Japanese Encephalitis_2024",
@@ -13094,7 +14056,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_AGO_2025-08-31",
@@ -13120,7 +14084,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_ARG_2026-03-30",
@@ -13146,7 +14112,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_AUS_2026-03-31",
@@ -13172,7 +14140,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Oceania",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_AUT_2026-03-15",
@@ -13198,7 +14168,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_BEL_2026-03-15",
@@ -13224,7 +14196,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_BOL_2026-03-30",
@@ -13250,7 +14224,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_BRA_2026-03-30",
@@ -13282,7 +14258,9 @@
         "safety4sea"
       ],
       "news_summary": "Verified by 5 source(s): ReliefWeb, The New England Journal of Medicine, IFLScience. WHO reports 15027 cases, 19 deaths.",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_BGR_2026-03-15",
@@ -13308,7 +14286,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_BDI_2026-03-22",
@@ -13334,7 +14314,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_KHM_2024-02-23",
@@ -13360,7 +14342,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_CMR_2026-04-04",
@@ -13386,7 +14370,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_CAN_2026-03-30",
@@ -13412,7 +14398,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_CAF_2026-04-05",
@@ -13438,7 +14426,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_CHL_2026-03-30",
@@ -13464,7 +14454,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_CHN_2026-04-17",
@@ -13490,7 +14482,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_COL_2026-03-30",
@@ -13516,7 +14510,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_COM_2026-03-22",
@@ -13542,7 +14538,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_COG_2026-03-29",
@@ -13568,7 +14566,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_CRI_2026-03-30",
@@ -13594,7 +14594,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_CIV_2025-08-31",
@@ -13620,7 +14622,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_HRV_2026-03-15",
@@ -13646,7 +14650,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_CZE_2026-03-15",
@@ -13672,7 +14678,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_COD_2026-04-12",
@@ -13705,7 +14713,9 @@
         "africanews.com"
       ],
       "news_summary": "Verified by 6 source(s): Nature, World Health Organization (WHO), Centers for Disease Control and Prevention | CDC (.gov). WHO reports 34011 cases, 80 deaths.",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_DNK_2026-03-15",
@@ -13731,7 +14741,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_DOM_2026-03-30",
@@ -13757,7 +14769,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_ECU_2026-03-30",
@@ -13783,7 +14797,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_SLV_2026-03-30",
@@ -13809,7 +14825,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_EST_2026-03-15",
@@ -13835,7 +14853,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_ETH_2025-10-12",
@@ -13861,7 +14881,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_FIN_2026-03-15",
@@ -13887,7 +14909,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_FRA_2026-03-15",
@@ -13913,7 +14937,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_DEU_2026-03-15",
@@ -13939,7 +14965,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_GHA_2026-02-22",
@@ -13965,7 +14993,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_GRC_2026-03-15",
@@ -13991,7 +15021,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_GTM_2026-03-30",
@@ -14017,7 +15049,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_GIN_2026-03-22",
@@ -14043,7 +15077,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_HND_2026-03-30",
@@ -14069,7 +15105,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_HUN_2026-03-15",
@@ -14095,7 +15133,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_ISL_2026-03-15",
@@ -14121,7 +15161,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_IND_2026-03-31",
@@ -14147,7 +15189,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_IDN_2025-05-31",
@@ -14173,7 +15217,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_IRL_2026-03-15",
@@ -14199,7 +15245,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_ISR_2026-03-15",
@@ -14225,7 +15273,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_ITA_2026-03-15",
@@ -14251,7 +15301,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_JAM_2026-03-30",
@@ -14277,7 +15329,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_JPN_2026-03-31",
@@ -14303,7 +15357,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_KEN_2026-03-15",
@@ -14329,7 +15385,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_LBN_2025-10-17",
@@ -14355,7 +15413,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_LBR_2026-03-05",
@@ -14381,7 +15441,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_LUX_2026-03-15",
@@ -14407,7 +15469,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_MDG_2026-03-29",
@@ -14433,7 +15497,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_MWI_2026-03-22",
@@ -14459,7 +15525,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_MYS_2026-01-31",
@@ -14485,7 +15553,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_MLI_2026-04-05",
@@ -14511,7 +15581,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_MLT_2026-03-15",
@@ -14537,7 +15609,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_MEX_2026-03-30",
@@ -14563,7 +15637,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_MOZ_2026-02-22",
@@ -14589,7 +15665,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_NLD_2026-03-15",
@@ -14615,7 +15693,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_NZL_2025-09-09",
@@ -14641,7 +15721,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Oceania",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_NGA_2026-03-15",
@@ -14667,7 +15749,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_OWID_NAM_2026-03-30",
@@ -14699,7 +15783,9 @@
         "The Washington Post"
       ],
       "news_summary": "Verified by 5 source(s): ReliefWeb, Sacramento Bee, Centers for Disease Control and Prevention | CDC (.gov). WHO reports 46094 cases, 110 deaths.",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_NOR_2026-03-15",
@@ -14725,7 +15811,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_OWID_OCE_2026-02-28",
@@ -14751,7 +15839,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Oceania",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_PAK_2026-02-13",
@@ -14777,7 +15867,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_PAN_2026-03-30",
@@ -14803,7 +15895,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_PRY_2026-03-30",
@@ -14829,7 +15923,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_PER_2026-03-30",
@@ -14855,7 +15951,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_PHL_2025-12-31",
@@ -14881,7 +15979,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_POL_2026-03-15",
@@ -14907,7 +16007,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_PRT_2026-03-15",
@@ -14933,7 +16035,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_QAT_2026-04-02",
@@ -14959,7 +16063,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_ROU_2026-03-15",
@@ -14985,7 +16091,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_RWA_2026-03-22",
@@ -15011,7 +16119,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_SAU_2025-08-22",
@@ -15037,7 +16147,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_SRB_2026-03-15",
@@ -15063,7 +16175,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_SLE_2025-12-14",
@@ -15089,7 +16203,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_SGP_2026-04-02",
@@ -15115,7 +16231,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_SVK_2026-03-15",
@@ -15141,7 +16259,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_SVN_2026-03-15",
@@ -15167,7 +16287,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_ZAF_2026-04-02",
@@ -15193,7 +16315,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_OWID_SAM_2026-03-30",
@@ -15225,7 +16349,9 @@
         "CIDRAP"
       ],
       "news_summary": "Verified by 5 source(s): ReliefWeb, The New York Times, Centers for Disease Control and Prevention | CDC (.gov). WHO reports 28285 cases, 54 deaths.",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_KOR_2026-03-31",
@@ -15251,7 +16377,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_SSD_2026-03-08",
@@ -15277,7 +16405,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_ESP_2026-03-15",
@@ -15303,7 +16433,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_SDN_2023-04-05",
@@ -15329,7 +16461,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_SWE_2026-03-15",
@@ -15355,7 +16489,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_CHE_2026-03-15",
@@ -15381,7 +16517,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_TZA_2026-02-08",
@@ -15407,7 +16545,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_THA_2026-04-01",
@@ -15433,7 +16573,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_TGO_2026-03-08",
@@ -15459,7 +16601,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_TUR_2026-03-15",
@@ -15485,7 +16629,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_UGA_2026-03-29",
@@ -15511,7 +16657,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_ARE_2025-04-27",
@@ -15537,7 +16685,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_GBR_2026-03-15",
@@ -15563,7 +16713,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Europe",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_USA_2026-03-30",
@@ -15599,7 +16751,9 @@
         "The New York Times"
       ],
       "news_summary": "Verified by 9 source(s): The New York Times, KQED, Pan American Health Organization (PAHO). WHO reports 37530 cases, 63 deaths.",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_URY_2026-03-30",
@@ -15625,7 +16779,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_VEN_2026-03-30",
@@ -15651,7 +16807,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Americas",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_VNM_2025-01-25",
@@ -15677,7 +16835,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Asia",
+      "pathogen_type": "Virus"
     },
     {
       "outbreak_id": "owid_mpox_ZMB_2026-02-01",
@@ -15703,7 +16863,9 @@
       "news_verified": true,
       "news_sources": [],
       "news_summary": "",
-      "confidence": "high"
+      "confidence": "high",
+      "continent": "Africa",
+      "pathogen_type": "Virus"
     }
   ],
   "validations": {

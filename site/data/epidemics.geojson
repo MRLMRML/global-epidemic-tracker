@@ -21,7 +21,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2026-DON600",
-        "date": "2026-05-08"
+        "date": "2026-05-08",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -44,7 +46,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2026-DON598",
-        "date": "2026-04-23"
+        "date": "2026-04-23",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -67,7 +71,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2026-DON597",
-        "date": "2026-04-10"
+        "date": "2026-04-10",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -90,7 +96,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2026-DON595",
-        "date": "2026-02-14"
+        "date": "2026-02-14",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -113,7 +121,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2026-DON594",
-        "date": "2026-02-06"
+        "date": "2026-02-06",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -136,7 +146,9 @@
         "h2h": true,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2026-DON593",
-        "date": "2026-01-30"
+        "date": "2026-01-30",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -159,7 +171,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2026-DON592",
-        "date": "2026-01-26"
+        "date": "2026-01-26",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -182,7 +196,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON591",
-        "date": "2025-12-24"
+        "date": "2025-12-24",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -205,7 +221,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON586",
-        "date": "2025-12-10"
+        "date": "2025-12-10",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -228,7 +246,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON587",
-        "date": "2025-12-05"
+        "date": "2025-12-05",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -251,7 +271,9 @@
         "h2h": true,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON590",
-        "date": "2025-12-05"
+        "date": "2025-12-05",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -274,7 +296,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON589",
-        "date": "2025-12-01"
+        "date": "2025-12-01",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -297,7 +321,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/DON588",
-        "date": "2025-11-21"
+        "date": "2025-11-21",
+        "continent": "Global",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -320,7 +346,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON585",
-        "date": "2025-11-21"
+        "date": "2025-11-21",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -343,7 +371,9 @@
         "h2h": true,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON584",
-        "date": "2025-11-05"
+        "date": "2025-11-05",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -366,7 +396,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON581",
-        "date": "2025-10-03"
+        "date": "2025-10-03",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -389,7 +421,9 @@
         "h2h": true,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON582",
-        "date": "2025-09-18"
+        "date": "2025-09-18",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -412,7 +446,9 @@
         "h2h": true,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON580",
-        "date": "2025-09-05"
+        "date": "2025-09-05",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -435,7 +471,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON579",
-        "date": "2025-08-29"
+        "date": "2025-08-29",
+        "continent": "Global",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -458,7 +496,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON578",
-        "date": "2025-08-20"
+        "date": "2025-08-20",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -481,7 +521,9 @@
         "h2h": true,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON577",
-        "date": "2025-08-06"
+        "date": "2025-08-06",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -504,7 +546,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON576",
-        "date": "2025-07-24"
+        "date": "2025-07-24",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -527,7 +571,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON575",
-        "date": "2025-07-05"
+        "date": "2025-07-05",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -550,7 +596,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON573",
-        "date": "2025-05-29"
+        "date": "2025-05-29",
+        "continent": "Asia",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -573,7 +621,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON572",
-        "date": "2025-05-28"
+        "date": "2025-05-28",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -596,7 +646,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON571",
-        "date": "2025-05-20"
+        "date": "2025-05-20",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -619,7 +671,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON570",
-        "date": "2025-05-16"
+        "date": "2025-05-16",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -642,7 +696,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON568",
-        "date": "2025-05-13"
+        "date": "2025-05-13",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -665,7 +721,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON569",
-        "date": "2025-05-12"
+        "date": "2025-05-12",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -688,7 +746,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON567",
-        "date": "2025-05-12"
+        "date": "2025-05-12",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -711,7 +771,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON565",
-        "date": "2025-04-28"
+        "date": "2025-04-28",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -734,7 +796,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON566",
-        "date": "2025-04-26"
+        "date": "2025-04-26",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -757,7 +821,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON564",
-        "date": "2025-04-17"
+        "date": "2025-04-17",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -780,7 +846,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON563",
-        "date": "2025-04-11"
+        "date": "2025-04-11",
+        "continent": "Global",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -803,7 +871,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON562",
-        "date": "2025-03-28"
+        "date": "2025-03-28",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -826,7 +896,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON561",
-        "date": "2025-03-27"
+        "date": "2025-03-27",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -849,7 +921,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON560",
-        "date": "2025-03-13"
+        "date": "2025-03-13",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -872,7 +946,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON559",
-        "date": "2025-03-13"
+        "date": "2025-03-13",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -895,7 +971,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON558",
-        "date": "2025-03-08"
+        "date": "2025-03-08",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -918,7 +996,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON556",
-        "date": "2025-02-21"
+        "date": "2025-02-21",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -941,7 +1021,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON554",
-        "date": "2025-02-14"
+        "date": "2025-02-14",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -964,7 +1046,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON549",
-        "date": "2025-01-29"
+        "date": "2025-01-29",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -987,7 +1071,9 @@
         "h2h": true,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON553",
-        "date": "2025-01-20"
+        "date": "2025-01-20",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1010,7 +1096,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON552",
-        "date": "2025-01-14"
+        "date": "2025-01-14",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1033,7 +1121,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON550",
-        "date": "2025-01-07"
+        "date": "2025-01-07",
+        "continent": "Global",
+        "pathogen_type": "Unknown"
       }
     },
     {
@@ -1056,7 +1146,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON547",
-        "date": "2024-12-27"
+        "date": "2024-12-27",
+        "continent": "Africa",
+        "pathogen_type": "Unknown"
       }
     },
     {
@@ -1079,7 +1171,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON548",
-        "date": "2024-12-20"
+        "date": "2024-12-20",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1102,7 +1196,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON514",
-        "date": "2024-12-10"
+        "date": "2024-12-10",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1125,7 +1221,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON546",
-        "date": "2024-12-08"
+        "date": "2024-12-08",
+        "continent": "Africa",
+        "pathogen_type": "Unknown"
       }
     },
     {
@@ -1148,7 +1246,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON545",
-        "date": "2024-12-05"
+        "date": "2024-12-05",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1171,7 +1271,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON544",
-        "date": "2024-11-13"
+        "date": "2024-11-13",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1194,7 +1296,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON542",
-        "date": "2024-10-31"
+        "date": "2024-10-31",
+        "continent": "Global",
+        "pathogen_type": "Parasite"
       }
     },
     {
@@ -1217,7 +1321,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON541",
-        "date": "2024-10-25"
+        "date": "2024-10-25",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1240,7 +1346,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON538",
-        "date": "2024-10-03"
+        "date": "2024-10-03",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1263,7 +1371,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON536",
-        "date": "2024-10-02"
+        "date": "2024-10-02",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1286,7 +1396,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON537",
-        "date": "2024-09-30"
+        "date": "2024-09-30",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1309,7 +1421,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON534",
-        "date": "2024-09-20"
+        "date": "2024-09-20",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1332,7 +1446,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON532",
-        "date": "2024-09-04"
+        "date": "2024-09-04",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1355,7 +1471,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON533",
-        "date": "2024-09-02"
+        "date": "2024-09-02",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1378,7 +1496,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON531",
-        "date": "2024-08-30"
+        "date": "2024-08-30",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1401,7 +1521,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON530",
-        "date": "2024-08-23"
+        "date": "2024-08-23",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1424,7 +1546,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON529",
-        "date": "2024-08-23"
+        "date": "2024-08-23",
+        "continent": "Asia",
+        "pathogen_type": "Unknown"
       }
     },
     {
@@ -1447,7 +1571,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON528",
-        "date": "2024-08-22"
+        "date": "2024-08-22",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1470,7 +1596,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON526",
-        "date": "2024-07-22"
+        "date": "2024-07-22",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1493,7 +1621,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON525",
-        "date": "2024-07-09"
+        "date": "2024-07-09",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1516,7 +1646,9 @@
         "h2h": true,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON522",
-        "date": "2024-06-14"
+        "date": "2024-06-14",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1539,7 +1671,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON524",
-        "date": "2024-06-14"
+        "date": "2024-06-14",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1562,7 +1696,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON523",
-        "date": "2024-06-11"
+        "date": "2024-06-11",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1585,7 +1721,9 @@
         "h2h": true,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON521",
-        "date": "2024-06-11"
+        "date": "2024-06-11",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1608,7 +1746,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON519",
-        "date": "2024-06-07"
+        "date": "2024-06-07",
+        "continent": "Oceania",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1631,7 +1771,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON518",
-        "date": "2024-05-30"
+        "date": "2024-05-30",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1654,7 +1796,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON516",
-        "date": "2024-05-08"
+        "date": "2024-05-08",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1677,7 +1821,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON517",
-        "date": "2024-05-08"
+        "date": "2024-05-08",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1700,7 +1846,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON513",
-        "date": "2024-04-10"
+        "date": "2024-04-10",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1723,7 +1871,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON512",
-        "date": "2024-04-09"
+        "date": "2024-04-09",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1746,7 +1896,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON511",
-        "date": "2024-04-02"
+        "date": "2024-04-02",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1769,7 +1921,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON510",
-        "date": "2024-03-20"
+        "date": "2024-03-20",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1792,7 +1946,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/1998DON236",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Asia",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -1815,7 +1971,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/1998DON235",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1838,7 +1996,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/1998DON233",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Global",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -1861,7 +2021,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/1999DON232",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -1884,7 +2046,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/1999DON231",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -1907,7 +2071,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/1999DON230",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1930,7 +2096,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/1999DON229",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -1953,7 +2121,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/1999DON228",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Africa",
+        "pathogen_type": "Unknown"
       }
     },
     {
@@ -1976,7 +2146,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/1999DON227",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -1999,7 +2171,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2000DON226",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -2022,7 +2196,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2000DON225",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2045,7 +2221,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2000DON223",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -2068,7 +2246,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2000DON221",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -2091,7 +2271,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2000DON220",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -2114,7 +2296,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2000DON217",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Europe",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2137,7 +2321,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2000DON216",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2160,7 +2346,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2000DON215",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Asia",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2183,7 +2371,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2000DON214",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2206,7 +2396,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2000DON213",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -2229,7 +2421,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2000DON212",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -2252,7 +2446,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2001DON211",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2275,7 +2471,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2001DON210",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -2298,7 +2496,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2001DON208",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Americas",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2321,7 +2521,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2001DON206",
-        "date": "2024-03-14"
+        "date": "2024-03-14",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2344,7 +2546,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2001DON205",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2367,7 +2571,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2001DON203",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2390,7 +2596,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2001DON199",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Global",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2413,7 +2621,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2001DON198",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -2436,7 +2646,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2002DON197",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -2459,7 +2671,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2002DON196",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -2482,7 +2696,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2002DON191",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2505,7 +2721,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2002DON189",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -2528,7 +2746,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2002DON187",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -2551,7 +2771,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2002DON185",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2574,7 +2796,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2002DON184",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2597,7 +2821,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2002DON183",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -2620,7 +2846,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2002DON182",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2643,7 +2871,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2003DON181",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Asia",
+        "pathogen_type": "Unknown"
       }
     },
     {
@@ -2666,7 +2896,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2003DON180",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -2689,7 +2921,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2003DON179",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2712,7 +2946,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2003DON177",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -2735,7 +2971,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2003DON176",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Unknown"
       }
     },
     {
@@ -2758,7 +2996,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2003DON175",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2781,7 +3021,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2003DON173",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Europe",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2804,7 +3046,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2003DON172",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Americas",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2827,7 +3071,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2003DON170",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -2850,7 +3096,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2003DON169",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -2873,7 +3121,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2003DON165",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2896,7 +3146,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2003DON164",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Asia",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2919,7 +3171,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2003DON163",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -2942,7 +3196,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2003DON162",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Global",
+        "pathogen_type": "Unknown"
       }
     },
     {
@@ -2965,7 +3221,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2003DON159",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -2988,7 +3246,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2003DON155",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3011,7 +3271,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2003DON151",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3034,7 +3296,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2003DON148",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Global",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -3057,7 +3321,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2004DON146",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3080,7 +3346,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2004DON143",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3103,7 +3371,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2004DON141",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3126,7 +3396,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2004DON140",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Unknown"
       }
     },
     {
@@ -3149,7 +3421,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2004DON138",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3172,7 +3446,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2004DON137",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3195,7 +3471,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2004DON133",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3218,7 +3496,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2005DON127",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3241,7 +3521,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2005DON125",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3264,7 +3546,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2005DON121",
-        "date": "2024-03-13"
+        "date": "2024-03-13",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3287,7 +3571,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2005DON119",
-        "date": "2024-03-12"
+        "date": "2024-03-12",
+        "continent": "Asia",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -3310,7 +3596,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2005DON117",
-        "date": "2024-03-12"
+        "date": "2024-03-12",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3333,7 +3621,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2005DON116",
-        "date": "2024-03-12"
+        "date": "2024-03-12",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -3356,7 +3646,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2005DON108",
-        "date": "2024-03-12"
+        "date": "2024-03-12",
+        "continent": "Africa",
+        "pathogen_type": "Unknown"
       }
     },
     {
@@ -3379,7 +3671,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2005DON107",
-        "date": "2024-03-12"
+        "date": "2024-03-12",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -3402,7 +3696,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2005DON106",
-        "date": "2024-03-12"
+        "date": "2024-03-12",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -3425,7 +3721,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2005DON105",
-        "date": "2024-03-12"
+        "date": "2024-03-12",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3448,7 +3746,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2006DON104",
-        "date": "2024-03-12"
+        "date": "2024-03-12",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3471,7 +3771,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2006DON103",
-        "date": "2024-03-12"
+        "date": "2024-03-12",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3494,7 +3796,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2006DON101",
-        "date": "2024-03-12"
+        "date": "2024-03-12",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3517,7 +3821,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2006DON100",
-        "date": "2024-03-12"
+        "date": "2024-03-12",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -3540,7 +3846,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2006DON099",
-        "date": "2024-03-12"
+        "date": "2024-03-12",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3563,7 +3871,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2006DON096",
-        "date": "2024-03-12"
+        "date": "2024-03-12",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3586,7 +3896,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2006DON094",
-        "date": "2024-03-12"
+        "date": "2024-03-12",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -3609,7 +3921,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2006DON092",
-        "date": "2024-03-12"
+        "date": "2024-03-12",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3632,7 +3946,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2006DON090",
-        "date": "2024-03-12"
+        "date": "2024-03-12",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3655,7 +3971,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2006DON089",
-        "date": "2024-03-12"
+        "date": "2024-03-12",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -3678,7 +3996,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2006DON085",
-        "date": "2024-03-07"
+        "date": "2024-03-07",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -3701,7 +4021,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2007DON081",
-        "date": "2024-03-07"
+        "date": "2024-03-07",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3724,7 +4046,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2007DON077",
-        "date": "2024-03-07"
+        "date": "2024-03-07",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3747,7 +4071,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2007DON076",
-        "date": "2024-03-07"
+        "date": "2024-03-07",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3770,7 +4096,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2008DON066",
-        "date": "2024-03-06"
+        "date": "2024-03-06",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3793,7 +4121,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2009DON061",
-        "date": "2024-03-05"
+        "date": "2024-03-05",
+        "continent": "Asia",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -3816,7 +4146,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2009DON049",
-        "date": "2024-03-05"
+        "date": "2024-03-05",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3839,7 +4171,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2009DON047",
-        "date": "2024-03-05"
+        "date": "2024-03-05",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -3862,7 +4196,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2010DON044",
-        "date": "2024-03-05"
+        "date": "2024-03-05",
+        "continent": "Americas",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -3885,7 +4221,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2010DON043",
-        "date": "2024-03-05"
+        "date": "2024-03-05",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3908,7 +4246,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON509",
-        "date": "2024-03-05"
+        "date": "2024-03-05",
+        "continent": "Europe",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -3931,7 +4271,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/novel-coronavirus-infection---saudi-arabia-and-qatar",
-        "date": "2024-03-05"
+        "date": "2024-03-05",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3954,7 +4296,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2012DON028",
-        "date": "2024-03-05"
+        "date": "2024-03-05",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -3977,7 +4321,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2013DON026",
-        "date": "2024-03-05"
+        "date": "2024-03-05",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4000,7 +4346,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2013DON025",
-        "date": "2024-03-05"
+        "date": "2024-03-05",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4023,7 +4371,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2013DON023",
-        "date": "2024-03-05"
+        "date": "2024-03-05",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4046,7 +4396,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2013DON022",
-        "date": "2024-02-29"
+        "date": "2024-02-29",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4069,7 +4421,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2013DON021",
-        "date": "2024-02-29"
+        "date": "2024-02-29",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4092,7 +4446,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2013DON018",
-        "date": "2024-02-29"
+        "date": "2024-02-29",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4115,7 +4471,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2014DON017",
-        "date": "2024-02-29"
+        "date": "2024-02-29",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4138,7 +4496,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2014DON016",
-        "date": "2024-02-29"
+        "date": "2024-02-29",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -4161,7 +4521,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2014DON015",
-        "date": "2024-02-29"
+        "date": "2024-02-29",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4184,7 +4546,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2014DON001",
-        "date": "2024-02-28"
+        "date": "2024-02-28",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4207,7 +4571,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON508",
-        "date": "2024-02-27"
+        "date": "2024-02-27",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4230,7 +4596,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON506",
-        "date": "2024-02-16"
+        "date": "2024-02-16",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4253,7 +4621,9 @@
         "h2h": true,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON504",
-        "date": "2024-02-13"
+        "date": "2024-02-13",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4276,7 +4646,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON503",
-        "date": "2024-02-09"
+        "date": "2024-02-09",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4299,7 +4671,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON505",
-        "date": "2024-02-08"
+        "date": "2024-02-08",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4322,7 +4696,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON501",
-        "date": "2024-02-08"
+        "date": "2024-02-08",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4345,7 +4721,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON502",
-        "date": "2024-02-07"
+        "date": "2024-02-07",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4368,7 +4746,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2024-DON500",
-        "date": "2024-01-11"
+        "date": "2024-01-11",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4391,7 +4771,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON499",
-        "date": "2023-12-28"
+        "date": "2023-12-28",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4414,7 +4796,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON498",
-        "date": "2023-12-21"
+        "date": "2023-12-21",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4437,7 +4821,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON497",
-        "date": "2023-12-08"
+        "date": "2023-12-08",
+        "continent": "Global",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -4460,7 +4846,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON496",
-        "date": "2023-12-01"
+        "date": "2023-12-01",
+        "continent": "Oceania",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4483,7 +4871,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON495",
-        "date": "2023-11-29"
+        "date": "2023-11-29",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4506,7 +4896,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON494",
-        "date": "2023-11-23"
+        "date": "2023-11-23",
+        "continent": "Asia",
+        "pathogen_type": "Unknown"
       }
     },
     {
@@ -4529,7 +4921,9 @@
         "h2h": true,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON493",
-        "date": "2023-11-23"
+        "date": "2023-11-23",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4552,7 +4946,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON492",
-        "date": "2023-10-18"
+        "date": "2023-10-18",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -4575,7 +4971,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON491",
-        "date": "2023-10-16"
+        "date": "2023-10-16",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4598,7 +4996,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON490",
-        "date": "2023-10-03"
+        "date": "2023-10-03",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4621,7 +5021,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON488",
-        "date": "2023-09-21"
+        "date": "2023-09-21",
+        "continent": "Global",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -4644,7 +5046,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON489",
-        "date": "2023-09-20"
+        "date": "2023-09-20",
+        "continent": "Americas",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -4667,7 +5071,9 @@
         "h2h": true,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON487",
-        "date": "2023-09-14"
+        "date": "2023-09-14",
+        "continent": "Europe",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -4690,7 +5096,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON485",
-        "date": "2023-09-13"
+        "date": "2023-09-13",
+        "continent": "Global",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -4713,7 +5121,9 @@
         "h2h": true,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON486",
-        "date": "2023-09-13"
+        "date": "2023-09-13",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4736,7 +5146,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON484",
-        "date": "2023-08-29"
+        "date": "2023-08-29",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4759,7 +5171,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON483",
-        "date": "2023-08-23"
+        "date": "2023-08-23",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4782,7 +5196,9 @@
         "h2h": true,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON482",
-        "date": "2023-08-11"
+        "date": "2023-08-11",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4805,7 +5221,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON481",
-        "date": "2023-08-11"
+        "date": "2023-08-11",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4828,7 +5246,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON479",
-        "date": "2023-07-28"
+        "date": "2023-07-28",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4851,7 +5271,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON480",
-        "date": "2023-07-28"
+        "date": "2023-07-28",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4874,7 +5296,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON478",
-        "date": "2023-07-24"
+        "date": "2023-07-24",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4897,7 +5321,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON475",
-        "date": "2023-07-19"
+        "date": "2023-07-19",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4920,7 +5346,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON476",
-        "date": "2023-07-16"
+        "date": "2023-07-16",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4943,7 +5371,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON474",
-        "date": "2023-07-07"
+        "date": "2023-07-07",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4966,7 +5396,9 @@
         "h2h": true,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON473",
-        "date": "2023-06-16"
+        "date": "2023-06-16",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -4989,7 +5421,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON472",
-        "date": "2023-06-09"
+        "date": "2023-06-09",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5012,7 +5446,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON470",
-        "date": "2023-06-01"
+        "date": "2023-06-01",
+        "continent": "Americas",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -5035,7 +5471,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON469",
-        "date": "2023-05-31"
+        "date": "2023-05-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5058,7 +5496,9 @@
         "h2h": true,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON468",
-        "date": "2023-05-30"
+        "date": "2023-05-30",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5081,7 +5521,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON465",
-        "date": "2023-05-17"
+        "date": "2023-05-17",
+        "continent": "Europe",
+        "pathogen_type": "Unknown"
       }
     },
     {
@@ -5104,7 +5546,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON467",
-        "date": "2023-05-08"
+        "date": "2023-05-08",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5127,7 +5571,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON466",
-        "date": "2023-05-05"
+        "date": "2023-05-05",
+        "continent": "Africa",
+        "pathogen_type": "Unknown"
       }
     },
     {
@@ -5150,7 +5596,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON460",
-        "date": "2023-05-04"
+        "date": "2023-05-04",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5173,7 +5621,9 @@
         "h2h": true,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON463",
-        "date": "2023-05-01"
+        "date": "2023-05-01",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5196,7 +5646,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON462",
-        "date": "2023-04-28"
+        "date": "2023-04-28",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5219,7 +5671,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON454",
-        "date": "2023-04-27"
+        "date": "2023-04-27",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -5242,7 +5696,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON452",
-        "date": "2023-04-27"
+        "date": "2023-04-27",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -5265,7 +5721,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON461",
-        "date": "2023-04-21"
+        "date": "2023-04-21",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5288,7 +5746,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON457",
-        "date": "2023-04-20"
+        "date": "2023-04-20",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5311,7 +5771,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON458",
-        "date": "2023-04-17"
+        "date": "2023-04-17",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5334,7 +5796,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON459",
-        "date": "2023-04-15"
+        "date": "2023-04-15",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5357,7 +5821,9 @@
         "h2h": true,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON456",
-        "date": "2023-04-11"
+        "date": "2023-04-11",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5380,7 +5846,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON455",
-        "date": "2023-04-11"
+        "date": "2023-04-11",
+        "continent": "Global",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -5403,7 +5871,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON451",
-        "date": "2023-03-24"
+        "date": "2023-03-24",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5426,7 +5896,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON450",
-        "date": "2023-03-24"
+        "date": "2023-03-24",
+        "continent": "Europe",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -5449,7 +5921,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON448",
-        "date": "2023-03-23"
+        "date": "2023-03-23",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5472,7 +5946,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON447",
-        "date": "2023-03-21"
+        "date": "2023-03-21",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5495,7 +5971,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON445",
-        "date": "2023-02-26"
+        "date": "2023-02-26",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5518,7 +5996,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON444",
-        "date": "2023-02-25"
+        "date": "2023-02-25",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5541,7 +6021,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON443",
-        "date": "2023-02-24"
+        "date": "2023-02-24",
+        "continent": "Global",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -5564,7 +6046,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON442",
-        "date": "2023-02-17"
+        "date": "2023-02-17",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5587,7 +6071,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON440",
-        "date": "2023-02-10"
+        "date": "2023-02-10",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5610,7 +6096,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON435",
-        "date": "2023-02-09"
+        "date": "2023-02-09",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -5633,7 +6121,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON436",
-        "date": "2023-02-08"
+        "date": "2023-02-08",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5656,7 +6146,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON439",
-        "date": "2023-02-08"
+        "date": "2023-02-08",
+        "continent": "Global",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -5679,7 +6171,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON438",
-        "date": "2023-02-02"
+        "date": "2023-02-02",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5702,7 +6196,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON352",
-        "date": "2023-01-24"
+        "date": "2023-01-24",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5725,7 +6221,9 @@
         "h2h": true,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON434",
-        "date": "2023-01-18"
+        "date": "2023-01-18",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5748,7 +6246,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON433",
-        "date": "2023-01-14"
+        "date": "2023-01-14",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5771,7 +6271,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2023-DON362",
-        "date": "2023-01-12"
+        "date": "2023-01-12",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5794,7 +6296,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON431",
-        "date": "2023-01-03"
+        "date": "2023-01-03",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5817,7 +6321,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON430",
-        "date": "2022-12-19"
+        "date": "2022-12-19",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5840,7 +6346,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON426",
-        "date": "2022-12-16"
+        "date": "2022-12-16",
+        "continent": "Global",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -5863,7 +6371,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON427",
-        "date": "2022-12-13"
+        "date": "2022-12-13",
+        "continent": "Americas",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -5886,7 +6396,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON428",
-        "date": "2022-12-08"
+        "date": "2022-12-08",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5909,7 +6421,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON424",
-        "date": "2022-11-28"
+        "date": "2022-11-28",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5932,7 +6446,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON425",
-        "date": "2022-11-24"
+        "date": "2022-11-24",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5955,7 +6471,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON422",
-        "date": "2022-11-16"
+        "date": "2022-11-16",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -5978,7 +6496,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON419",
-        "date": "2022-11-07"
+        "date": "2022-11-07",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -6001,7 +6521,9 @@
         "h2h": true,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON420",
-        "date": "2022-11-03"
+        "date": "2022-11-03",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6024,7 +6546,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON421",
-        "date": "2022-10-28"
+        "date": "2022-10-28",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6047,7 +6571,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON417",
-        "date": "2022-10-20"
+        "date": "2022-10-20",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6070,7 +6596,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON416",
-        "date": "2022-10-19"
+        "date": "2022-10-19",
+        "continent": "Asia",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -6093,7 +6621,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON413",
-        "date": "2022-10-17"
+        "date": "2022-10-17",
+        "continent": "Asia",
+        "pathogen_type": "Parasite"
       }
     },
     {
@@ -6116,7 +6646,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON414",
-        "date": "2022-10-13"
+        "date": "2022-10-13",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6139,7 +6671,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON415",
-        "date": "2022-10-12"
+        "date": "2022-10-12",
+        "continent": "Americas",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -6162,7 +6696,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON412",
-        "date": "2022-10-10"
+        "date": "2022-10-10",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6185,7 +6721,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON411",
-        "date": "2022-09-29"
+        "date": "2022-09-29",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6208,7 +6746,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON409",
-        "date": "2022-09-28"
+        "date": "2022-09-28",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6231,7 +6771,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON410",
-        "date": "2022-09-26"
+        "date": "2022-09-26",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6254,7 +6796,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON408",
-        "date": "2022-09-14"
+        "date": "2022-09-14",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6277,7 +6821,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON406",
-        "date": "2022-09-13"
+        "date": "2022-09-13",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6300,7 +6846,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON407",
-        "date": "2022-09-05"
+        "date": "2022-09-05",
+        "continent": "Americas",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -6323,7 +6871,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON405",
-        "date": "2022-09-02"
+        "date": "2022-09-02",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6346,7 +6896,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON404",
-        "date": "2022-08-25"
+        "date": "2022-08-25",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6369,7 +6921,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON403",
-        "date": "2022-08-12"
+        "date": "2022-08-12",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -6392,7 +6946,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON401",
-        "date": "2022-08-03"
+        "date": "2022-08-03",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6415,7 +6971,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON403",
-        "date": "2022-07-29"
+        "date": "2022-07-29",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6438,7 +6996,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON166",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6461,7 +7021,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON163",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6484,7 +7046,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON173",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6507,7 +7071,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON180",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6530,7 +7096,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON183",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6553,7 +7121,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON186",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6576,7 +7146,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON256",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Europe",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -6599,7 +7171,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON188",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Africa",
+        "pathogen_type": "Unknown"
       }
     },
     {
@@ -6622,7 +7196,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON190",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6645,7 +7221,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON192",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -6668,7 +7246,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON195",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6691,7 +7271,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON200",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6714,7 +7296,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON201",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6737,7 +7321,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON205",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6760,7 +7346,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON206",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6783,7 +7371,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON208",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6806,7 +7396,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON207",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6829,7 +7421,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON211",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6852,7 +7446,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON210",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6875,7 +7471,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON214",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6898,7 +7496,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON213",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6921,7 +7521,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON218",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6944,7 +7546,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON227",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6967,7 +7571,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2019-DON223",
-        "date": "2022-07-28"
+        "date": "2022-07-28",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -6990,7 +7596,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON402",
-        "date": "2022-07-22"
+        "date": "2022-07-22",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7013,7 +7621,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON398_1",
-        "date": "2022-07-20"
+        "date": "2022-07-20",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -7036,7 +7646,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON400",
-        "date": "2022-07-12"
+        "date": "2022-07-12",
+        "continent": "Global",
+        "pathogen_type": "Unknown"
       }
     },
     {
@@ -7059,7 +7671,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON396",
-        "date": "2022-06-27"
+        "date": "2022-06-27",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7082,7 +7696,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON394",
-        "date": "2022-06-24"
+        "date": "2022-06-24",
+        "continent": "Global",
+        "pathogen_type": "Unknown"
       }
     },
     {
@@ -7105,7 +7721,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON395",
-        "date": "2022-06-23"
+        "date": "2022-06-23",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7128,7 +7746,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON391",
-        "date": "2022-06-17"
+        "date": "2022-06-17",
+        "continent": "Asia",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -7151,7 +7771,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON386",
-        "date": "2022-06-01"
+        "date": "2022-06-01",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7174,7 +7796,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON388",
-        "date": "2022-05-29"
+        "date": "2022-05-29",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7197,7 +7821,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/DON-389",
-        "date": "2022-05-27"
+        "date": "2022-05-27",
+        "continent": "Global",
+        "pathogen_type": "Unknown"
       }
     },
     {
@@ -7220,7 +7846,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7243,7 +7871,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7266,7 +7896,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Oceania",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7289,7 +7921,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7312,7 +7946,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7335,7 +7971,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7358,7 +7996,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7381,7 +8021,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7404,7 +8046,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7427,7 +8071,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7450,7 +8096,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7473,7 +8121,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7496,7 +8146,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7519,7 +8171,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7542,7 +8196,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7565,7 +8221,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7588,7 +8246,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7611,7 +8271,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7634,7 +8296,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7657,7 +8321,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7680,7 +8346,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7703,7 +8371,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7726,7 +8396,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7749,7 +8421,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7772,7 +8446,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7795,7 +8471,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7818,7 +8496,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7841,7 +8521,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7864,7 +8546,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7887,7 +8571,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7910,7 +8596,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7933,7 +8621,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7956,7 +8646,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -7979,7 +8671,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -8002,7 +8696,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -8025,7 +8721,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -8048,7 +8746,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -8071,7 +8771,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -8094,7 +8796,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8117,7 +8821,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8140,7 +8846,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Global",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8163,7 +8871,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8186,7 +8896,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8209,7 +8921,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8232,7 +8946,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8255,7 +8971,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8278,7 +8996,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8301,7 +9021,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8324,7 +9046,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8347,7 +9071,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Americas",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8370,7 +9096,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8393,7 +9121,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8416,7 +9146,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8439,7 +9171,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8462,7 +9196,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8485,7 +9221,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8508,7 +9246,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Americas",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8531,7 +9271,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8554,7 +9296,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/yellow-fever",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -8577,7 +9321,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/yellow-fever",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -8600,7 +9346,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/yellow-fever",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -8623,7 +9371,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/yellow-fever",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -8646,7 +9396,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/yellow-fever",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -8669,7 +9421,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/yellow-fever",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -8692,7 +9446,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/yellow-fever",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -8715,7 +9471,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/yellow-fever",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -8738,7 +9496,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/yellow-fever",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -8761,7 +9521,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/yellow-fever",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -8784,7 +9546,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/neonatal-tetanus",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8807,7 +9571,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/neonatal-tetanus",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8830,7 +9596,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/neonatal-tetanus",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8853,7 +9621,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/neonatal-tetanus",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Global",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8876,7 +9646,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/neonatal-tetanus",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8899,7 +9671,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/neonatal-tetanus",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8922,7 +9696,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/neonatal-tetanus",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8945,7 +9721,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/neonatal-tetanus",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8968,7 +9746,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/neonatal-tetanus",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -8991,7 +9771,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/neonatal-tetanus",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -9014,7 +9796,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/neonatal-tetanus",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -9037,7 +9821,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/neonatal-tetanus",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -9060,7 +9846,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/neonatal-tetanus",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -9083,7 +9871,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/neonatal-tetanus",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -9106,7 +9896,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/neonatal-tetanus",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -9129,7 +9921,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/neonatal-tetanus",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Global",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -9152,7 +9946,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/neonatal-tetanus",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -9175,7 +9971,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/neonatal-tetanus",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -9198,7 +9996,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/neonatal-tetanus",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Americas",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -9221,7 +10021,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/neonatal-tetanus",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Bacteria"
       }
     },
     {
@@ -9244,7 +10046,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9267,7 +10071,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9290,7 +10096,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9313,7 +10121,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9336,7 +10146,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9359,7 +10171,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9382,7 +10196,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9405,7 +10221,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9428,7 +10246,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9451,7 +10271,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9474,7 +10296,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9497,7 +10321,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9520,7 +10346,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9543,7 +10371,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9566,7 +10396,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9589,7 +10421,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9612,7 +10446,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9635,7 +10471,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Oceania",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9658,7 +10496,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9681,7 +10521,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9704,7 +10546,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9727,7 +10571,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9750,7 +10596,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9773,7 +10621,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9796,7 +10646,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9819,7 +10671,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9842,7 +10696,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9865,7 +10721,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9888,7 +10746,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/rubella",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9911,7 +10771,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9934,7 +10796,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9957,7 +10821,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -9980,7 +10846,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10003,7 +10871,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10026,7 +10896,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10049,7 +10921,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10072,7 +10946,9 @@
         "h2h": false,
         "verified": false,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10095,7 +10971,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10118,7 +10996,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10141,7 +11021,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10164,7 +11046,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10187,7 +11071,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10210,7 +11096,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10233,7 +11121,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10256,7 +11146,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10279,7 +11171,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10302,7 +11196,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10325,7 +11221,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10348,7 +11246,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10371,7 +11271,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10394,7 +11296,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10417,7 +11321,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10440,7 +11346,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10463,7 +11371,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10486,7 +11396,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10509,7 +11421,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10532,7 +11446,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10555,7 +11471,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10578,7 +11496,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10601,7 +11521,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Oceania",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10624,7 +11546,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10647,7 +11571,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10670,7 +11596,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/japanese-encephalitis",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10693,7 +11621,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/japanese-encephalitis",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10716,7 +11646,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/japanese-encephalitis",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10739,7 +11671,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/japanese-encephalitis",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10762,7 +11696,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/japanese-encephalitis",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10785,7 +11721,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/japanese-encephalitis",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10808,7 +11746,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/japanese-encephalitis",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10831,7 +11771,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/japanese-encephalitis",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10854,7 +11796,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/japanese-encephalitis",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10877,7 +11821,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/japanese-encephalitis",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10900,7 +11846,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/japanese-encephalitis",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10923,7 +11871,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/japanese-encephalitis",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10946,7 +11896,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/japanese-encephalitis",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10969,7 +11921,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/japanese-encephalitis",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -10992,7 +11946,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/japanese-encephalitis",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11015,7 +11971,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/japanese-encephalitis",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11038,7 +11996,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/japanese-encephalitis",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Global",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11061,7 +12021,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/japanese-encephalitis",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11084,7 +12046,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/japanese-encephalitis",
-        "date": "2024-12-31"
+        "date": "2024-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11107,7 +12071,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2025-08-31"
+        "date": "2025-08-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11130,7 +12096,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11153,7 +12121,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-31"
+        "date": "2026-03-31",
+        "continent": "Oceania",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11176,7 +12146,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11199,7 +12171,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11222,7 +12196,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11245,7 +12221,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11268,7 +12246,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11291,7 +12271,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-22"
+        "date": "2026-03-22",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11314,7 +12296,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2024-02-23"
+        "date": "2024-02-23",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11337,7 +12321,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-04-04"
+        "date": "2026-04-04",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11360,7 +12346,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11383,7 +12371,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-04-05"
+        "date": "2026-04-05",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11406,7 +12396,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11429,7 +12421,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-04-17"
+        "date": "2026-04-17",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11452,7 +12446,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11475,7 +12471,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-22"
+        "date": "2026-03-22",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11498,7 +12496,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-29"
+        "date": "2026-03-29",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11521,7 +12521,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11544,7 +12546,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2025-08-31"
+        "date": "2025-08-31",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11567,7 +12571,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11590,7 +12596,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11613,7 +12621,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-04-12"
+        "date": "2026-04-12",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11636,7 +12646,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11659,7 +12671,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11682,7 +12696,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11705,7 +12721,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11728,7 +12746,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11751,7 +12771,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2025-10-12"
+        "date": "2025-10-12",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11774,7 +12796,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11797,7 +12821,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11820,7 +12846,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11843,7 +12871,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-02-22"
+        "date": "2026-02-22",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11866,7 +12896,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11889,7 +12921,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11912,7 +12946,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-22"
+        "date": "2026-03-22",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11935,7 +12971,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11958,7 +12996,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -11981,7 +13021,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12004,7 +13046,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-31"
+        "date": "2026-03-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12027,7 +13071,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2025-05-31"
+        "date": "2025-05-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12050,7 +13096,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12073,7 +13121,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12096,7 +13146,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12119,7 +13171,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12142,7 +13196,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-31"
+        "date": "2026-03-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12165,7 +13221,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12188,7 +13246,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2025-10-17"
+        "date": "2025-10-17",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12211,7 +13271,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-05"
+        "date": "2026-03-05",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12234,7 +13296,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12257,7 +13321,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-29"
+        "date": "2026-03-29",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12280,7 +13346,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-22"
+        "date": "2026-03-22",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12303,7 +13371,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-01-31"
+        "date": "2026-01-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12326,7 +13396,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-04-05"
+        "date": "2026-04-05",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12349,7 +13421,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12372,7 +13446,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12395,7 +13471,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-02-22"
+        "date": "2026-02-22",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12418,7 +13496,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12441,7 +13521,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2025-09-09"
+        "date": "2025-09-09",
+        "continent": "Oceania",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12464,7 +13546,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12487,7 +13571,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12510,7 +13596,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12533,7 +13621,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-02-28"
+        "date": "2026-02-28",
+        "continent": "Oceania",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12556,7 +13646,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-02-13"
+        "date": "2026-02-13",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12579,7 +13671,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12602,7 +13696,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12625,7 +13721,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12648,7 +13746,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2025-12-31"
+        "date": "2025-12-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12671,7 +13771,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12694,7 +13796,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12717,7 +13821,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-04-02"
+        "date": "2026-04-02",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12740,7 +13846,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12763,7 +13871,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-22"
+        "date": "2026-03-22",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12786,7 +13896,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2025-08-22"
+        "date": "2025-08-22",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12809,7 +13921,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12832,7 +13946,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2025-12-14"
+        "date": "2025-12-14",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12855,7 +13971,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-04-02"
+        "date": "2026-04-02",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12878,7 +13996,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12901,7 +14021,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12924,7 +14046,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-04-02"
+        "date": "2026-04-02",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12947,7 +14071,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12970,7 +14096,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-31"
+        "date": "2026-03-31",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -12993,7 +14121,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-08"
+        "date": "2026-03-08",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -13016,7 +14146,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -13039,7 +14171,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2023-04-05"
+        "date": "2023-04-05",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -13062,7 +14196,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -13085,7 +14221,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -13108,7 +14246,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-02-08"
+        "date": "2026-02-08",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -13131,7 +14271,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-04-01"
+        "date": "2026-04-01",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -13154,7 +14296,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-08"
+        "date": "2026-03-08",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -13177,7 +14321,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -13200,7 +14346,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-29"
+        "date": "2026-03-29",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -13223,7 +14371,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2025-04-27"
+        "date": "2025-04-27",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -13246,7 +14396,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-15"
+        "date": "2026-03-15",
+        "continent": "Europe",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -13269,7 +14421,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -13292,7 +14446,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -13315,7 +14471,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-03-30"
+        "date": "2026-03-30",
+        "continent": "Americas",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -13338,7 +14496,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2025-01-25"
+        "date": "2025-01-25",
+        "continent": "Asia",
+        "pathogen_type": "Virus"
       }
     },
     {
@@ -13361,7 +14521,9 @@
         "h2h": false,
         "verified": true,
         "source_url": "https://ourworldindata.org/monkeypox",
-        "date": "2026-02-01"
+        "date": "2026-02-01",
+        "continent": "Africa",
+        "pathogen_type": "Virus"
       }
     }
   ]
