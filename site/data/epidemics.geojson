@@ -42,7 +42,7 @@
         "cfr": 0.0,
         "severity": "very_high",
         "h2h": false,
-        "verified": false,
+        "verified": true,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2026-DON598",
         "date": "2026-04-23"
       }
@@ -295,7 +295,7 @@
         "cfr": 0.0123,
         "severity": "very_high",
         "h2h": false,
-        "verified": false,
+        "verified": true,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/DON588",
         "date": "2025-11-21"
       }
@@ -364,7 +364,7 @@
         "cfr": 0.0003,
         "severity": "very_high",
         "h2h": false,
-        "verified": false,
+        "verified": true,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON581",
         "date": "2025-10-03"
       }
@@ -433,7 +433,7 @@
         "cfr": 0.0116,
         "severity": "very_high",
         "h2h": false,
-        "verified": false,
+        "verified": true,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2025-DON579",
         "date": "2025-08-29"
       }
@@ -6114,7 +6114,7 @@
         "cfr": 0.0024,
         "severity": "very_high",
         "h2h": false,
-        "verified": false,
+        "verified": true,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON414",
         "date": "2022-10-13"
       }
@@ -7402,7 +7402,7 @@
         "cfr": 0.0,
         "severity": "very_high",
         "h2h": false,
-        "verified": true,
+        "verified": false,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles",
         "date": "2024-12-31"
       }
@@ -8138,7 +8138,7 @@
         "cfr": 0.0,
         "severity": "very_high",
         "h2h": false,
-        "verified": true,
+        "verified": false,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria",
         "date": "2024-12-31"
       }
@@ -10047,7 +10047,7 @@
         "cfr": 0.0,
         "severity": "very_high",
         "h2h": false,
-        "verified": true,
+        "verified": false,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
         "date": "2024-12-31"
       }
@@ -10070,7 +10070,7 @@
         "cfr": 0.0,
         "severity": "very_high",
         "h2h": false,
-        "verified": true,
+        "verified": false,
         "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/mumps",
         "date": "2024-12-31"
       }
