@@ -4,6 +4,8 @@
 >
 > **El pueblo unido jamás será vencido.**
 
+[![收录于 JerryKing's Trove](https://img.shields.io/badge/收录于-JerryKing's%20Trove-blue)](https://github.com/MRLMRML/JerryKing-s-Trove)
+
 [![Live Dashboard](https://img.shields.io/badge/Live-Dashboard-00d4aa?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mrlmrml.github.io/global-epidemic-tracker/)
 [![Auto Update](https://github.com/MRLMRML/global-epidemic-tracker/actions/workflows/update-data.yml/badge.svg)](https://github.com/MRLMRML/global-epidemic-tracker/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
