@@ -257,7 +257,7 @@ function togContGroup(el){
 }
 function togPathGroup(el){
     var path=el.dataset.path;
-    var chld=document.querySelector("[data-path-ch='"+path+""]');
+    var chld=document.querySelector("[data-path-ch='"+path+"']");
     if(!chld)return;
     var isOpen=chld.classList.contains("hidden");
     if(isOpen){chld.classList.remove("hidden");el.classList.add("open");pPath.add(path)}
