@@ -14,14 +14,14 @@
         "disease": "Hantavirus",
         "location": "Multi-country",
         "country": "MUL",
-        "cases": 8,
+        "cases": 11,
         "deaths": 3,
-        "cfr": 0.375,
+        "cfr": 0.2727,
         "severity": "very_high",
         "h2h": false,
         "verified": false,
-        "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2026-DON600",
-        "date": "2026-05-08"
+        "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2026-DON601",
+        "date": "2026-05-13"
       }
     },
     {
@@ -7175,29 +7175,6 @@
         "verified": false,
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/2022-DON388",
         "date": "2022-05-29"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.0,
-          0.0
-        ]
-      },
-      "properties": {
-        "disease": "Acute Unknown Illness",
-        "location": "Multi-country",
-        "country": "MUL",
-        "cases": 0,
-        "deaths": 0,
-        "cfr": 0.0,
-        "severity": "low",
-        "h2h": false,
-        "verified": false,
-        "source_url": "https://www.who.int/emergencies/disease-outbreak-news/DON-389",
-        "date": "2022-05-27"
       }
     },
     {
